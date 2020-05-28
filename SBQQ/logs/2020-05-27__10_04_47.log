@@ -1,0 +1,373 @@
+
+[10:04:47.464] Execution of the command sfdmu:run has been started.
+
+[10:04:47.470] LOADING AND VALIDATING THE PACKAGE SCRIPT...
+[10:04:47.684] sObject Group will be excluded from the process.
+[10:04:47.791] Connecting to jburgers@imcdgroup.com.uat using SFDX CLI...
+[10:04:54.149] Successfully connected to jburgers@imcdgroup.com.uat.
+[10:04:54.150] Connecting to jburgers@imcdgroup.com.dmpoc using SFDX CLI...
+[10:04:57.835] Successfully connected to jburgers@imcdgroup.com.dmpoc.
+[10:04:57.868] {"SOURCE":"jburgers@imcdgroup.com.uat.","TARGET":"jburgers@imcdgroup.com.dmpoc.","Package script":"/Users/jburgers/Documents/SFDMU/data/jburgers-salesforce-com/SBQQ/export.json."}
+
+[10:04:57.870] GETTING AND ANALYSING OBJECTS METADATA...
+[10:04:57.871] Processing the sObject SBQQ__CustomAction__c...
+[10:04:57.871] Getting metadata for SBQQ__CustomAction__c (SOURCE)
+[10:04:58.208] Getting metadata for SBQQ__CustomAction__c (TARGET)
+[10:04:58.840] Processing the sObject SBQQ__LineColumn__c...
+[10:04:58.840] Getting metadata for SBQQ__LineColumn__c (SOURCE)
+[10:04:59.131] Getting metadata for SBQQ__LineColumn__c (TARGET)
+[10:04:59.417] Processing the sObject SBQQ__LookupData__c...
+[10:04:59.418] Getting metadata for SBQQ__LookupData__c (SOURCE)
+[10:04:59.782] Getting metadata for SBQQ__LookupData__c (TARGET)
+[10:05:00.119] Processing the sObject SBQQ__LookupQuery__c...
+[10:05:00.119] Getting metadata for SBQQ__LookupQuery__c (SOURCE)
+[10:05:00.384] Getting metadata for SBQQ__LookupQuery__c (TARGET)
+[10:05:00.727] Processing the sObject SBQQ__PriceAction__c...
+[10:05:00.728] Getting metadata for SBQQ__PriceAction__c (SOURCE)
+[10:05:01.57] Getting metadata for SBQQ__PriceAction__c (TARGET)
+[10:05:01.299] Processing the sObject SBQQ__PriceCondition__c...
+[10:05:01.300] Getting metadata for SBQQ__PriceCondition__c (SOURCE)
+[10:05:01.543] Getting metadata for SBQQ__PriceCondition__c (TARGET)
+[10:05:01.807] Processing the sObject SBQQ__PriceRule__c...
+[10:05:01.808] Getting metadata for SBQQ__PriceRule__c (SOURCE)
+[10:05:02.68] Getting metadata for SBQQ__PriceRule__c (TARGET)
+[10:05:02.319] Processing the sObject SBQQ__QuoteTemplate__c...
+[10:05:02.319] Getting metadata for SBQQ__QuoteTemplate__c (SOURCE)
+[10:05:02.668] Getting metadata for SBQQ__QuoteTemplate__c (TARGET)
+[10:05:03.73] Processing the sObject SBQQ__SearchFilter__c...
+[10:05:03.73] Getting metadata for SBQQ__SearchFilter__c (SOURCE)
+[10:05:03.285] Getting metadata for SBQQ__SearchFilter__c (TARGET)
+[10:05:03.538] Processing the sObject SBQQ__SearchIndex__c...
+[10:05:03.539] Getting metadata for SBQQ__SearchIndex__c (SOURCE)
+[10:05:03.774] Getting metadata for SBQQ__SearchIndex__c (TARGET)
+[10:05:04.80] Processing the sObject SBQQ__TemplateContent__c...
+[10:05:04.81] Getting metadata for SBQQ__TemplateContent__c (SOURCE)
+[10:05:04.372] Getting metadata for SBQQ__TemplateContent__c (TARGET)
+[10:05:04.630] Processing the sObject SBQQ__TemplateSection__c...
+[10:05:04.631] Getting metadata for SBQQ__TemplateSection__c (SOURCE)
+[10:05:04.946] Getting metadata for SBQQ__TemplateSection__c (TARGET)
+[10:05:05.292] Processing the sObject SBQQ__ConfigurationAttribute__c...
+[10:05:05.292] Getting metadata for SBQQ__ConfigurationAttribute__c (SOURCE)
+[10:05:05.533] Getting metadata for SBQQ__ConfigurationAttribute__c (TARGET)
+[10:05:05.881] Processing the sObject SBQQ__Localization__c...
+[10:05:05.882] Getting metadata for SBQQ__Localization__c (SOURCE)
+[10:05:06.131] Getting metadata for SBQQ__Localization__c (TARGET)
+[10:05:06.465] Processing the sObject SBQQ__ProductRule__c...
+[10:05:06.466] Getting metadata for SBQQ__ProductRule__c (SOURCE)
+[10:05:06.731] Getting metadata for SBQQ__ProductRule__c (TARGET)
+[10:05:07.35] Processing the sObject SBQQ__SummaryVariable__c...
+[10:05:07.35] Getting metadata for SBQQ__SummaryVariable__c (SOURCE)
+[10:05:07.255] Getting metadata for SBQQ__SummaryVariable__c (TARGET)
+[10:05:07.532] Processing the sObject SBQQ__SummaryVariable__c...
+[10:05:07.532] Processing the sObject SBQQ__ProductRule__c...
+[10:05:07.533] Processing the sObject SBQQ__Localization__c...
+[10:05:07.533] Processing the sObject SBQQ__ConfigurationAttribute__c...
+[10:05:07.534] Processing the sObject SBQQ__TemplateSection__c...
+[10:05:07.535] Processing the sObject SBQQ__TemplateContent__c...
+[10:05:07.537] Getting metadata for User (SOURCE)
+[10:05:08.768] Getting metadata for User (TARGET)
+[10:05:10.85] Processing the sObject SBQQ__SearchIndex__c...
+[10:05:10.86] Processing the sObject SBQQ__SearchFilter__c...
+[10:05:10.87] Processing the sObject SBQQ__QuoteTemplate__c...
+[10:05:10.93] Processing the sObject SBQQ__PriceRule__c...
+[10:05:10.95] Getting metadata for Product2 (SOURCE)
+[10:05:10.726] Getting metadata for Product2 (TARGET)
+[10:05:11.446] Processing the sObject SBQQ__PriceCondition__c...
+[10:05:11.449] Processing the sObject SBQQ__PriceAction__c...
+[10:05:11.451] Processing the sObject SBQQ__LookupQuery__c...
+[10:05:11.452] Processing the sObject SBQQ__LookupData__c...
+[10:05:11.453] Processing the sObject SBQQ__LineColumn__c...
+[10:05:11.456] Processing the sObject SBQQ__CustomAction__c...
+
+[10:05:11.461] PREPARING DATA MIGRATION JOB...
+[10:05:11.462] Building migration strategy...
+[10:05:11.468] {"Order of objects to retrieve data":"User; SBQQ__SummaryVariable__c; SBQQ__ProductRule__c; SBQQ__Localization__c; SBQQ__ConfigurationAttribute__c; SBQQ__CustomAction__c; SBQQ__TemplateContent__c; SBQQ__QuoteTemplate__c; SBQQ__TemplateSection__c; SBQQ__LineColumn__c; SBQQ__LookupData__c; SBQQ__PriceRule__c; SBQQ__LookupQuery__c; SBQQ__PriceAction__c; SBQQ__PriceCondition__c; SBQQ__SearchFilter__c; SBQQ__SearchIndex__c; Product2"}
+[10:05:11.469] {"Order of objects to update data":"Product2; User; SBQQ__SummaryVariable__c; SBQQ__ProductRule__c; SBQQ__Localization__c; SBQQ__ConfigurationAttribute__c; SBQQ__CustomAction__c; SBQQ__TemplateContent__c; SBQQ__QuoteTemplate__c; SBQQ__TemplateSection__c; SBQQ__LineColumn__c; SBQQ__LookupData__c; SBQQ__PriceRule__c; SBQQ__LookupQuery__c; SBQQ__PriceAction__c; SBQQ__PriceCondition__c; SBQQ__SearchFilter__c; SBQQ__SearchIndex__c"}
+
+[10:05:11.473] GETTING THE TOTAL AMOUNT OF RECORDS LIMITED BY THE OBJECT'S SOQL QUERY...
+[10:05:15.160] {Product2} Total amount of the SOURCE records: 215813
+[10:05:15.397] {Product2} Total amount of the TARGET records: 216977
+[10:05:15.966] {User} Total amount of the SOURCE records: 4686
+[10:05:16.132] {User} Total amount of the TARGET records: 3468
+[10:05:16.336] {SBQQ__SummaryVariable__c} Total amount of the SOURCE records: 0
+[10:05:16.580] {SBQQ__SummaryVariable__c} Total amount of the TARGET records: 0
+[10:05:16.804] {SBQQ__ProductRule__c} Total amount of the SOURCE records: 0
+[10:05:17.33] {SBQQ__ProductRule__c} Total amount of the TARGET records: 0
+[10:05:17.417] {SBQQ__Localization__c} Total amount of the SOURCE records: 1384
+[10:05:17.693] {SBQQ__Localization__c} Total amount of the TARGET records: 0
+[10:05:17.937] {SBQQ__ConfigurationAttribute__c} Total amount of the SOURCE records: 0
+[10:05:18.195] {SBQQ__ConfigurationAttribute__c} Total amount of the TARGET records: 0
+[10:05:18.346] {SBQQ__CustomAction__c} Total amount of the SOURCE records: 38
+[10:05:18.496] {SBQQ__CustomAction__c} Total amount of the TARGET records: 0
+[10:05:18.639] {SBQQ__TemplateContent__c} Total amount of the SOURCE records: 70
+[10:05:18.783] {SBQQ__TemplateContent__c} Total amount of the TARGET records: 0
+[10:05:18.906] {SBQQ__QuoteTemplate__c} Total amount of the SOURCE records: 7
+[10:05:19.50] {SBQQ__QuoteTemplate__c} Total amount of the TARGET records: 0
+[10:05:19.212] {SBQQ__TemplateSection__c} Total amount of the SOURCE records: 86
+[10:05:19.351] {SBQQ__TemplateSection__c} Total amount of the TARGET records: 0
+[10:05:19.514] {SBQQ__LineColumn__c} Total amount of the SOURCE records: 107
+[10:05:19.645] {SBQQ__LineColumn__c} Total amount of the TARGET records: 0
+[10:05:19.783] {SBQQ__LookupData__c} Total amount of the SOURCE records: 0
+[10:05:19.906] {SBQQ__LookupData__c} Total amount of the TARGET records: 0
+[10:05:20.46] {SBQQ__PriceRule__c} Total amount of the SOURCE records: 37
+[10:05:20.161] {SBQQ__PriceRule__c} Total amount of the TARGET records: 0
+[10:05:20.632] {SBQQ__LookupQuery__c} Total amount of the SOURCE records: 64
+[10:05:20.761] {SBQQ__LookupQuery__c} Total amount of the TARGET records: 0
+[10:05:20.893] {SBQQ__PriceAction__c} Total amount of the SOURCE records: 166
+[10:05:21.0] {SBQQ__PriceAction__c} Total amount of the TARGET records: 0
+[10:05:21.175] {SBQQ__PriceCondition__c} Total amount of the SOURCE records: 67
+[10:05:21.331] {SBQQ__PriceCondition__c} Total amount of the TARGET records: 0
+[10:05:21.450] {SBQQ__SearchFilter__c} Total amount of the SOURCE records: 13
+[10:05:21.582] {SBQQ__SearchFilter__c} Total amount of the TARGET records: 0
+[10:05:21.708] {SBQQ__SearchIndex__c} Total amount of the SOURCE records: 0
+[10:05:21.806] {SBQQ__SearchIndex__c} Total amount of the TARGET records: 0
+
+[10:05:21.807] DELETING OLD DATA FROM THE TARGET...
+[10:05:21.808] {SBQQ__SearchIndex__c} Deleting old sObject data from the Target.
+[10:05:21.937] {SBQQ__SearchIndex__c} Nothing to delete.
+[10:05:21.937] {SBQQ__SearchFilter__c} Deleting old sObject data from the Target.
+[10:05:22.99] {SBQQ__SearchFilter__c} Nothing to delete.
+[10:05:22.99] {SBQQ__PriceCondition__c} Deleting old sObject data from the Target.
+[10:05:22.458] {SBQQ__PriceCondition__c} Nothing to delete.
+[10:05:22.459] {SBQQ__PriceAction__c} Deleting old sObject data from the Target.
+[10:05:22.598] {SBQQ__PriceAction__c} Nothing to delete.
+[10:05:22.599] {SBQQ__LookupQuery__c} Deleting old sObject data from the Target.
+[10:05:22.738] {SBQQ__LookupQuery__c} Nothing to delete.
+[10:05:22.739] {SBQQ__PriceRule__c} Deleting old sObject data from the Target.
+[10:05:22.911] {SBQQ__PriceRule__c} Nothing to delete.
+[10:05:22.912] {SBQQ__LookupData__c} Deleting old sObject data from the Target.
+[10:05:23.51] {SBQQ__LookupData__c} Nothing to delete.
+[10:05:23.51] {SBQQ__LineColumn__c} Deleting old sObject data from the Target.
+[10:05:23.198] {SBQQ__LineColumn__c} Nothing to delete.
+[10:05:23.199] {SBQQ__TemplateSection__c} Deleting old sObject data from the Target.
+[10:05:23.386] {SBQQ__TemplateSection__c} Nothing to delete.
+[10:05:23.387] {SBQQ__QuoteTemplate__c} Deleting old sObject data from the Target.
+[10:05:23.540] {SBQQ__QuoteTemplate__c} Nothing to delete.
+[10:05:23.541] {SBQQ__TemplateContent__c} Deleting old sObject data from the Target.
+[10:05:23.672] {SBQQ__TemplateContent__c} Nothing to delete.
+[10:05:23.673] {SBQQ__CustomAction__c} Deleting old sObject data from the Target.
+[10:05:23.793] {SBQQ__CustomAction__c} Nothing to delete.
+[10:05:23.794] {SBQQ__ConfigurationAttribute__c} Nothing to delete.
+[10:05:23.794] {SBQQ__Localization__c} Nothing to delete.
+[10:05:23.795] {SBQQ__ProductRule__c} Nothing to delete.
+[10:05:23.795] {SBQQ__SummaryVariable__c} Nothing to delete.
+[10:05:23.796] {User} Nothing to delete.
+[10:05:23.796] {Product2} Nothing to delete.
+[10:05:23.796] Deleting old data from the Target was skipped.
+
+[10:05:23.798] RETRIEVING THE DATA STEP 1...
+[10:05:23.798] {User} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:23.799] {User} Query string: SELECT Id, Name  FROM  User.
+[10:05:25.266] {User} Retrieving the SOURCE data has been completed. Fetched 4686 new records.
+[10:05:25.267] {SBQQ__SummaryVariable__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:25.268] {SBQQ__SummaryVariable__c} Query string: SELECT Id, Name  FROM  SBQQ__SummaryVariable__c.
+[10:05:25.452] {SBQQ__SummaryVariable__c} Retrieving the SOURCE data has been completed. Fetched 0 new records.
+[10:05:25.453] {SBQQ__ProductRule__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:25.453] {SBQQ__ProductRule__c} Query string: SELECT Id, Name  FROM  SBQQ__ProductRule__c.
+[10:05:25.567] {SBQQ__ProductRule__c} Retrieving the SOURCE data has been completed. Fetched 0 new records.
+[10:05:25.568] {SBQQ__Localization__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:25.569] {SBQQ__Localization__c} Query string: SELECT Id, Name  FROM  SBQQ__Localization__c.
+[10:05:26.371] {SBQQ__Localization__c} Retrieving the SOURCE data has been completed. Fetched 1384 new records.
+[10:05:26.372] {SBQQ__ConfigurationAttribute__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:26.372] {SBQQ__ConfigurationAttribute__c} Query string: SELECT Id, Name  FROM  SBQQ__ConfigurationAttribute__c.
+[10:05:26.551] {SBQQ__ConfigurationAttribute__c} Retrieving the SOURCE data has been completed. Fetched 0 new records.
+[10:05:26.552] {SBQQ__CustomAction__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:26.553] {SBQQ__CustomAction__c} Query string: SELECT Id, OwnerId, SBQQ__ParentCustomAction__c, CurrencyIsoCode, Name, SBQQ__Action__c, SBQQ__Active__c, SBQQ__BrandButton__c, SBQQ__Class__c, SBQQ__ConditionsMet__c, SBQQ__Default__c, SBQQ__Description__c, SBQQ__DisplayOrder__c, SBQQ__EventHandlerN... FROM  SBQQ__CustomAction__c.
+[10:05:26.852] {SBQQ__CustomAction__c} Retrieving the SOURCE data has been completed. Fetched 38 new records.
+[10:05:26.853] {SBQQ__CustomAction__c} Retrieving self-referenced lookup records from SOURCE...
+[10:05:26.854] {SBQQ__CustomAction__c} Query string: SELECT Id, OwnerId, SBQQ__ParentCustomAction__c, CurrencyIsoCode, Name, SBQQ__Action__c, SBQQ__Active__c, SBQQ__BrandButton__c, SBQQ__Class__c, SBQQ__ConditionsMet__c, SBQQ__Default__c, SBQQ__Description__c, SBQQ__DisplayOrder__c, SBQQ__EventHandlerN... FROM  SBQQ__CustomAction__c WHERE Id IN ('a0E0O000018ZiL2UAK').
+[10:05:27.46] {SBQQ__CustomAction__c} Retrieving the SOURCE data has been completed. Fetched 0 new records.
+[10:05:27.47] {SBQQ__TemplateContent__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:27.47] {SBQQ__TemplateContent__c} Query string: SELECT Id, OwnerId, CurrencyIsoCode, Name, SBQQ__CustomSource__c, SBQQ__FontFamily__c, SBQQ__FontSize__c, SBQQ__Markup__c, SBQQ__RawMarkup__c, SBQQ__TableStyle__c, SBQQ__TextColor__c, SBQQ__Type__c, Key__c, Owner.Name  FROM  SBQQ__TemplateContent__c.
+[10:05:27.363] {SBQQ__TemplateContent__c} Retrieving the SOURCE data has been completed. Fetched 70 new records.
+[10:05:27.365] {SBQQ__QuoteTemplate__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:27.365] {SBQQ__QuoteTemplate__c} Query string: SELECT Id, OwnerId, SBQQ__FooterContent__c, SBQQ__HeaderContent__c, CurrencyIsoCode, Name, SBQQ__AllPackageProductsShown__c, SBQQ__BillToTitle__c, SBQQ__BorderColor__c, SBQQ__BottomMargin__c, SBQQ__BundledProductsShown__c, SBQQ__CompanyCity__c, SBQQ_... FROM  SBQQ__QuoteTemplate__c.
+[10:05:27.621] {SBQQ__QuoteTemplate__c} Retrieving the SOURCE data has been completed. Fetched 7 new records.
+[10:05:27.625] {SBQQ__TemplateSection__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:27.626] {SBQQ__TemplateSection__c} Query string: SELECT Id, CurrencyIsoCode, Name, SBQQ__Template__c, SBQQ__BorderColor__c, SBQQ__BottomMargin__c, SBQQ__ColumnHeaderHidden__c, SBQQ__ConditionalPrintField__c, SBQQ__DisplayOrder__c, SBQQ__FilterField__c, SBQQ__FilterOperator__c, SBQQ__FilterValue__c,... FROM  SBQQ__TemplateSection__c.
+[10:05:27.972] {SBQQ__TemplateSection__c} Retrieving the SOURCE data has been completed. Fetched 86 new records.
+[10:05:27.973] {SBQQ__LineColumn__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:27.973] {SBQQ__LineColumn__c} Query string: SELECT Id, CurrencyIsoCode, Name, SBQQ__Template__c, SBQQ__Alignment__c, SBQQ__BottomMargin__c, SBQQ__ColumnHeadingField__c, SBQQ__ConditionalPrintField__c, SBQQ__DisplayOrder__c, SBQQ__DynamicNumberScale__c, SBQQ__FieldName__c, SBQQ__FontFamily__c, ... FROM  SBQQ__LineColumn__c.
+[10:05:28.496] {SBQQ__LineColumn__c} Retrieving the SOURCE data has been completed. Fetched 107 new records.
+[10:05:28.498] {SBQQ__LookupData__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:28.498] {SBQQ__LookupData__c} Query string: SELECT Id, OwnerId, SBQQ__Product__c, CurrencyIsoCode, Name, SBQQ__Category__c, SBQQ__Message__c, SBQQ__Required__c, SBQQ__Type__c, SBQQ__Value__c, Owner.Name, SBQQ__Product__r.Name  FROM  SBQQ__LookupData__c.
+[10:05:28.679] {SBQQ__LookupData__c} Retrieving the SOURCE data has been completed. Fetched 0 new records.
+[10:05:28.680] {SBQQ__PriceRule__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:28.681] {SBQQ__PriceRule__c} Query string: SELECT Id, OwnerId, SBQQ__Product__c, CurrencyIsoCode, Name, SBQQ__Active__c, SBQQ__AdvancedCondition__c, SBQQ__ConditionsMet__c, SBQQ__ConfiguratorEvaluationEvent__c, SBQQ__EvaluationEvent__c, SBQQ__EvaluationOrder__c, SBQQ__LookupObject__c, SBQQ__T... FROM  SBQQ__PriceRule__c.
+[10:05:28.912] {SBQQ__PriceRule__c} Retrieving the SOURCE data has been completed. Fetched 37 new records.
+[10:05:28.913] {SBQQ__LookupQuery__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:28.913] {SBQQ__LookupQuery__c} Query string: SELECT Id, OwnerId, SBQQ__PriceRule2__c, SBQQ__ProductRule__c, SBQQ__TestedConfigurationAttribute__c, CurrencyIsoCode, Name, SBQQ__LookupField__c, SBQQ__MatchType__c, SBQQ__Operator__c, SBQQ__TestedField__c, SBQQ__TestedObject__c, SBQQ__TestedValue__... FROM  SBQQ__LookupQuery__c.
+[10:05:29.169] {SBQQ__LookupQuery__c} Retrieving the SOURCE data has been completed. Fetched 64 new records.
+[10:05:29.170] {SBQQ__PriceAction__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:29.170] {SBQQ__PriceAction__c} Query string: SELECT Id, CurrencyIsoCode, Name, SBQQ__Rule__c, SBQQ__Field__c, SBQQ__Formula__c, SBQQ__Order__c, SBQQ__SourceLookupField__c, SBQQ__TargetObject__c, SBQQ__ValueField__c, SBQQ__Value__c, Description__c, SBQQ__SourceVariable__c, SBQQ__Rule__r.Id, SBQQ... FROM  SBQQ__PriceAction__c.
+[10:05:29.579] {SBQQ__PriceAction__c} Retrieving the SOURCE data has been completed. Fetched 166 new records.
+[10:05:29.580] {SBQQ__PriceCondition__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:29.581] {SBQQ__PriceCondition__c} Query string: SELECT Id, CurrencyIsoCode, Name, SBQQ__Rule__c, SBQQ__Field__c, SBQQ__FilterFormula__c, SBQQ__FilterType__c, SBQQ__Index__c, SBQQ__Object__c, SBQQ__Operator__c, SBQQ__TestedFormula__c, SBQQ__Value__c, SBQQ__FilterVariable__c, SBQQ__TestedVariable__c... FROM  SBQQ__PriceCondition__c.
+[10:05:29.865] {SBQQ__PriceCondition__c} Retrieving the SOURCE data has been completed. Fetched 67 new records.
+[10:05:29.865] {SBQQ__SearchFilter__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:29.866] {SBQQ__SearchFilter__c} Query string: SELECT Id, OwnerId, SBQQ__Action__c, CurrencyIsoCode, Name, SBQQ__DisplayOrder__c, SBQQ__FilterSourceField__c, SBQQ__FilterSourceObject__c, SBQQ__FilterValue__c, SBQQ__HiddenSourceField__c, SBQQ__HiddenSourceObject__c, SBQQ__Hidden__c, SBQQ__Operator... FROM  SBQQ__SearchFilter__c.
+[10:05:30.108] {SBQQ__SearchFilter__c} Retrieving the SOURCE data has been completed. Fetched 13 new records.
+[10:05:30.108] {SBQQ__SearchIndex__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[10:05:30.109] {SBQQ__SearchIndex__c} Query string: SELECT Id, OwnerId, SBQQ__Localization__c, CurrencyIsoCode, Name, SBQQ__Value__c, Owner.Name, SBQQ__Localization__r.Name  FROM  SBQQ__SearchIndex__c.
+[10:05:30.265] {SBQQ__SearchIndex__c} Retrieving the SOURCE data has been completed. Fetched 0 new records.
+[10:05:30.286] Retrieving the data STEP 1 has been completed.
+
+[10:05:30.287] RETRIEVING THE DATA STEP 2...
+[10:05:30.287] PASS 1
+[10:05:30.288] =============
+[10:05:30.289] No records
+
+[10:05:30.290] PASS 2
+[10:05:30.290] =============
+[10:05:30.291] No records
+
+[10:05:30.292] PASS 3
+[10:05:30.293] =============
+[10:05:30.295] {SBQQ__CustomAction__c} Retrieving self-referenced lookup records from SOURCE...
+[10:05:30.296] {SBQQ__CustomAction__c} Query string: SELECT Id, OwnerId, SBQQ__ParentCustomAction__c, CurrencyIsoCode, Name, SBQQ__Action__c, SBQQ__Active__c, SBQQ__BrandButton__c, SBQQ__Class__c, SBQQ__ConditionsMet__c, SBQQ__Default__c, SBQQ__Description__c, SBQQ__DisplayOrder__c, SBQQ__EventHandlerN... FROM  SBQQ__CustomAction__c WHERE Id IN ('a0E0O000018ZiL2UAK').
+[10:05:30.436] {SBQQ__CustomAction__c} Retrieving the SOURCE data has been completed. Fetched 0 new records.
+[10:05:30.440] No records
+
+[10:05:30.441] PASS 4
+[10:05:30.442] =============
+[10:05:30.442] {SBQQ__CustomAction__c} Retrieving self-referenced lookup records from SOURCE...
+[10:05:30.443] {SBQQ__CustomAction__c} Query string: SELECT Id, OwnerId, SBQQ__ParentCustomAction__c, CurrencyIsoCode, Name, SBQQ__Action__c, SBQQ__Active__c, SBQQ__BrandButton__c, SBQQ__Class__c, SBQQ__ConditionsMet__c, SBQQ__Default__c, SBQQ__Description__c, SBQQ__DisplayOrder__c, SBQQ__EventHandlerN... FROM  SBQQ__CustomAction__c WHERE Id IN ('a0E0O000018ZiL2UAK').
+[10:05:30.572] {SBQQ__CustomAction__c} Retrieving the SOURCE data has been completed. Fetched 0 new records.
+[10:05:30.577] No records
+
+[10:05:30.579] TARGET
+[10:05:30.579] =============
+[10:05:30.580] {User} Retrieving the TARGET data from Org (STEP 2: all records)...
+[10:05:30.581] {User} Query string: SELECT Id, Name  FROM  User.
+[10:05:31.498] {User} Retrieving the TARGET data has been completed. Fetched 3468 new records.
+[10:05:31.499] {SBQQ__SummaryVariable__c} Retrieving the TARGET data from Org (STEP 2: all records)...
+[10:05:31.500] {SBQQ__SummaryVariable__c} Query string: SELECT Id, Name  FROM  SBQQ__SummaryVariable__c.
+[10:05:31.752] {SBQQ__SummaryVariable__c} Retrieving the TARGET data has been completed. Fetched 0 new records.
+[10:05:31.752] {SBQQ__ProductRule__c} Retrieving the TARGET data from Org (STEP 2: all records)...
+[10:05:31.753] {SBQQ__ProductRule__c} Query string: SELECT Id, Name  FROM  SBQQ__ProductRule__c.
+[10:05:31.890] {SBQQ__ProductRule__c} Retrieving the TARGET data has been completed. Fetched 0 new records.
+[10:05:31.891] {SBQQ__Localization__c} Retrieving the TARGET data from Org (STEP 2: all records)...
+[10:05:31.892] {SBQQ__Localization__c} Query string: SELECT Id, Name  FROM  SBQQ__Localization__c.
+[10:05:31.994] {SBQQ__Localization__c} Retrieving the TARGET data has been completed. Fetched 0 new records.
+[10:05:31.995] {SBQQ__ConfigurationAttribute__c} Retrieving the TARGET data from Org (STEP 2: all records)...
+[10:05:31.995] {SBQQ__ConfigurationAttribute__c} Query string: SELECT Id, Name  FROM  SBQQ__ConfigurationAttribute__c.
+[10:05:32.131] {SBQQ__ConfigurationAttribute__c} Retrieving the TARGET data has been completed. Fetched 0 new records.
+[10:05:32.132] Retrieving the data STEP 2 has been completed.
+
+[10:05:32.133] DATA RETRIEVING SUMMARY
+[10:05:32.134] {User} Total retrieved within all steps (source/target): 4686/3468 records.
+[10:05:32.134] {SBQQ__SummaryVariable__c} Total retrieved within all steps (source/target): 0/0 records.
+[10:05:32.134] {SBQQ__ProductRule__c} Total retrieved within all steps (source/target): 0/0 records.
+[10:05:32.135] {SBQQ__Localization__c} Total retrieved within all steps (source/target): 1384/0 records.
+[10:05:32.136] {SBQQ__ConfigurationAttribute__c} Total retrieved within all steps (source/target): 0/0 records.
+[10:05:32.137] {SBQQ__CustomAction__c} Total retrieved within all steps (source/target): 38/0 records.
+[10:05:32.137] {SBQQ__TemplateContent__c} Total retrieved within all steps (source/target): 70/0 records.
+[10:05:32.138] {SBQQ__QuoteTemplate__c} Total retrieved within all steps (source/target): 7/0 records.
+[10:05:32.138] {SBQQ__TemplateSection__c} Total retrieved within all steps (source/target): 86/0 records.
+[10:05:32.139] {SBQQ__LineColumn__c} Total retrieved within all steps (source/target): 107/0 records.
+[10:05:32.139] {SBQQ__LookupData__c} Total retrieved within all steps (source/target): 0/0 records.
+[10:05:32.140] {SBQQ__PriceRule__c} Total retrieved within all steps (source/target): 37/0 records.
+[10:05:32.140] {SBQQ__LookupQuery__c} Total retrieved within all steps (source/target): 64/0 records.
+[10:05:32.141] {SBQQ__PriceAction__c} Total retrieved within all steps (source/target): 166/0 records.
+[10:05:32.142] {SBQQ__PriceCondition__c} Total retrieved within all steps (source/target): 67/0 records.
+[10:05:32.142] {SBQQ__SearchFilter__c} Total retrieved within all steps (source/target): 13/0 records.
+[10:05:32.143] {SBQQ__SearchIndex__c} Total retrieved within all steps (source/target): 0/0 records.
+[10:05:32.143] {Product2} Total retrieved within all steps (source/target): 0/0 records.
+
+[10:05:32.145] UPDATING THE TARGET STEP 1...
+[10:05:32.153][WARN] {SBQQ__CustomAction__c} 36 missing parent lookup records were found. See MissingParentRecordsReport.csv file for the details.
+[10:05:32.154] {SBQQ__CustomAction__c} Number of records to Insert: 38.
+[10:05:32.156] {SBQQ__CustomAction__c} The Insert API operation has been started using REST API.
+[10:05:32.157] [Job# REST:Insert] {SBQQ__CustomAction__c} The job has been created.
+[10:05:48.575][WARN] [Batch# REST:Insert] {SBQQ__CustomAction__c} Incompleted. 0 records succeeded, 38 records failed.
+[10:05:48.576] {SBQQ__CustomAction__c} The Insert API operation has been finished.
+[10:05:48.582] {SBQQ__CustomAction__c} Updating the Target has been completed. Processed 38 records.
+[10:05:48.584] {SBQQ__TemplateContent__c} Number of records to Insert: 70.
+[10:05:48.584] {SBQQ__TemplateContent__c} The Insert API operation has been started using REST API.
+[10:05:48.585] [Job# REST:Insert] {SBQQ__TemplateContent__c} The job has been created.
+[10:05:50.818][WARN] [Batch# REST:Insert] {SBQQ__TemplateContent__c} Incompleted. 0 records succeeded, 70 records failed.
+[10:05:50.819] {SBQQ__TemplateContent__c} The Insert API operation has been finished.
+[10:05:50.822] {SBQQ__TemplateContent__c} Updating the Target has been completed. Processed 70 records.
+[10:05:50.824][WARN] {SBQQ__QuoteTemplate__c} 12 missing parent lookup records were found. See MissingParentRecordsReport.csv file for the details.
+[10:05:50.824] {SBQQ__QuoteTemplate__c} Number of records to Insert: 7.
+[10:05:50.825] {SBQQ__QuoteTemplate__c} The Insert API operation has been started using REST API.
+[10:05:50.825] [Job# REST:Insert] {SBQQ__QuoteTemplate__c} The job has been created.
+[10:05:55.297][WARN] [Batch# REST:Insert] {SBQQ__QuoteTemplate__c} Incompleted. 0 records succeeded, 7 records failed.
+[10:05:55.298] {SBQQ__QuoteTemplate__c} The Insert API operation has been finished.
+[10:05:55.300] {SBQQ__QuoteTemplate__c} Updating the Target has been completed. Processed 7 records.
+[10:05:55.306][WARN] {SBQQ__TemplateSection__c} 171 missing parent lookup records were found. See MissingParentRecordsReport.csv file for the details.
+[10:05:55.307] {SBQQ__TemplateSection__c} Number of records to Insert: 86.
+[10:05:55.308] {SBQQ__TemplateSection__c} The Insert API operation has been started using REST API.
+[10:05:55.308] [Job# REST:Insert] {SBQQ__TemplateSection__c} The job has been created.
+[10:05:55.705][WARN] [Batch# REST:Insert] {SBQQ__TemplateSection__c} Incompleted. 0 records succeeded, 86 records failed.
+[10:05:55.706] {SBQQ__TemplateSection__c} The Insert API operation has been finished.
+[10:05:55.708] {SBQQ__TemplateSection__c} Updating the Target has been completed. Processed 86 records.
+[10:05:55.716][WARN] {SBQQ__LineColumn__c} 195 missing parent lookup records were found. See MissingParentRecordsReport.csv file for the details.
+[10:05:55.717] {SBQQ__LineColumn__c} Number of records to Insert: 107.
+[10:05:55.718] {SBQQ__LineColumn__c} The Insert API operation has been started using REST API.
+[10:05:55.718] [Job# REST:Insert] {SBQQ__LineColumn__c} The job has been created.
+[10:05:56.697][WARN] [Batch# REST:Insert] {SBQQ__LineColumn__c} Incompleted. 0 records succeeded, 107 records failed.
+[10:05:56.698] {SBQQ__LineColumn__c} The Insert API operation has been finished.
+[10:05:56.705] {SBQQ__LineColumn__c} Updating the Target has been completed. Processed 107 records.
+[10:05:56.707] {SBQQ__PriceRule__c} Number of records to Insert: 37.
+[10:05:56.707] {SBQQ__PriceRule__c} The Insert API operation has been started using REST API.
+[10:05:56.708] [Job# REST:Insert] {SBQQ__PriceRule__c} The job has been created.
+[10:06:00.918][WARN] [Batch# REST:Insert] {SBQQ__PriceRule__c} Incompleted. 0 records succeeded, 37 records failed.
+[10:06:00.919] {SBQQ__PriceRule__c} The Insert API operation has been finished.
+[10:06:00.922] {SBQQ__PriceRule__c} Updating the Target has been completed. Processed 37 records.
+[10:06:00.928][WARN] {SBQQ__LookupQuery__c} 64 missing parent lookup records were found. See MissingParentRecordsReport.csv file for the details.
+[10:06:00.930] {SBQQ__LookupQuery__c} Number of records to Insert: 64.
+[10:06:00.931] {SBQQ__LookupQuery__c} The Insert API operation has been started using REST API.
+[10:06:00.932] [Job# REST:Insert] {SBQQ__LookupQuery__c} The job has been created.
+[10:06:09.360] {SBQQ__LookupQuery__c} The Insert API operation has been finished.
+[10:06:09.363] {SBQQ__LookupQuery__c} Updating the Target has been completed. Processed 64 records.
+[10:06:09.369][WARN] {SBQQ__PriceAction__c} 166 missing parent lookup records were found. See MissingParentRecordsReport.csv file for the details.
+[10:06:09.369] {SBQQ__PriceAction__c} Number of records to Insert: 166.
+[10:06:09.370] {SBQQ__PriceAction__c} The Insert API operation has been started using REST API.
+[10:06:09.371] [Job# REST:Insert] {SBQQ__PriceAction__c} The job has been created.
+[10:06:14.204][WARN] [Batch# REST:Insert] {SBQQ__PriceAction__c} Incompleted. 0 records succeeded, 166 records failed.
+[10:06:14.204] {SBQQ__PriceAction__c} The Insert API operation has been finished.
+[10:06:14.207] {SBQQ__PriceAction__c} Updating the Target has been completed. Processed 166 records.
+[10:06:14.214][WARN] {SBQQ__PriceCondition__c} 67 missing parent lookup records were found. See MissingParentRecordsReport.csv file for the details.
+[10:06:14.215] {SBQQ__PriceCondition__c} Number of records to Insert: 67.
+[10:06:14.216] {SBQQ__PriceCondition__c} The Insert API operation has been started using REST API.
+[10:06:14.218] [Job# REST:Insert] {SBQQ__PriceCondition__c} The job has been created.
+[10:06:17.696][WARN] [Batch# REST:Insert] {SBQQ__PriceCondition__c} Incompleted. 0 records succeeded, 67 records failed.
+[10:06:17.696] {SBQQ__PriceCondition__c} The Insert API operation has been finished.
+[10:06:17.698] {SBQQ__PriceCondition__c} Updating the Target has been completed. Processed 67 records.
+[10:06:17.699] {SBQQ__SearchFilter__c} Number of records to Insert: 13.
+[10:06:17.700] {SBQQ__SearchFilter__c} The Insert API operation has been started using REST API.
+[10:06:17.701] [Job# REST:Insert] {SBQQ__SearchFilter__c} The job has been created.
+[10:06:17.982] {SBQQ__SearchFilter__c} The Insert API operation has been finished.
+[10:06:17.984] {SBQQ__SearchFilter__c} Updating the Target has been completed. Processed 13 records.
+[10:06:17.984] Updating the Target (STEP 1) has been completed. Total processed 655 records.
+
+[10:06:17.985] UPDATING THE TARGET STEP 2...
+[10:06:17.987][WARN] {SBQQ__CustomAction__c} 9 missing parent lookup records were found. See MissingParentRecordsReport.csv file for the details.
+[10:06:17.988] Nothing was updated
+
+[10:06:17.988] DATA PROCESSING SUMMARY
+[10:06:17.989] {User} Total processed within all steps (inserted + updated): 0 records
+[10:06:17.989] {SBQQ__SummaryVariable__c} Total processed within all steps (inserted + updated): 0 records
+[10:06:17.990] {SBQQ__ProductRule__c} Total processed within all steps (inserted + updated): 0 records
+[10:06:17.990] {SBQQ__Localization__c} Total processed within all steps (inserted + updated): 0 records
+[10:06:17.990] {SBQQ__ConfigurationAttribute__c} Total processed within all steps (inserted + updated): 0 records
+[10:06:17.991] {SBQQ__CustomAction__c} Total processed within all steps (inserted + updated): 38 records
+[10:06:17.991] {SBQQ__TemplateContent__c} Total processed within all steps (inserted + updated): 70 records
+[10:06:17.991] {SBQQ__QuoteTemplate__c} Total processed within all steps (inserted + updated): 7 records
+[10:06:17.992] {SBQQ__TemplateSection__c} Total processed within all steps (inserted + updated): 86 records
+[10:06:17.992] {SBQQ__LineColumn__c} Total processed within all steps (inserted + updated): 107 records
+[10:06:17.992] {SBQQ__LookupData__c} Total processed within all steps (inserted + updated): 0 records
+[10:06:17.993] {SBQQ__PriceRule__c} Total processed within all steps (inserted + updated): 37 records
+[10:06:17.993] {SBQQ__LookupQuery__c} Total processed within all steps (inserted + updated): 64 records
+[10:06:17.994] {SBQQ__PriceAction__c} Total processed within all steps (inserted + updated): 166 records
+[10:06:17.994] {SBQQ__PriceCondition__c} Total processed within all steps (inserted + updated): 67 records
+[10:06:17.995] {SBQQ__SearchFilter__c} Total processed within all steps (inserted + updated): 13 records
+[10:06:17.995] {SBQQ__SearchIndex__c} Total processed within all steps (inserted + updated): 0 records
+[10:06:17.996] {Product2} Total processed within all steps (inserted + updated): 0 records
+
+[10:06:17.997] Writing to /Users/jburgers/Documents/SFDMU/data/jburgers-salesforce-com/SBQQ/MissingParentRecordsReport.csv...
+
+[10:06:18.0] Command succeeded.
+[10:06:18.1] Execution of the command sfdmu:run has been finished. Exit code 0 (SUCCESS).
+[10:06:18.1] Total time elapsed: 00h 01m 30s 537ms .

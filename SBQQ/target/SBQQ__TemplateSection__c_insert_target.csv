@@ -1,0 +1,87 @@
+CurrencyIsoCode,Name,SBQQ__Template__c,SBQQ__BorderColor__c,SBQQ__BottomMargin__c,SBQQ__ColumnHeaderHidden__c,SBQQ__ConditionalPrintField__c,SBQQ__DisplayOrder__c,SBQQ__FilterField__c,SBQQ__FilterOperator__c,SBQQ__FilterValue__c,SBQQ__GroupField__c,SBQQ__KeepTogether__c,SBQQ__KeepWithNext__c,SBQQ__KeepWithPrevious__c,SBQQ__PageBreak__c,SBQQ__QuoteTotalsPrinted__c,SBQQ__RollUpField__c,SBQQ__SummaryDisplay__c,SBQQ__TopMargin__c,Key__c,SBQQ__Content__c,Errors,Id
+EUR,Terms and Validity,a0s5E000003GcTXQA0,000000,0,false,,30,,,,,Auto,Auto,,,false,,,0,TS-1005,a175E000001tqmkQAA,,a185E000000r990QAA
+EUR,IMCD details,a0s5E000003GcTXQA0,000000,0,false,IsNotNEUVENDIS__c,10,,,,,Auto,Auto,,,false,,,0,TS-1001,a175E000001tqmqQAA,,a185E000000r991QAA
+EUR,Goods,a0s5E000003GcTXQA0,000000,0,false,IsNotRenewal__c,50,,,,,Auto,Auto,,,false,,,0,TS-1007,a175E000001tqmmQAA,,a185E000000r992QAA
+EUR,with IMCD transport,a0s5E000003GcTXQA0,000000,0,false,IMCDcustomerdelivery__c,20,,,,,Auto,Auto,,,false,,,0,TS-1003,a175E000001tqmpQAA,,a185E000000r993QAA
+EUR,without IMCD transport,a0s5E000003GcTXQA0,000000,0,false,IMCDwarehousedelivery__c,20,,,,,Auto,Auto,,,false,,,0,TS-1004,a175E000001tqmnQAA,,a185E000000r994QAA
+EUR,Renewal Goods,a0s5E000003GcTXQA0,000000,0,false,IsRenewal__c,50,,,,,Auto,Auto,,,false,,,0,TS-1008,a175E000001tqnVQAQ,,a185E000000r995QAA
+EUR,Small Letters TC,a0s5E000003GcTXQA0,,0,false,,100,,,,,Auto,Auto,,Before,false,,,0,TS-1013,a175E000001tqnRQAQ,,a185E000000r996QAA
+EUR,Quote Comments,a0s5E000003GcTXQA0,000000,0,false,,60,,,,,Auto,Auto,,,false,,,0,TS-1010,a175E000001tqnSQAQ,,a185E000000r997QAA
+EUR,Salesrep Details REN,a0s5E000003GcTYQA0,000000,0,false,,70,,,,,Auto,Auto,,,false,,,0,TS-3009,a175E000001tqmjQAA,,a185E000000r998QAA
+EUR,External REN,a0s5E000003GcTYQA0,000000,0,false,IMCDcustomerdelivery__c,20,,,,,Auto,Auto,,,false,,,0,TS-3002,a175E000001tqmpQAA,,a185E000000r999QAA
+EUR,Destination Details REN,a0s5E000003GcTYQA0,000000,0,false,IMCDcustomerdelivery__c,40,,,,,Auto,Auto,,,false,,,0,TS-3005,a175E000001tqnQQAQ,,a185E000000r99AQAQ
+EUR,NEUVENDIS details,a0s5E000003GcTXQA0,000000,0,false,IsNEUVENDIS__c,10,,,,,Auto,Auto,,,false,,,0,TS-1002,a175E000001tqnTQAQ,,a185E000000r99BQAQ
+EUR,Salesrep Details,a0s5E000003GcTXQA0,000000,0,false,,70,,,,,Auto,Auto,,,false,,,0,TS-1011,a175E000001tqmjQAA,,a185E000000r99CQAQ
+EUR,Destination Details,a0s5E000003GcTXQA0,000000,0,false,IMCDcustomerdelivery__c,40,,,,,Auto,Auto,,,false,,,0,TS-1006,a175E000001tqnQQAQ,,a185E000000r99DQAQ
+EUR,IMCD Details REN,a0s5E000003GcTYQA0,000000,0,false,,10,,,,,Auto,Auto,,,false,,,0,TS-3001,a175E000001tqmqQAA,,a185E000000r99EQAQ
+EUR,Quote Comments REN,a0s5E000003GcTYQA0,000000,0,false,,60,,,,,Auto,Auto,,,false,,,0,TS-3007,a175E000001tqnSQAQ,,a185E000000r99FQAQ
+EUR,Local Text REN,a0s5E000003GcTYQA0,000000,0,false,,65,,,,,Auto,Auto,,,false,,,0,TS-3008,,,a185E000000r99GQAQ
+EUR,Goods REN,a0s5E000003GcTYQA0,000000,0,false,,50,,,,,Auto,Auto,,,false,,,0,TS-3006,a175E000001tqnVQAQ,,a185E000000r99HQAQ
+EUR,Internal REN,a0s5E000003GcTYQA0,000000,0,false,IMCDwarehousedelivery__c,20,,,,,Auto,Auto,,,false,,,0,TS-3003,a175E000001tqmnQAA,,a185E000000r99IQAQ
+EUR,Terms and Validity REN,a0s5E000003GcTYQA0,000000,0,false,,30,,,,,Auto,Auto,,,false,,,0,TS-3004,a175E000001tqmkQAA,,a185E000000r99JQAQ
+EUR,Standard Terms,a0s5E000003GcTXQA0,000000,0,false,,80,,,,,Auto,Auto,,,true,,Always,0,TS-1012,a175E000001tqnUQAQ,,a185E000000r99KQAQ
+EUR,Renewal Goods (asian),a0s5E000003GcTaQAK,000000,0,false,IsRenewal__c,50,,,,,Auto,Auto,,,false,,,0,TS-2007,a175E000001tqn2QAA,,a185E000000r99LQAQ
+EUR,Goods (asian),a0s5E000003GcTaQAK,000000,0,false,IsNotRenewal__c,50,,,,,Auto,Auto,,,false,,,0,TS-2008,a175E000001tqn8QAA,,a185E000000r99MQAQ
+EUR,font,a0s5E000003GcTZQA0,,0,false,,,,,,,Auto,Auto,,,false,,,0,TS-4001,a175E000001tqnbQAA,,a185E000000r99NQAQ
+EUR,NEUVENDIS details (asian),a0s5E000003GcTaQAK,000000,0,false,IsNEUVENDIS__c,10,,,,,Auto,Auto,,,false,,,0,TS-2001,a175E000001tqn3QAA,,a185E000000r99OQAQ
+EUR,Terms and Validity (asian),a0s5E000003GcTaQAK,000000,0,false,,30,,,,,Auto,Auto,,,false,,,0,TS-2005,a175E000001tqn4QAA,,a185E000000r99PQAQ
+EUR,Quote Comments (asian),a0s5E000003GcTaQAK,000000,0,false,,60,,,,,Auto,Auto,,,false,,,0,TS-2010,a175E000001tqn6QAA,,a185E000000r99QQAQ
+EUR,Small Letters TC (asian),a0s5E000003GcTaQAK,,0,false,,100,,,,,Auto,Auto,,Before,false,,,0,TS-2013,a175E000001tqnBQAQ,,a185E000000r99RQAQ
+EUR,Salesrep Details (asian),a0s5E000003GcTaQAK,000000,0,false,,70,,,,,Auto,Auto,,,false,,,0,TS-2011,a175E000001tqn5QAA,,a185E000000r99SQAQ
+EUR,with IMCD transport (asian),a0s5E000003GcTaQAK,000000,0,false,IMCDcustomerdelivery__c,20,,,,,Auto,Auto,,,false,,,0,TS-2003,a175E000001tqn9QAA,,a185E000000r99TQAQ
+EUR,Standard Terms (asian),a0s5E000003GcTaQAK,000000,0,false,,80,,,,,Auto,Auto,,,true,,Always,0,TS-2012,a175E000001tqnWQAQ,,a185E000000r99UQAQ
+EUR,without IMCD transport (asian),a0s5E000003GcTaQAK,000000,0,false,IMCDwarehousedelivery__c,20,,,,,Auto,Auto,,,false,,,0,TS-2004,a175E000001tqnYQAQ,,a185E000000r99VQAQ
+EUR,Destination Details (asian),a0s5E000003GcTaQAK,000000,0,false,IMCDcustomerdelivery__c,40,,,,,Auto,Auto,,,false,,,0,TS-2006,a175E000001tqnXQAQ,,a185E000000r99WQAQ
+EUR,IMCD details (asian),a0s5E000003GcTaQAK,000000,0,false,IsNotNEUVENDIS__c,10,,,,,Auto,Auto,,,false,,,0,TS-2002,a175E000001tqnAQAQ,,a185E000000r99XQAQ
+EUR,GlobalBasis,a0s5E000003GcTXQA0,000000,0,false,IsGlobalBasis__c,55,ContractQty__c,equals,True,,Auto,Auto,,,false,,,0,TS-1009,a175E000001tqncQAA,,a185E000000r99YQAQ
+EUR,Contracted Qty (asia),a0s5E000003GcTaQAK,000000,0,false,,55,ContractQty__c,equals,True,,Auto,Auto,,,false,,,0,TS-2009,a175E000001tqndQAA,,a185E000000r99ZQAQ
+EUR,Exchange Rate Base,a0s5E000003GcTXQA0,,0,false,IsExchangeRateBase__c,74,,,,,Auto,Auto,,,false,,,0,TS-1019,a175E000001tqneQAA,,a185E000000r99aQAA
+EUR,Customer Unpacking Terms,a0s5E000003GcTXQA0,,0,false,CustomerUnpacking__c,76,,,,,Auto,Auto,,,false,,,0,TS-1017,a175E000001tqnfQAA,,a185E000000r99bQAA
+EUR,Customer Clearance Terms,a0s5E000003GcTXQA0,,0,false,CustomerClearance__c,75,,,,,Auto,Auto,,,false,,,0,TS-1016,a175E000001tqnCQAQ,,a185E000000r99cQAA
+EUR,GlobalFullDetails,a0s5E000003GcTXQA0,000000,0,false,IsGlobalFullDetails__c,55,,,,,Auto,Auto,,,false,,,0,TS-1018,a175E000001tqnDQAQ,,a185E000000r99dQAA
+EUR,GlobalAvailability,a0s5E000003GcTXQA0,000000,0,false,IsGlobalAvailability__c,55,,,,,Auto,Auto,,,false,,,0,TS-1014,a175E000001tqngQAA,,a185E000000r99eQAA
+EUR,GlobalSurcharge,a0s5E000003GcTXQA0,000000,0,false,IsGlobalSurcharge__c,55,,,,,Auto,Auto,,,false,,,0,TS-1015,a175E000001tqnhQAA,,a185E000000r99fQAA
+EUR,Brazil CustomVAT,a0s5E000003GcTXQA0,,0,false,IsBrazil__c,79,,,,,Auto,Auto,,,false,,,0,TS-1022,a175E000001tqnEQAQ,,a185E000000r99gQAA
+EUR,Fuel Surcharge Terms,a0s5E000003GcTXQA0,,0,false,FuelSurchargeStatement__c,78,,,,,Auto,Auto,,,false,,,0,TS-1021,a175E000001tqnFQAQ,,a185E000000r99hQAA
+EUR,Currency Surcharge Terms,a0s5E000003GcTXQA0,,0,false,CurrencySurchargeStatement__c,77,,,,,Auto,Auto,,,false,,,0,TS-1020,a175E000001tqnGQAQ,,a185E000000r99iQAA
+EUR,with IMCD transport (Japan),a0s5E000003GcTdQAK,000000,0,false,,20,,,,,Auto,Auto,,,false,,,0,TS-2501,a175E000001tqmsQAA,,a185E000000r99jQAA
+EUR,Renewal Goods (Japan),a0s5E000003GcTdQAK,000000,0,false,IsRenewal__c,50,,,,,Auto,Auto,,,false,,,0,TS-2503,a175E000001tqnpQAA,,a185E000000r99kQAA
+EUR,Salesrep Details (Japan),a0s5E000003GcTdQAK,000000,0,false,,70,,,,,Auto,Auto,,,false,,,0,TS-2507,a175E000001tqmuQAA,,a185E000000r99lQAA
+EUR,IMCD details (Japan),a0s5E000003GcTdQAK,000000,0,false,,10,,,,,Auto,Auto,,,false,,,0,TS-2500,a175E000001tqmtQAA,,a185E000000r99mQAA
+EUR,Contracted Qty (Japan),a0s5E000003GcTdQAK,000000,0,false,,55,ContractQty__c,equals,True,,Auto,Auto,,,false,,,0,TS-2505,a175E000001tqmyQAA,,a185E000000r99nQAA
+EUR,Standard Terms (China),a0s5E000003GcTcQAK,000000,0,false,,80,,,,,Auto,Auto,,,false,,Always,0,TS-2606,a175E000001tqmxQAA,,a185E000000r99oQAA
+EUR,Quote Comments (Japan),a0s5E000003GcTdQAK,000000,0,false,,60,,,,,Auto,Auto,,,false,,,0,TS-2506,a175E000001tqnPQAQ,,a185E000000r99pQAA
+EUR,Terms and Validity (Japan),a0s5E000003GcTdQAK,000000,0,false,,30,,,,,Auto,Auto,,,false,,,0,TS-2502,a175E000001tqnOQAQ,,a185E000000r99qQAA
+EUR,Standard Terms (Japan),a0s5E000003GcTdQAK,000000,0,false,,80,,,,,Auto,Auto,,,false,,Always,0,TS-2508,a175E000001tqnnQAA,,a185E000000r99rQAA
+EUR,Sold To (China),a0s5E000003GcTcQAK,000000,0,false,,20,,,,,Auto,Auto,,,false,,,0,TS-2601,a175E000001tqnNQAQ,,a185E000000r99sQAA
+EUR,Issued Date and Stamp (China),a0s5E000003GcTcQAK,000000,0,false,,70,,,,,Auto,Auto,,,false,,,0,TS-2605,a175E000001tqnmQAA,,a185E000000r99tQAA
+EUR,IMCD details (china),a0s5E000003GcTcQAK,000000,0,false,,10,,,,,Auto,Auto,,,false,,,0,TS-2600,a175E000001tqmzQAA,,a185E000000r99uQAA
+EUR,Small Letters TC (China),a0s5E000003GcTcQAK,,0,false,,100,,,,,Auto,Auto,,Before,false,,,0,TS-2607,a175E000001tqnjQAA,,a185E000000r99vQAA
+EUR,Goods (China),a0s5E000003GcTcQAK,000000,0,false,IsNotRenewal__c,50,,,,,Auto,Auto,,,false,,,0,TS-2603,a175E000001tqmwQAA,,a185E000000r99wQAA
+EUR,Goods (Japan),a0s5E000003GcTdQAK,000000,0,false,IsNotRenewal__c,50,,,,,Auto,Auto,,,false,,,0,TS-2504,a175E000001tqnlQAA,,a185E000000r99xQAA
+EUR,Quote Comments (China),a0s5E000003GcTcQAK,000000,0,false,,65,,,,,Auto,Auto,,,false,,,0,TS-2604,a175E000001tqnkQAA,,a185E000000r99yQAA
+EUR,Small Letters TC (Japan),a0s5E000003GcTdQAK,,0,false,,100,,,,,Auto,Auto,,Before,false,,,0,TS-2509,a175E000001tqmvQAA,,a185E000000r99zQAA
+EUR,Renewal Goods (China),a0s5E000003GcTcQAK,000000,0,false,IsRenewal__c,50,,,,,Auto,Auto,,,false,,,0,TS-2602,a175E000001tqn0QAA,,a185E000000r9A0QAI
+USD,IMCD details USCA,a0s5E000003GcTbQAK,000000,0,false,IsNotNEUVENDIS__c,10,,,,,Auto,Auto,,,false,,,0,TS-2021,a175E000001tqnHQAQ,,a185E000000r9A1QAI
+USD,with IMCD transport USCA,a0s5E000003GcTbQAK,000000,0,false,IMCDcustomerdelivery__c,20,,,,,Auto,Auto,,,false,,,0,TS-2022,a175E000001tqnIQAQ,,a185E000000r9A2QAI
+USD,without IMCD transport USCA,a0s5E000003GcTbQAK,000000,0,false,IMCDwarehousedelivery__c,20,,,,,Auto,Auto,,,false,,,0,TS-2023,a175E000001tqnJQAQ,,a185E000000r9A3QAI
+USD,Terms and Validity USCA,a0s5E000003GcTbQAK,000000,0,false,,30,,,,,Auto,Auto,,,false,,,0,TS-2024,a175E000001tqmkQAA,,a185E000000r9A4QAI
+USD,Destination Details USCA,a0s5E000003GcTbQAK,000000,0,false,IMCDcustomerdelivery__c,40,,,,,Auto,Auto,,,false,,,0,TS-2025,a175E000001tqnQQAQ,,a185E000000r9A5QAI
+USD,Goods USCA,a0s5E000003GcTbQAK,000000,0,false,IsNotRenewal__c,50,,,,,Auto,Auto,,,false,,,0,TS-2027,a175E000001tqmmQAA,,a185E000000r9A6QAI
+USD,Renewal Goods USCA,a0s5E000003GcTbQAK,000000,0,false,IsRenewal__c,50,,,,,Auto,Auto,,,false,,,0,TS-2026,a175E000001tqnVQAQ,,a185E000000r9A7QAI
+USD,GlobalBasis USCA,a0s5E000003GcTbQAK,000000,0,false,IsGlobalBasis__c,55,ContractQty__c,equals,True,,Auto,Auto,,,false,,,0,TS-2028,a175E000001tqncQAA,,a185E000000r9A8QAI
+USD,GlobalFullDetails USCA,a0s5E000003GcTbQAK,000000,0,false,IsGlobalFullDetails__c,55,,,,,Auto,Auto,,,false,,,0,TS-2029,a175E000001tqnDQAQ,,a185E000000r9A9QAI
+USD,GlobalAvailability USCA,a0s5E000003GcTbQAK,000000,0,false,IsGlobalAvailability__c,55,,,,,Auto,Auto,,,false,,,0,TS-2030,a175E000001tqngQAA,,a185E000000r9AAQAY
+USD,GlobalSurcharge USCA,a0s5E000003GcTbQAK,000000,0,false,IsGlobalSurcharge__c,55,,,,,Auto,Auto,,,false,,,0,TS-2031,a175E000001tqnhQAA,,a185E000000r9ABQAY
+USD,Quote Comments USCA,a0s5E000003GcTbQAK,000000,0,false,,60,,,,,Auto,Auto,,,false,,,0,TS-2032,a175E000001tqnSQAQ,,a185E000000r9ACQAY
+USD,Salesrep Details USCA,a0s5E000003GcTbQAK,000000,0,false,,70,,,,,Auto,Auto,,,false,,,0,TS-2033,a175E000001tqnKQAQ,,a185E000000r9ADQAY
+USD,Exchange Rate Base USCA,a0s5E000003GcTbQAK,,0,false,IsExchangeRateBase__c,74,,,,,Auto,Auto,,,false,,,0,TS-2035,a175E000001tqneQAA,,a185E000000r9AEQAY
+USD,Customer Clearance Terms USCA,a0s5E000003GcTbQAK,,0,false,CustomerClearance__c,75,,,,,Auto,Auto,,,false,,,0,TS-2036,a175E000001tqnCQAQ,,a185E000000r9AFQAY
+USD,Customer Unpacking Terms USCA,a0s5E000003GcTbQAK,,0,false,CustomerUnpacking__c,76,,,,,Auto,Auto,,,false,,,0,TS-2037,a175E000001tqnfQAA,,a185E000000r9AGQAY
+USD,Currency Surcharge Terms USCA,a0s5E000003GcTbQAK,,0,false,CurrencySurchargeStatement__c,77,,,,,Auto,Auto,,,false,,,0,TS-2038,a175E000001tqnGQAQ,,a185E000000r9AHQAY
+USD,Fuel Surcharge Terms USCA,a0s5E000003GcTbQAK,,0,false,FuelSurchargeStatement__c,78,,,,,Auto,Auto,,,false,,,0,TS-2039,a175E000001tqnFQAQ,,a185E000000r9AIQAY
+USD,Standard Terms USCA,a0s5E000003GcTbQAK,000000,0,false,,80,,,,,Auto,Auto,,,true,,Always,0,TS-2040,a175E000001tqnUQAQ,,a185E000000r9AJQAY
+USD,Small Letters TC USCA,a0s5E000003GcTbQAK,,0,false,,100,,,,,Auto,Auto,,Before,false,,,0,TS-2041,a175E000001tqnRQAQ,,a185E000000r9AKQAY
+EUR,Transport Method (asian),a0s5E000003GcTaQAK,,0,false,Is_ANZ__c,56,,,,,Auto,Auto,,,false,,,0,TS-2020,a175E000001tqnMQAQ,,a185E000000r9ALQAY
+EUR,Transport Method,a0s5E000003GcTXQA0,,0,false,Is_ANZ__c,73,,,,,Auto,Auto,,,false,,,0,TS-2019,a175E000001tqnLQAQ,,a185E000000r9AMQAY
+EUR,Transport Method USCA,a0s5E000003GcTbQAK,,0,false,Is_ANZ__c,73,,,,,Auto,Auto,,,false,,,0,TS-2034,a175E000001tqnLQAQ,,a185E000000r9ANQAY

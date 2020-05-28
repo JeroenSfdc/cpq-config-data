@@ -1,0 +1,965 @@
+CurrencyIsoCode,Name,SBQQ__CustomSource__c,SBQQ__FontFamily__c,SBQQ__FontSize__c,SBQQ__Markup__c,SBQQ__RawMarkup__c,SBQQ__TableStyle__c,SBQQ__TextColor__c,SBQQ__Type__c,Key__c,Errors,Id
+EUR,Salesrep Details,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 30px;"">
+	<tbody>
+		<tr>
+			<td style=""width: 150px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.placeanddate}:</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.PlaceofSignature__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.DateofSignature__c}</span></p>
+			</td>
+			<td style=""width: 200px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.namecontact}:</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.SalesRepName__c}</span></p>
+
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.phone}:</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.SalesRepPhone__c}</span></p>
+			</td>
+			<td style=""width: 190px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.email}:</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.SalesRepEmail__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0014,,a175E000001tqmjQAA
+EUR,Terms and Validity,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 30px;"">
+	<tbody>
+		<tr>
+			<td style=""border: 0.5px solid black; width: 300px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.Delivery}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedIncoTerm__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedPaymentTerms__c}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 240px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.Validity}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.QuoteExpirationDateDisplay__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!Text.VAT}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0012,,a175E000001tqmkQAA
+EUR,Quote Header Content,,Roboto,12,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px;"">
+	<tbody>
+		<tr>
+			<td style=""width: 200px; height: 20px;"">&#160;</td>
+			<td style=""width: 340px; height: 20px; text-align: left; vertical-align: baseline;"">
+			<p><strong>{!Text.Quote}</strong></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0007,,a175E000001tqmlQAA
+EUR,Goods,,Roboto,8,,,Standard,,Line Items,CT-0009,,a175E000001tqmmQAA
+EUR,From Warehouse,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 60px;"">
+	<tbody>
+		<tr>
+			<td style=""border: 0.5px solid black; width: 300px; height: 60px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.SoldTo}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerFullName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.PrimaryContactName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingStreet__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingPC__c} {!quote.AccountBillingCity__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingState__c} {!quote.TF_TranslatedAccountBillingCountry__c}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 240px; height: 60px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.WAREHOUSE}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.ShipFromWarehouse__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.ShipFromStreetNew__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.ShipFromPostalCodeNew__c} {!quote.ShipFromCityNew__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedShipFromCountry__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0000,,a175E000001tqmnQAA
+EUR,Footer Content,,Roboto,,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px; height: 40px;"">
+	<tbody>
+		<tr>
+			<td style=""border-color: rgb(0, 0, 0); width: 200px; height: 40px; background-color: rgb(255, 255, 255);""><img alt=""User-added image"" height=""60"" src=""{!quote.CertificationLogo__c}"" width=""200"" /></td>
+			<td style=""border-color: rgb(0, 0, 0); width: 140px; height: 40px; background-color: rgb(255, 255, 255);"">
+			<p>&#160;</p>
+
+			<p><span style=""font-size:6px;"">{!Text.Phone}: {!quote.CompanyPhone__c}</span></p>
+
+			<p><span style=""font-size:6px;"">{!Text.Fax}: {!quote.CompanyFax__c}</span></p>
+
+			<p><span style=""font-size:6px;"">{!quote.CompanyEmail__c}</span></p>
+
+			<p><span style=""font-size:6px;"">{!quote.CompanyWebsite__c}</span></p>
+			</td>
+			<td style=""border-color: rgb(0, 0, 0); width: 200px; height: 40px; background-color: rgb(255, 255, 255);"">
+			<p>&#160;</p>
+
+			<p><span style=""font-size:6px;"">{!quote.BankData__c}</span></p>
+
+			<p style=""text-align: right;""><span style=""font-size:10px;"">.</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&#160;</p>",Standard,,HTML,CT-0008,,a175E000001tqmoQAA
+EUR,To Delivered,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 60px;"">
+	<tbody>
+		<tr>
+			<td style=""border: 0.5px solid black; width: 300px; height: 60px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.SoldTo}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerFullName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.PrimaryContactName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingStreet__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingPC__c} {!quote.AccountBillingCity__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingState__c} {!quote.TF_TranslatedAccountBillingCountry__c}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 240px; height: 60px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.DeliverTo}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerShiptoname__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerStreet__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerPC__c} {!quote.CustomerCity__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerState__c} {!quote.TF_TranslatedCustomerCountry__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0011,,a175E000001tqmpQAA
+EUR,IMCD details,,Roboto,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
+	<tbody>
+		<tr>
+			<td rowspan=""2"" style=""width: 10px; height: 100px;"">&#160;</td>
+			<td rowspan=""2"" style=""width: 290px; height: 100px;"">
+			<p>&#160; &#160; &#160; <img alt=""User-added image"" height=""43"" src=""https://imcd--c.documentforce.com/servlet/servlet.ImageServer?id=0150O000005XS8J&amp;oid=00D0O000000t9X5&amp;lastMod=1525769542000"" width=""150"" /></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyName__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyStreet__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyPC__c} {!quote.IMCDcompanyCity__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyState__c} {!quote.TF_TranslatedIMCDcompanyCountry__c}</span></p>
+
+			<p>&#160;</p>
+			</td>
+			<td style=""border-color: rgb(0, 0, 0); width: 120px; height: 90px;""><span style=""font-size:8px;"">{!Text.Reference}:</span> <span style=""font-size:10px;"">{!quote.Name}</span></td>
+			<td style=""border-color: rgb(0, 0, 0); width: 120px; height: 90px;"">&#160;</td>
+		</tr>
+		<tr>
+			<td colspan=""2"" style=""border-color: rgb(0, 0, 0); width: 240px; height: 10px;"">&#160;</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0010,,a175E000001tqmqQAA
+EUR,Japan Footer Content,,,,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px; height: 40px;"">
+	<tbody>
+		<tr>
+			<td style=""border-color: rgb(0, 0, 0); width: 200px; height: 40px; background-color: rgb(255, 255, 255);""><img alt=""User-added image"" height=""60"" src=""{!quote.CertificationLogo__c}"" width=""200"" /></td>
+			<td style=""border-color: rgb(0, 0, 0); width: 40px; height: 40px; background-color: rgb(255, 255, 255);"">
+			<p>&#160;</p>
+			</td>
+			<td style=""border-color: rgb(0, 0, 0); width: 300px; height: 40px; background-color: rgb(255, 255, 255);"">
+			<p>&#160;</p>
+
+			<p><span style=""font-size:6px;"">{!quote.BankData__c}</span></p>
+
+			<p style=""text-align: right;""><span style=""font-size:10px;"">.</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&#160;</p>",Standard,,HTML,CT-0059,,a175E000001tqmrQAA
+EUR,Japan to Delivered,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 60px;"">
+	<tbody>
+		<tr>
+			<td style=""border: 0.5px solid black; width: 300px; height: 60px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; &#24481;&#35211;&#31309;&#20808; Offered to</strong></span></p>
+
+			<p>&#160;</p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerFullName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.PrimaryContactName__c}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 240px; height: 60px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; &#32013;&#21697;&#20808; Delivery to</strong></span></p>
+
+			<p>&#160;</p>
+
+			<p><span style=""font-size:10px;"">&#160;&#36020;&#31038;&#22269;&#20869;&#25351;&#23450;&#22580;&#25152;&#28193;&#12375;</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0049,,a175E000001tqmsQAA
+EUR,Japan IMCD details,,,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
+	<tbody>
+		<tr>
+			<td rowspan=""2"" style=""width: 10px; height: 100px;"">&#160;</td>
+			<td rowspan=""2"" style=""width: 290px; height: 100px;"">
+			<p>&#160; &#160; &#160; <img alt=""User-added image"" height=""43"" src=""https://imcd--c.documentforce.com/servlet/servlet.ImageServer?id=0150O000005XS8J&amp;oid=00D0O000000t9X5&amp;lastMod=1525769542000"" width=""150"" /></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyName__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyStreet__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyCity__c}, {!quote.TF_TranslatedIMCDcompanyCountry__c} {!quote.IMCDcompanyPC__c}</span></p>
+
+			<p>&#160;</p>
+			</td>
+			<td style=""border-color: rgb(0, 0, 0); width: 160px; height: 90px;"">
+			<p><span style=""font-size:8px;"">&#35211;&#31309;&#26360;&#30058;&#21495;&#12288;Quotation Number:</span></p>
+
+			<p>&#160;</p>
+
+			<p><span style=""font-size:10px;"">{!document.Name}</span></p>
+			</td>
+			<td style=""border-color: rgb(0, 0, 0); width: 80px; height: 90px;"">&#160;</td>
+		</tr>
+		<tr>
+			<td colspan=""2"" style=""border-color: rgb(0, 0, 0); width: 240px; height: 10px;"">&#160;</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0048,,a175E000001tqmtQAA
+EUR,Japan Salesrep Details,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 30px;"">
+	<tbody>
+		<tr>
+			<td style=""width: 150px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; &#30330;&#34892;&#26085; Issued Date:</strong></span></p>
+
+			<p>&#160;</p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.DateofSignature__c}</span></p>
+			</td>
+			<td style=""width: 200px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; &#21942;&#26989;&#25285;&#24403;&#12288;Person in Charge of Sales:</strong></span></p>
+
+			<p>&#160;</p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.SalesRepName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.SalesRepPhone__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.SalesRepEmail__c}</span></p>
+			</td>
+			<td style=""width: 190px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; &#21463;&#27880;&#25285;&#24403;&#12288;Person in Charge of Order Processing:</strong></span></p>
+
+			<p>&#160;</p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerServiceName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerServicePhone__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerServiceEmail__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0055,,a175E000001tqmuQAA
+EUR,Japan Small Letters,,,5.5,,,Standard,000000,Quote Terms,CT-0057,,a175E000001tqmvQAA
+EUR,China Goods,,,8,,,Standard,,Line Items,CT-0062,,a175E000001tqmwQAA
+EUR,China Standard Terms,,,10,,,Standard,000000,Quote Terms,CT-0066,,a175E000001tqmxQAA
+EUR,Japan Contracted Qty,,,8,,,Standard,,Line Items,CT-0053,,a175E000001tqmyQAA
+EUR,China IMCD details,,,6,,"<p>&#160;</p>
+
+<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
+	<tbody>
+		<tr>
+			<td rowspan=""3"" style=""width: 10px; height: 100px;"">&#160;</td>
+			<td rowspan=""3"" style=""width: 290px; height: 100px;"">
+			<p>&#160; &#160; &#160; <img alt=""User-added image"" height=""43"" src=""https://imcd--c.documentforce.com/servlet/servlet.ImageServer?id=0150O000005XS8J&amp;oid=00D0O000000t9X5&amp;lastMod=1525769542000"" width=""150"" /></p>
+
+			<p><span style=""font-size:10px;"">{!quote.IMCDcompanyName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">{!quote.IMCDcompanyStreet__c}</span></p>
+
+			<p><span style=""font-size:10px;"">{!quote.IMCDcompanyPC__c} {!quote.IMCDcompanyCity__c}</span></p>
+
+			<p><span style=""font-size:10px;"">{!quote.IMCDcompanyState__c} {!quote.TF_TranslatedIMCDcompanyCountry__c}</span></p>
+
+			<p>&#160;</p>
+			</td>
+			<td style=""border: 0.5px solid black;; width: 240px; height: 33px;"">
+			<p><span style=""font-size:8px;""><strong>&#160;Price list number &#25253;&#20215;&#21333;&#21495;</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.Name}</span></p>
+
+			<p>&#160;</p>
+			</td>
+		</tr>
+		<tr>
+			<td style=""border: 0.5px solid black;; width: 240px; height: 33px;"">
+			<p><span style=""font-size:8px;""><strong>&#160;IMCD Salesperson &#38144;&#21806;&#20154;&#21592;</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.SalesRepName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.SalesRepPhone__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.SalesRepEmail__c}</span></p>
+
+			<p>&#160;</p>
+			</td>
+		</tr>
+		<tr>
+			<td style=""border: 0.5px solid black; width: 240px; height: 33px; vertical-align: top;"">
+			<p><span style=""font-size:8px;""><strong>&#160;IMCD Customer Service &#23458;&#25143;&#26381;&#21153;</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerServiceName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerServicePhone__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerServiceEmail__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0060,,a175E000001tqmzQAA
+EUR,China Goods REN,,,8,,,Standard,,Line Items,CT-0063,,a175E000001tqn0QAA
+EUR,Renewal Header Content,,Roboto,,,"<table align=""center"" border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 550px; height: 20px;"">
+	<thead>
+		<tr>
+			<td scope=""col"" style=""text-align: center;"">
+			<p><span style=""font-size:14px;"">{!Text.Renewal}</span></p>
+			</td>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
+</table>",Standard,,HTML,CT-0003,,a175E000001tqn1QAA
+EUR,asia Goods REN,,,8,,,Standard,,Line Items,CT-0016,,a175E000001tqn2QAA
+EUR,asia LOMAS details,,,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
+	<tbody>
+		<tr>
+			<td rowspan=""2"" style=""width: 10px; height: 100px;"">&#160;</td>
+			<td rowspan=""2"" style=""width: 290px; height: 100px;"">
+			<p>&#160; &#160; &#160; <img alt=""User-added image"" height=""43"" src=""https://imcd--c.documentforce.com/servlet/servlet.ImageServer?id=0150O000005XSTR&amp;oid=00D0O000000t9X5&amp;lastMod=1530024219000"" width=""150"" /></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyName__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyStreet__c} {!quote.IMCDcompanyPC__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyCity__c}, {!quote.IMCDcompanyState__c} </span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.TF_TranslatedIMCDcompanyCountry__c}</span></p>
+
+			<p>&#160;</p>
+			</td>
+			<td style=""border-color: rgb(0, 0, 0); width: 120px; height: 90px;""><span style=""font-size:8px;"">{!Text.Reference}:</span> <span style=""font-size:10px;"">{!quote.Name}</span></td>
+			<td style=""border-color: rgb(0, 0, 0); width: 120px; height: 90px;"">&#160;</td>
+		</tr>
+		<tr>
+			<td colspan=""2"" style=""border-color: rgb(0, 0, 0); width: 240px; height: 10px;"">&#160;</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0025,,a175E000001tqn3QAA
+EUR,asia Terms and Validity,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 30px;"">
+	<tbody>
+		<tr>
+			<td style=""border: 0.5px solid black; width: 300px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.Delivery}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedIncoTerm__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedPaymentTerms__c}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 240px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.Validity}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.QuoteExpirationDate__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!Text.VAT}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0030,,a175E000001tqn4QAA
+EUR,asia Salesrep Details,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 30px;"">
+	<tbody>
+		<tr>
+			<td style=""width: 150px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.placeanddate}:</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.PlaceofSignature__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.DateofSignature__c}</span></p>
+			</td>
+			<td style=""width: 200px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.namecontact}:</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.SalesRepName__c}</span></p>
+
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.phone}:</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.SalesRepPhone__c}</span></p>
+			</td>
+			<td style=""width: 190px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.email}:</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.SalesRepEmail__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0019,,a175E000001tqn5QAA
+EUR,asia Quote Comments,,,,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
+	<tbody>
+		<tr>
+			<td style=""width: 10px; height: 50px;"">&#160;</td>
+			<td style=""width: 530px; height: 50px;"">
+			<p>&#160;</p>
+
+			<p><span style=""font-size:10px;"">{!quote.SBQQ__Introduction__c}</span></p>
+
+			<p>&#160;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0020,,a175E000001tqn6QAA
+EUR,asia Footer Content,,,,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px; height: 40px;"">
+	<tbody>
+		<tr>
+			<td style=""border-color: rgb(0, 0, 0); width: 200px; height: 40px; background-color: rgb(255, 255, 255);""><img alt=""User-added image"" height=""60"" src=""{!quote.CertificationLogo__c}"" width=""200"" /></td>
+			<td style=""border-color: rgb(0, 0, 0); width: 140px; height: 40px; background-color: rgb(255, 255, 255);"">
+			<p>&#160;</p>
+
+            <p><span style=""font-size:6px;"">{!Text.Phone}: {!quote.CompanyPhone__c}</span></p>
+
+			<p><span style=""font-size:6px;"">{!Text.Fax}: {!quote.CompanyFax__c}</span></p>
+
+			<p>&#160;</p>
+
+			<p><span style=""font-size:6px;"">{!quote.CompanyEmail__c}</span></p>
+
+			<p><span style=""font-size:6px;"">{!quote.CompanyWebsite__c}</span></p>
+			</td>
+			<td style=""border-color: rgb(0, 0, 0); width: 200px; height: 40px; background-color: rgb(255, 255, 255);"">
+			<p>&#160;</p>
+
+            <p><span style=""font-size:6px;"">{!quote.BankData__c}</span></p>
+
+			<p style=""text-align: right;""><span style=""font-size:10px;"">.</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&#160;</p>",Standard,,HTML,CT-0028,,a175E000001tqn7QAA
+EUR,asia Goods,,,8,,,Standard,,Line Items,CT-0021,,a175E000001tqn8QAA
+EUR,asia To Delivered,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 60px;"">
+	<tbody>
+		<tr>
+			<td style=""border: 0.5px solid black; width: 300px; height: 60px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.SoldTo}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerFullName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingStreet__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingPC__c} {!quote.AccountBillingCity__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingState__c} {!quote.TF_TranslatedAccountBillingCountry__c}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 240px; height: 60px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.DeliverTo}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerShiptoname__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerStreet__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerPC__c} {!quote.CustomerCity__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerState__c} {!quote.TF_TranslatedCustomerCountry__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0023,,a175E000001tqn9QAA
+EUR,asia IMCD details,,,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
+	<tbody>
+		<tr>
+			<td rowspan=""2"" style=""width: 10px; height: 100px;"">&#160;</td>
+			<td rowspan=""2"" style=""width: 290px; height: 100px;"">
+			<p>&#160; &#160; &#160; <img alt=""User-added image"" height=""43"" src=""https://imcd--c.documentforce.com/servlet/servlet.ImageServer?id=0150O000005XS8J&amp;oid=00D0O000000t9X5&amp;lastMod=1525769542000"" width=""150"" /></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyName__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyStreet__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyPC__c} {!quote.IMCDcompanyCity__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyState__c} {!quote.TF_TranslatedIMCDcompanyCountry__c}</span></p>
+
+			<p>&#160;</p>
+			</td>
+			<td style=""border-color: rgb(0, 0, 0); width: 120px; height: 90px;""><span style=""font-size:8px;"">{!Text.Reference}:</span> <span style=""font-size:10px;"">{!quote.Name}</span></td>
+			<td style=""border-color: rgb(0, 0, 0); width: 120px; height: 90px;"">&#160;</td>
+		</tr>
+		<tr>
+			<td colspan=""2"" style=""border-color: rgb(0, 0, 0); width: 240px; height: 10px;"">&#160;</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0026,,a175E000001tqnAQAQ
+EUR,asia Small Letters,,,5.5,,,Standard,000000,Quote Terms,CT-0017,,a175E000001tqnBQAQ
+EUR,Customer Clearance,,Roboto,10,,,Standard,,Quote Terms,CT-0035,,a175E000001tqnCQAQ
+EUR,GlobalFullDetails,,Roboto,8,,,Standard,,Line Items,CT-0037,,a175E000001tqnDQAQ
+EUR,Brazil Custom VAT,,Roboto,,,Content Key CT-0041 Brazil Custom VAT,Standard,,HTML,CT--0041,,a175E000001tqnEQAQ
+EUR,Fuel Surcharge,,Roboto,10,,,Standard,,Quote Terms,CT-0040,,a175E000001tqnFQAQ
+EUR,Currency Surcharge,,Roboto,10,,,Standard,,Quote Terms,CT-0039,,a175E000001tqnGQAQ
+EUR,USCA IMCD details,,Roboto,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
+	<tbody>
+		<tr>
+			<td rowspan=""2"" style=""width: 10px; height: 100px;"">&#160;</td>
+			<td rowspan=""2"" style=""width: 290px; height: 100px;"">
+			<p>&#160; &#160; &#160; <img alt=""User-added image"" height=""43"" src=""https://imcd--c.documentforce.com/servlet/servlet.ImageServer?id=0150O000005XS8J&amp;oid=00D0O000000t9X5&amp;lastMod=1525769542000"" width=""150"" /></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyName__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyStreet__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyCity__c}, {!quote.IMCDcompanyState__c} {!quote.IMCDcompanyPC__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.TF_TranslatedIMCDcompanyCountry__c}</span></p>
+
+			<p>&#160;</p>
+			</td>
+			<td style=""border-color: rgb(0, 0, 0); width: 120px; height: 90px;""><span style=""font-size:8px;"">{!Text.Reference}:</span> <span style=""font-size:10px;"">{!quote.Name}</span></td>
+			<td style=""border-color: rgb(0, 0, 0); width: 120px; height: 90px;"">&#160;</td>
+		</tr>
+		<tr>
+			<td colspan=""2"" style=""border-color: rgb(0, 0, 0); width: 240px; height: 10px;"">&#160;</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0044,,a175E000001tqnHQAQ
+EUR,USCA To Delivered,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 60px;"">
+	<tbody>
+		<tr>
+			<td style=""border: 0.5px solid black; width: 300px; height: 60px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.SoldTo}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerFullName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.PrimaryContactName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingStreet__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingCity__c}, {!quote.AccountBillingState__c} {!quote.AccountBillingPC__c} </span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedAccountBillingCountry__c}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 240px; height: 60px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.DeliverTo}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerShiptoname__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerStreet__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerCity__c}, {!quote.CustomerState__c} {!quote.CustomerPC__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedCustomerCountry__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0045,,a175E000001tqnIQAQ
+EUR,USCA From Warehouse,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 60px;"">
+	<tbody>
+		<tr>
+			<td style=""border: 0.5px solid black; width: 300px; height: 60px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.SoldTo}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerFullName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.PrimaryContactName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingStreet__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingCity__c}, {!quote.AccountBillingState__c} {!quote.AccountBillingPC__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedAccountBillingCountry__c}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 240px; height: 60px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.WAREHOUSE}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.ShipFromWarehouse__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.ShipFromStreetNew__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.ShipFromCityNew__c}, {!quote.ShipFromState__c}, {!quote.ShipFromPostalCodeNew__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedShipFromCountry__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0046,,a175E000001tqnJQAQ
+EUR,USCA Salesrep Details,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 30px;"">
+	<tbody>
+		<tr>
+			<td style=""width: 200px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.namecontact}:</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.Account_Owner__c}</span></p>
+
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.phone}:</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.Account_Owner_Phone__c}</span></p>
+			</td>
+			<td style=""width: 150px; height: 30px; vertical-align: top;"">&#160;</td>
+			<td style=""width: 190px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.email}:</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.Account_Owner_Email__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0047,,a175E000001tqnKQAQ
+EUR,Transport Method,,,10,,{!Text.TransportMethod}: {!quote.TransportMethod__c},Standard,,HTML,CT-0042,,a175E000001tqnLQAQ
+EUR,asia Transport Method,,,10,,{!Text.TransportMethod}: {!quote.TransportMethod__c},Standard,,HTML,CT-0043,,a175E000001tqnMQAQ
+EUR,China Sold To,,,10,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
+	<tbody>
+		<tr>
+			<td rowspan=""3"" style=""width: 10px; height: 100px;"">&#160;</td>
+			<td rowspan=""3"" style=""width: 290px; height: 100px; vertical-align: top;"">
+			<p><span style=""font-size:8px;""><strong>&#160; Sold to &#23458;&#25143;&#20449;&#24687;</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomizedAccountName__c}</span></p>
+
+			<p>&#160;</p>
+
+			<p><span style=""font-size:8px;""><strong>&#160; Customer Contact Person &#23458;&#25143;&#32852;&#32476;&#20154; </strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!primaryContact.Name}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!primaryContact.Fax}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!primaryContact.MobilePhone}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!primaryContact.Email}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 240px; height: 33px; vertical-align: top;"">
+			<p><span style=""font-size:8px;""><strong>&#160;Price Validity &#25253;&#20215;&#26377;&#25928;&#26399; </strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.QuoteExpirationDateDisplay__c}</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style=""border: 0.5px solid black; width: 240px; height: 33px; vertical-align: top;"">
+			<p><span style=""font-size:8px;""><strong>&#160;Terms of delivery &#20132;&#36135;&#26465;&#27454;</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedIncoTerm__c}</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style=""border: 0.5px solid black; width: 240px; height: 33px; vertical-align: top;"">
+			<p><span style=""font-size:8px;""><strong>&#160;Terms of payment &#20184;&#27454;&#26465;&#20214;</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedPaymentTerms__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0061,,a175E000001tqnNQAQ
+EUR,Japan Terms and Validity,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 30px;"">
+	<tbody>
+		<tr>
+			<td style=""border: 0.5px solid black; width: 300px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; &#37197;&#36865;&#12539;&#25903;&#25173;&#12356;&#26465;&#20214; Terms of Delivery and Payment</strong></span></p>
+
+			<p>&#160;</p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedIncoTerm__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedPaymentTerms__c}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 240px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; &#35211;&#31309;&#26377;&#21177;&#26399;&#38480; Quote Expiration Date</strong></span></p>
+
+			<p>&#160;</p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.QuoteExpirationDateDisplay__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0050,,a175E000001tqnOQAQ
+EUR,Japan Quote Comments,,,,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
+	<tbody>
+		<tr>
+			<td style=""width: 10px; height: 50px;"">&#160;</td>
+			<td style=""width: 530px; height: 50px;"">
+			<p><span style=""font-size:6px;"">&#20633;&#32771;&#65288;Remarks)</span></p>
+
+			<p>&#160;</p>
+
+			<p><span style=""font-size:10px;"">&#28040;&#36027;&#31246;&#25244; excl TAX</span></p>
+
+			<p>&#160;</p>
+
+			<p><span style=""font-size:10px;"">{!quote.SBQQ__Introduction__c}</span></p>
+
+			<p>&#160;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0054,,a175E000001tqnPQAQ
+EUR,Destination Details,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 30px;"">
+	<tbody>
+		<tr>
+			<td style=""border: 0.5px solid black; border-image: none; width: 160px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.Harbour}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.PortAirportofDischarge__c}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 140px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.Place}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerCity__c}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 240px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.Country}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedShipToCountry__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0013,,a175E000001tqnQQAQ
+EUR,Small Letters,,Roboto,5.5,,,Standard,000000,Quote Terms,CT-0005,,a175E000001tqnRQAQ
+EUR,Quote Comments,,Roboto,,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
+	<tbody>
+		<tr>
+			<td style=""width: 10px; height: 50px;"">&#160;</td>
+			<td style=""width: 530px; height: 50px;"">
+			<p>&#160;</p>
+
+			<p><span style=""font-size:10px;"">{!quote.SBQQ__Introduction__c}</span></p>
+
+			<p>&#160;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0001,,a175E000001tqnSQAQ
+EUR,NEUVENDIS details,,Roboto,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
+	<tbody>
+		<tr>
+			<td rowspan=""2"" style=""width: 10px; height: 100px;"">&#160;</td>
+			<td rowspan=""2"" style=""width: 290px; height: 100px;"">
+			<p>&#160; &#160; &#160; <img alt=""User-added image"" height=""43"" src=""https://imcd--c.documentforce.com/servlet/servlet.ImageServer?id=0150O000005zkSO&amp;oid=00D0O000000t9X5&amp;lastMod=1540477598000"" width=""150"" /></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyName__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyStreet__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyPC__c} {!quote.IMCDcompanyCity__c}</span></p>
+
+			<p><span style=""font-size:8px;"">{!quote.IMCDcompanyState__c} {!quote.TF_TranslatedIMCDcompanyCountry__c}</span></p>
+
+			<p>&#160;</p>
+			</td>
+			<td style=""border-color: rgb(0, 0, 0); width: 120px; height: 90px;""><span style=""font-size:8px;"">{!Text.Reference}:</span> <span style=""font-size:10px;"">{!quote.Name}</span></td>
+			<td style=""border-color: rgb(0, 0, 0); width: 120px; height: 90px;"">&#160;</td>
+		</tr>
+		<tr>
+			<td colspan=""2"" style=""border-color: rgb(0, 0, 0); width: 240px; height: 10px;"">&#160;</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0006,,a175E000001tqnTQAQ
+EUR,Standard Terms,,Roboto,10,,,Standard,000000,Quote Terms,CT-0004,,a175E000001tqnUQAQ
+EUR,Goods REN,,Roboto,8,,,Standard,,Line Items,CT-0002,,a175E000001tqnVQAQ
+EUR,asia Standard Terms,,,10,,,Standard,000000,Quote Terms,CT-0018,,a175E000001tqnWQAQ
+EUR,asia Destination Details,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 30px;"">
+	<tbody>
+		<tr>
+			<td style=""border: 0.5px solid black; border-image: none; width: 160px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.Harbour}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.PortAirportofDischarge__c}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 140px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.Place}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerCity__c}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 240px; height: 30px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.Country}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedShipToCountry__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0022,,a175E000001tqnXQAQ
+EUR,asia From Warehouse,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 60px;"">
+	<tbody>
+		<tr>
+			<td style=""border: 0.5px solid black; width: 300px; height: 60px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.SoldTo}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.CustomerFullName__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingStreet__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingPC__c} {!quote.AccountBillingCity__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.AccountBillingState__c} {!quote.TF_TranslatedAccountBillingCountry__c}</span></p>
+			</td>
+			<td style=""border: 0.5px solid black; width: 240px; height: 60px; vertical-align: top;"">
+			<p><span style=""font-size:6px;""><strong>&#160; {!Text.WAREHOUSE}</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.ShipFromWarehouse__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.ShipFromStreetNew__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.ShipFromPostalCodeNew__c} {!quote.ShipFromCityNew__c}</span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.TF_TranslatedShipFromCountry__c}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0024,,a175E000001tqnYQAQ
+EUR,asia Quote Header Content,,,12,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px;"">
+	<tbody>
+		<tr>
+			<td style=""width: 200px; height: 20px;"">&#160;</td>
+			<td style=""width: 340px; height: 20px; text-align: left; vertical-align: baseline;"">
+			<p><strong>{!Text.Quote}</strong></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0031,,a175E000001tqnZQAQ
+EUR,asia Renewal Header Content,,,,,"<table align=""center"" border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 550px; height: 20px;"">
+	<thead>
+		<tr>
+			<td scope=""col"" style=""text-align: center;"">
+			<p><span style=""font-size:14px;"">{!Text.Renewal}</span></p>
+			</td>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
+</table>",Standard,,HTML,CT-0027,,a175E000001tqnaQAA
+EUR,font test,,Noto Sans SC,,,"<div>diacritix</div>
+
+<div>finnish &#196;&#214;&#228;&#246;<br />
+dansih &#198;&#216;&#197;&#230;&#248;&#229;<br />
+norwegian &#198;&#216;&#197;&#230;&#248;&#229;<br />
+german &#196;&#214;&#220;&#228;&#246;&#252;&#223;<br />
+spanish &#193;&#201;&#205;&#209;&#211;&#218;&#220;&#225;&#233;&#237;&#241;&#243;&#250;&#252; &#161;&#191;<br />
+portuguese &#193;&#201;&#205;&#211;&#218;&#194;&#202;&#212;&#192;&#227;&#245;&#231;&#225;&#233;&#237;&#243;&#250;&#226;&#234;&#244;&#224;<br />
+french &#192;&#194;&#199;&#201;&#200;&#202;&#203;&#206;&#207;&#212;&#338;&#217;&#219;&#220;&#376;&#224;&#226;&#231;&#233;&#232;&#234;&#235;&#238;&#239;&#244;&#339;&#249;&#251;&#252;&#255;<br />
+italian &#192;&#201;&#200;&#204;&#210;&#217;&#224;&#233;&#232;&#236;&#242;&#249;</div>
+
+<div>polish &#261;&#322;&#324;&#243;&#380;&#263;&#281;&#347;&#378;<br />
+czech &#193;&#270;&#201;&#282;&#327;&#211;&#344;&#356;&#218;&#366;&#221;&#225;&#271;&#233;&#283;&#328;&#243;&#345;&#357;&#250;&#367;&#253;<br />
+estonian &#196;&#214;&#213;&#220;&#228;&#246;&#245;&#252;<br />
+latvian &#256;&#274;&#290;&#298;&#310;&#315;&#325;&#332;&#342;&#362;&#257;&#275;&#291;&#299;&#311;&#316;&#326;&#333;&#343;&#363;<br />
+lituanian &#260;&#280;&#278;&#302;&#370;&#362;&#261;&#281;&#279;&#303;&#371;&#363;</div>
+
+<div>japan &#12354;&#12356;&#12358;&#12360;&#12362;&#12398; and &#12450;&#12452;&#12454;&#12456;&#12458;&#12494;<br />
+chinese &#26085;&#26412;&#35486;&#21193;&#24375;<br />
+korean &#50948;&#53412;&#48177;&#44284;&#50640;</div>
+
+<div>&#35799;/&#35433;&#35799;/&#35433;&#35799;/&#35433;&#35799;/&#35433;&#35799;/&#35433;&#35799;/&#35433;</div>
+
+<div>russian &#1040;&#1041;&#1042;&#1043;&#1044;&#1045;&#1046;&#1047;&#1048;&#1050;&#1051;&#1052;&#1053;&#1054;&#1055;&#1056;&#1057;&#1058;&#1059;&#1060;&#1061;&#1062;&#1063;&#1064;<br />
+arabic &#1575; &#1576; &#1578; &#1579; &#1580; &#1581; &#1582; &#1583; &#1584; &#1585; &#1586; &#1587; &#1588; &#1589; &#1590; &#1591; &#1592; &#1593; &#1594; &#1601; &#1602; &#1603; &#1604; &#1605; &#1606; &#1607; &#1608; &#1610;<br />
+greek &#913;&#914;&#915;&#916;&#917;&#918;&#919;&#920;&#921;&#922;&#923;&#924;&#925;&#926;&#927;&#928;&#929;&#931;&#932;&#933;&#934;&#935;&#936;&#937; &#945;&#946;&#947;&#948;&#949;&#950;&#951;&#952;&#953;&#954;&#955;&#956;&#957;&#958;&#959;&#960;&#961;&#963;&#962;&#964;&#965;&#966;&#967;&#968;&#969;<br />
+thailand &#3629;&#3633;&#3591;&#3588;&#3633;&#3656;&#3609;&#3623;&#3636;&#3626;&#3619;&#3619;&#3594;&#3609;&#3637;&#3618;&#3660;&#3650;&#3588;&#3617;&#3641;&#3605;&#3619;<br />
+vietnam T&#244;ith&#237;chc&#225;ing&#7921;a&#273;en&#273;&#243;</div>",Standard,,HTML,CT-0015,,a175E000001tqnbQAA
+EUR,GlobalBasis,,Roboto,8,,,Standard,,Line Items,CT-0032,,a175E000001tqncQAA
+EUR,asia Contracted Qty,,,8,,,Standard,,Line Items,CT-0033,,a175E000001tqndQAA
+EUR,Exchange Rate Base,,Roboto,10,,{!Text.Exchange}: {!quote.ExchangeRateBase__c},Standard,,HTML,CT-0038,,a175E000001tqneQAA
+EUR,Customer Unpacking,,Roboto,10,,,Standard,,Quote Terms,CT-0036,,a175E000001tqnfQAA
+EUR,GlobalAvailability,,Roboto,8,,,Standard,,Line Items,CT-0029,,a175E000001tqngQAA
+EUR,GlobalSurcharge,,Roboto,8,,,Standard,,Line Items,CT-0034,,a175E000001tqnhQAA
+EUR,China Quote Header Content,,,12,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px;"">
+	<tbody>
+		<tr>
+			<td style=""width: 200px; height: 20px;"">&#160;</td>
+			<td style=""width: 340px; height: 20px; text-align: left; vertical-align: baseline;"">
+			<p><strong>Price List 报价单</strong></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0068,,a175E000001tqniQAA
+EUR,China Small Letters,,,5.5,,,Standard,000000,Quote Terms,CT-0067,,a175E000001tqnjQAA
+EUR,China Quote Comments,,,,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
+	<tbody>
+		<tr>
+			<td style=""width: 540px; height: 50px;"">
+			<p><span style=""font-size:8px;""><strong>&#160; Remarks: </strong></span></p>
+
+			<p><span style=""font-size:10px;"">{!quote.SBQQ__Introduction__c}</span></p>
+
+			<p>&#160;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0064,,a175E000001tqnkQAA
+EUR,Japan Goods,,,8,,,Standard,,Line Items,CT-0051,,a175E000001tqnlQAA
+EUR,China Date and Stamp,,Noto Sans SC,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border:0.5px solid black;height:80px;width:540px;"">
+	<tbody>
+		<tr>
+			<td style=""width: 200px; height: 80px; vertical-align: top;"">
+			<p><span style=""font-size:8px;""><strong>&#160;Issued Date &#26085;&#26399;:</strong></span></p>
+
+			<p><span style=""font-size:10px;"">&#160;{!quote.DateofSignature__c}</span></p>
+			</td>
+			<td style=""width: 150px; height: 80px; vertical-align: top;"">&#160;</td>
+			<td style=""width: 190px; height: 80px; vertical-align: top;"">
+			<p><span style=""font-size:8px;""><strong>&#160; Company Stamp &#31614;&#31456;:</strong></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0065,,a175E000001tqnmQAA
+EUR,Japan Standard Terms,,,10,,,Standard,000000,Quote Terms,CT-0056,,a175E000001tqnnQAA
+EUR,Japan Quote Header Content,,,12,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px;"">
+	<tbody>
+		<tr>
+			<td style=""width: 200px; height: 20px;"">&#160;</td>
+			<td style=""width: 340px; height: 20px; text-align: left; vertical-align: baseline;"">
+			<p><strong>御見積書 / QUOTATION</strong></p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,,HTML,CT-0058,,a175E000001tqnoQAA
+EUR,Japan Goods REN,,,8,,,Standard,,Line Items,CT-0052,,a175E000001tqnpQAA
+EUR,China Footer Content,,,,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px; height: 60px;"">
+	<tbody>
+		<tr>
+			<td style=""border-color: rgb(0, 0, 0); width: 100px; height: 70px; background-color: rgb(255, 255, 255);""><img alt=""User-added image"" height=""70"" src=""{!quote.CertificationLogo__c}"" width=""200"" /></td>
+			<td style=""border-color: rgb(0, 0, 0); width: 100px; height: 70px; background-color: rgb(255, 255, 255);"">
+			<p>&#160;</p>
+
+			<p><span style=""font-size:6px;"">Tel. &#30005;&#35805;: {!quote.CompanyPhone__c}</span></p>
+
+			<p><span style=""font-size:6px;"">Fax &#20256;&#30495;: {!quote.CompanyFax__c}</span></p>
+
+			<p><span style=""font-size:6px;"">Email &#30005;&#23376;&#37038;&#20214;: {!quote.CompanyEmail__c}</span></p>
+			</td>
+			<td style=""border-color: rgb(0, 0, 0); width: 340px; height: 70px; background-color: rgb(255, 255, 255);"">
+			<p>&#160;</p>
+
+			<p><span style=""font-size:6px;"">{!quote.IMCDcompanyName__c}</span></p>
+
+			<p><span style=""font-size:6px;"">{!quote.BankData__c}</span></p>
+
+			<p><span style=""font-size:6px;"">{!quote.BankDataAdditional__c}</span></p>
+
+			<p style=""text-align: right;""><span style=""font-size:10px;"">.</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&#160;</p>",Standard,,HTML,CT-0069,,a175E000001tqnqQAA
