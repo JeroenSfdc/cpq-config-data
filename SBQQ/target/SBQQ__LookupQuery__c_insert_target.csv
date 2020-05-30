@@ -1,65 +1,65 @@
 SBQQ__PriceRule2__c,SBQQ__ProductRule__c,SBQQ__TestedConfigurationAttribute__c,CurrencyIsoCode,SBQQ__LookupField__c,SBQQ__MatchType__c,SBQQ__Operator__c,SBQQ__TestedField__c,SBQQ__TestedObject__c,SBQQ__TestedValue__c,Description__c,Errors,Id
-,,,EUR,DeActivate__c,Static Value,equals,,,false,,,a0Y5E000004RWV2UAO
-,,,EUR,PriceBook__c,Field Value,equals,SBQQ__PricebookId__c,Quote,false,,,a0Y5E000004RWV3UAO
-,,,EUR,CurrencyIsoCode,Field Value,equals,CurrencyIsoCode,Quote Line,false,,,a0Y5E000004RWV4UAO
-,,,EUR,Account__c,Field Value,equals,SBQQ__Account__c,Quote,false,,,a0Y5E000004RWV5UAO
-,,,EUR,Product__c,Field Value,equals,SBQQ__Product__c,Quote Line,false,,,a0Y5E000004RWV6UAO
-,,,EUR,BaseUOM__c,Field Value,equals,UOM__c,Quote Line,false,,,a0Y5E000004RWV7UAO
-,,,EUR,PriceBook__c,Field Value,equals,SBQQ__PricebookId__c,Quote,,,,a0Y5E000004RWV8UAO
-,,,EUR,IsValid__c,Static Value,equals,,Quote,true,,,a0Y5E000004RWV9UAO
-,,,EUR,IsValid__c,Static Value,equals,,Quote,true,,,a0Y5E000004RWVAUA4
-,,,EUR,PricesToProcess__c,Static Value,equals,,,Contracted,,,a0Y5E000004RWVBUA4
-,,,EUR,ContractedPriceUniqueKey__c,Field Value,equals,UniqueKey__c,Quote Line,Contracted,,,a0Y5E000004RWVCUA4
-,,,EUR,Status__c,Static Value,not equals,,Quote Line,Processed,,,a0Y5E000004RWVDUA4
-,,,EUR,Account__c,Field Value,equals,SBQQ__Account__c,Quote,Processed,,,a0Y5E000004RWVEUA4
-,,,EUR,Id,Field Value,equals,SBQQ__Account__c,Quote,Error,,,a0Y5E000004RWVFUA4
-,,,EUR,SBQQ__OriginalQuoteLine__c,Field Value,not equals,Id,Quote Line,Error,,,a0Y5E000004RWVGUA4
-,,,EUR,Product__c,Field Value,equals,SBQQ__Product__c,Quote Line,,,,a0Y5E000004RWVHUA4
-,,,EUR,Pricebook2Id,Field Value,equals,SBQQ__PricebookId__c,Quote,,,,a0Y5E000004RWVIUA4
-,,,EUR,CurrencyIsoCode,Field Value,equals,CurrencyIsoCode,Quote,,,,a0Y5E000004RWVJUA4
-,,,EUR,TF_FilteredProduct__c,Field Value,equals,SBQQ__Product__c,Quote Line,,,,a0Y5E000004RWVKUA4
-,,,EUR,Id,Field Value,equals,SBQQ__Opportunity2__c,Quote,,,,a0Y5E000004RWVLUA4
-,,,EUR,Id,Field Value,equals,SBQQ__Opportunity2__c,Quote,,,,a0Y5E000004RWVMUA4
-,,,EUR,SalesListPrice__c,Field Value,equals,SalesListPrice__c,Quote Line,,,,a0Y5E000004RWVNUA4
-,,,EUR,CurrencyIsoCode,Field Value,equals,CurrencyIsoCode,Quote Line,,,,a0Y5E000004RWVOUA4
-,,,EUR,SalesListPrice__c,Field Value,equals,SalesListPrice__c,Quote Line,,,,a0Y5E000004RWVPUA4
-,,,EUR,IncoTerms__c,Field Value,equals,IncoTerms2__c,Quote Line,true,,,a0Y5E000004RWVQUA4
-,,,EUR,ShippingAdresses__c,Field Value,equals,ShippingAdresses__c,Quote,true,,,a0Y5E000004RWVRUA4
-,,,EUR,BaseUOM__c,Field Value,equals,UOM__c,Quote Line,true,,,a0Y5E000004RWVSUA4
-,,,EUR,IsValid__c,Static Value,equals,,Quote Line,true,,,a0Y5E000004RWVTUA4
-,,,EUR,PriceBook__c,Field Value,equals,SBQQ__PricebookId__c,Quote,true,,,a0Y5E000004RWVUUA4
-,,,EUR,Product__c,Field Value,equals,SBQQ__Product__c,Quote Line,true,,,a0Y5E000004RWVVUA4
-,,,EUR,Default__c,Static Value,equals,,Quote Line,true,,,a0Y5E000004RWVWUA4
-,,,EUR,IsValid__c,Static Value,equals,,,true,,,a0Y5E000004RWVXUA4
-,,,EUR,SalesListPrice__c,Field Value,equals,SalesListPrice__c,Quote Line,true,,,a0Y5E000004RWVYUA4
-,,,EUR,PriceBook__c,Field Value,equals,SBQQ__PricebookId__c,Quote,true,,,a0Y5E000004RWVZUA4
-,,,EUR,PriceBook__c,Field Value,equals,SBQQ__PricebookId__c,Quote,true,,,a0Y5E000004RWVaUAO
-,,,EUR,Default__c,Static Value,equals,,Quote,true,,,a0Y5E000004RWVbUAO
-,,,EUR,TEC_UniqueName__c,Field Value,equals,TF_DirectSellingRelationshipKey__c,Quote Line,true,,,a0Y5E000004RWVcUAO
-,,,EUR,DefaultPrice__c,Static Value,equals,,Quote Line,true,,,a0Y5E000004RWVdUAO
-,,,EUR,Product__c,Field Value,equals,SBQQ__Product__c,Quote Line,true,,,a0Y5E000004RWVeUAO
-,,,EUR,Account__c,Field Value,equals,Parent__c,Quote,true,,,a0Y5E000004RWVfUAO
-,,,EUR,Upper__c,Field Value,less than,SearchSLPMarginQuantity__c,Quote Line,true,,,a0Y5E000004RWVgUAO
-,,,EUR,CurrencyIsoCode,Field Value,equals,CurrencyIsoCode,Quote Line,true,,,a0Y5E000004RWVhUAO
-,,,EUR,Product__c,Field Value,equals,SBQQ__Product__c,Quote Line,,,,a0Y5E000004RWViUAO
-,,,EUR,Product__c,Field Value,equals,SBQQ__Product__c,Quote Line,,,,a0Y5E000004RWVjUAO
-,,,EUR,SLPType__c,Static Value,not equals,,Quote Line,Contract,,,a0Y5E000004RWVkUAO
-,,,EUR,PriceBook__c,Field Value,equals,SBQQ__PricebookId__c,Quote,Contract,,,a0Y5E000004RWVlUAO
-,,,EUR,Account__c,Field Value,equals,Parent__c,Quote,Contract,,,a0Y5E000004RWVmUAO
-,,,EUR,Id,Field Value,equals,SBQQ__Product__c,Quote Line,Contract,,,a0Y5E000004RWVnUAO
-,,,EUR,BaseUOM__c,Field Value,equals,UOM__c,Quote Line,Contract,,,a0Y5E000004RWVoUAO
-,,,EUR,BaseUOM__c,Field Value,equals,TF_PreviousUOM__c,Quote Line,Contract,,,a0Y5E000004RWVpUAO
-,,,EUR,DefaultPrice__c,Static Value,equals,,Quote Line,true,,,a0Y5E000004RWVqUAO
-,,,EUR,UniqueKey__c,Field Value,equals,UniqueKey__c,Quote Line,true,,,a0Y5E000004RWVrUAO
-,,,EUR,Product__c,Field Value,equals,SBQQ__Product__c,Quote Line,true,,,a0Y5E000004RWVsUAO
-,,,EUR,Old__c,Static Value,equals,,Quote Line,false,,,a0Y5E000004RWVtUAO
-,,,EUR,SBQQ__Account__c,Field Value,equals,AccountId_CS__c,Quote Line,false,,,a0Y5E000004RWVuUAO
-,,,EUR,Account__c,Field Value,equals,Parent__c,Quote,false,,,a0Y5E000004RWVvUAO
-,,,EUR,PriceBook__c,Field Value,equals,SBQQ__PricebookId__c,Quote,false,,,a0Y5E000004RWVwUAO
-,,,EUR,SLPType__c,Static Value,not equals,,Quote,Contract,,,a0Y5E000004RWVxUAO
-,,,EUR,Lower__c,Field Value,greater or equals,SearchSLPMarginQuantity__c,Quote Line,true,,,a0Y5E000004RWVyUAO
-,,,EUR,IsValid__c,Static Value,equals,,,true,,,a0Y5E000004RWVzUAO
-,,,EUR,CurrencyIsoCode,Field Value,equals,CurrencyIsoCode,Quote Line,true,,,a0Y5E000004RWW0UAO
-,,,EUR,IsValid__c,Static Value,equals,,Quote Line,True,,,a0Y5E000004RWW1UAO
-,,,EUR,Account__c,Field Value,equals,SBQQ__Account__c,Quote,True,,,a0Y5E000004RWW2UAO
-,,,EUR,Role__c,Static Value,equals,,Quote,Customer Service,,,a0Y5E000004RWW3UAO
+a0c5E0000020LYGQA2,,,EUR,DeActivate__c,Static Value,equals,,,false,,,a0Y5E000004RbAOUA0
+a0c5E0000020LYUQA2,,,EUR,PriceBook__c,Field Value,equals,SBQQ__PricebookId__c,Quote,false,,,a0Y5E000004RbAPUA0
+a0c5E0000020LYXQA2,,,EUR,CurrencyIsoCode,Field Value,equals,CurrencyIsoCode,Quote Line,false,,,a0Y5E000004RbAQUA0
+a0c5E0000020LYXQA2,,,EUR,Account__c,Field Value,equals,SBQQ__Account__c,Quote,false,,,a0Y5E000004RbARUA0
+a0c5E0000020LYXQA2,,,EUR,Product__c,Field Value,equals,SBQQ__Product__c,Quote Line,false,,,a0Y5E000004RbASUA0
+a0c5E0000020LYXQA2,,,EUR,BaseUOM__c,Field Value,equals,UOM__c,Quote Line,false,,,a0Y5E000004RbATUA0
+a0c5E0000020LYXQA2,,,EUR,PriceBook__c,Field Value,equals,SBQQ__PricebookId__c,Quote,,,,a0Y5E000004RbAUUA0
+a0c5E0000020LYWQA2,,,EUR,IsValid__c,Static Value,equals,,Quote,true,,,a0Y5E000004RbAVUA0
+a0c5E0000020LYXQA2,,,EUR,IsValid__c,Static Value,equals,,Quote,true,,,a0Y5E000004RbAWUA0
+a0c5E0000020LYIQA2,,,EUR,PricesToProcess__c,Static Value,equals,,,Contracted,,,a0Y5E000004RbAXUA0
+a0c5E0000020LYIQA2,,,EUR,ContractedPriceUniqueKey__c,Field Value,equals,UniqueKey__c,Quote Line,Contracted,,,a0Y5E000004RbAYUA0
+a0c5E0000020LYIQA2,,,EUR,Status__c,Static Value,not equals,,Quote Line,Processed,,,a0Y5E000004RbAZUA0
+a0c5E0000020LYIQA2,,,EUR,Account__c,Field Value,equals,SBQQ__Account__c,Quote,Processed,,,a0Y5E000004RbAaUAK
+a0c5E0000020LY9QAM,,,EUR,Id,Field Value,equals,SBQQ__Account__c,Quote,Error,,,a0Y5E000004RbAbUAK
+a0c5E0000020LYGQA2,,,EUR,SBQQ__OriginalQuoteLine__c,Field Value,not equals,Id,Quote Line,Error,,,a0Y5E000004RbAcUAK
+a0c5E0000020LYTQA2,,,EUR,Product__c,Field Value,equals,SBQQ__Product__c,Quote Line,,,,a0Y5E000004RbAdUAK
+a0c5E0000020LYLQA2,,,EUR,Pricebook2Id,Field Value,equals,SBQQ__PricebookId__c,Quote,,,,a0Y5E000004RbAeUAK
+a0c5E0000020LYLQA2,,,EUR,CurrencyIsoCode,Field Value,equals,CurrencyIsoCode,Quote,,,,a0Y5E000004RbAfUAK
+a0c5E0000020LYLQA2,,,EUR,TF_FilteredProduct__c,Field Value,equals,SBQQ__Product__c,Quote Line,,,,a0Y5E000004RbAgUAK
+a0c5E0000020LYOQA2,,,EUR,Id,Field Value,equals,SBQQ__Opportunity2__c,Quote,,,,a0Y5E000004RbAhUAK
+a0c5E0000020LYPQA2,,,EUR,Id,Field Value,equals,SBQQ__Opportunity2__c,Quote,,,,a0Y5E000004RbAiUAK
+a0c5E0000020LYcQAM,,,EUR,SalesListPrice__c,Field Value,equals,SalesListPrice__c,Quote Line,,,,a0Y5E000004RbAjUAK
+a0c5E0000020LYTQA2,,,EUR,CurrencyIsoCode,Field Value,equals,CurrencyIsoCode,Quote Line,,,,a0Y5E000004RbAkUAK
+a0c5E0000020LYaQAM,,,EUR,SalesListPrice__c,Field Value,equals,SalesListPrice__c,Quote Line,,,,a0Y5E000004RbAlUAK
+a0c5E0000020LYcQAM,,,EUR,IncoTerms__c,Field Value,equals,IncoTerms2__c,Quote Line,true,,,a0Y5E000004RbAmUAK
+a0c5E0000020LYcQAM,,,EUR,ShippingAdresses__c,Field Value,equals,ShippingAdresses__c,Quote,true,,,a0Y5E000004RbAnUAK
+a0c5E0000020LYTQA2,,,EUR,BaseUOM__c,Field Value,equals,UOM__c,Quote Line,true,,,a0Y5E000004RbAoUAK
+a0c5E0000020LYTQA2,,,EUR,IsValid__c,Static Value,equals,,Quote Line,true,,,a0Y5E000004RbApUAK
+a0c5E0000020LYSQA2,,,EUR,PriceBook__c,Field Value,equals,SBQQ__PricebookId__c,Quote,true,,,a0Y5E000004RbAqUAK
+a0c5E0000020LYSQA2,,,EUR,Product__c,Field Value,equals,SBQQ__Product__c,Quote Line,true,,,a0Y5E000004RbArUAK
+a0c5E0000020LYbQAM,,,EUR,Default__c,Static Value,equals,,Quote Line,true,,,a0Y5E000004RbAsUAK
+a0c5E0000020LYSQA2,,,EUR,IsValid__c,Static Value,equals,,,true,,,a0Y5E000004RbAtUAK
+a0c5E0000020LYbQAM,,,EUR,SalesListPrice__c,Field Value,equals,SalesListPrice__c,Quote Line,true,,,a0Y5E000004RbAuUAK
+a0c5E0000020LYTQA2,,,EUR,PriceBook__c,Field Value,equals,SBQQ__PricebookId__c,Quote,true,,,a0Y5E000004RbAvUAK
+a0c5E0000020LYNQA2,,,EUR,PriceBook__c,Field Value,equals,SBQQ__PricebookId__c,Quote,true,,,a0Y5E000004RbAwUAK
+a0c5E0000020LYNQA2,,,EUR,Default__c,Static Value,equals,,Quote,true,,,a0Y5E000004RbAxUAK
+a0c5E0000020LYJQA2,,,EUR,TEC_UniqueName__c,Field Value,equals,TF_DirectSellingRelationshipKey__c,Quote Line,true,,,a0Y5E000004RbAyUAK
+a0c5E0000020LYSQA2,,,EUR,DefaultPrice__c,Static Value,equals,,Quote Line,true,,,a0Y5E000004RbAzUAK
+a0c5E0000020LYNQA2,,,EUR,Product__c,Field Value,equals,SBQQ__Product__c,Quote Line,true,,,a0Y5E000004RbB0UAK
+a0c5E0000020LYWQA2,,,EUR,Account__c,Field Value,equals,Parent__c,Quote,true,,,a0Y5E000004RbB1UAK
+a0c5E0000020LYaQAM,,,EUR,Upper__c,Field Value,less than,SearchSLPMarginQuantity__c,Quote Line,true,,,a0Y5E000004RbB2UAK
+a0c5E0000020LYVQA2,,,EUR,CurrencyIsoCode,Field Value,equals,CurrencyIsoCode,Quote Line,true,,,a0Y5E000004RbB3UAK
+a0c5E0000020LYVQA2,,,EUR,Product__c,Field Value,equals,SBQQ__Product__c,Quote Line,,,,a0Y5E000004RbB4UAK
+a0c5E0000020LYWQA2,,,EUR,Product__c,Field Value,equals,SBQQ__Product__c,Quote Line,,,,a0Y5E000004RbB5UAK
+a0c5E0000020LYSQA2,,,EUR,SLPType__c,Static Value,not equals,,Quote Line,Contract,,,a0Y5E000004RbB6UAK
+a0c5E0000020LYVQA2,,,EUR,PriceBook__c,Field Value,equals,SBQQ__PricebookId__c,Quote,Contract,,,a0Y5E000004RbB7UAK
+a0c5E0000020LYVQA2,,,EUR,Account__c,Field Value,equals,Parent__c,Quote,Contract,,,a0Y5E000004RbB8UAK
+a0c5E0000020LYCQA2,,,EUR,Id,Field Value,equals,SBQQ__Product__c,Quote Line,Contract,,,a0Y5E000004RbB9UAK
+a0c5E0000020LYWQA2,,,EUR,BaseUOM__c,Field Value,equals,UOM__c,Quote Line,Contract,,,a0Y5E000004RbBAUA0
+a0c5E0000020LYVQA2,,,EUR,BaseUOM__c,Field Value,equals,TF_PreviousUOM__c,Quote Line,Contract,,,a0Y5E000004RbBBUA0
+a0c5E0000020LYUQA2,,,EUR,DefaultPrice__c,Static Value,equals,,Quote Line,true,,,a0Y5E000004RbBCUA0
+a0c5E0000020LYGQA2,,,EUR,UniqueKey__c,Field Value,equals,UniqueKey__c,Quote Line,true,,,a0Y5E000004RbBDUA0
+a0c5E0000020LYUQA2,,,EUR,Product__c,Field Value,equals,SBQQ__Product__c,Quote Line,true,,,a0Y5E000004RbBEUA0
+a0c5E0000020LYGQA2,,,EUR,Old__c,Static Value,equals,,Quote Line,false,,,a0Y5E000004RbBFUA0
+a0c5E0000020LYGQA2,,,EUR,SBQQ__Account__c,Field Value,equals,AccountId_CS__c,Quote Line,false,,,a0Y5E000004RbBGUA0
+a0c5E0000020LYUQA2,,,EUR,Account__c,Field Value,equals,Parent__c,Quote,false,,,a0Y5E000004RbBHUA0
+a0c5E0000020LYWQA2,,,EUR,PriceBook__c,Field Value,equals,SBQQ__PricebookId__c,Quote,false,,,a0Y5E000004RbBIUA0
+a0c5E0000020LYTQA2,,,EUR,SLPType__c,Static Value,not equals,,Quote,Contract,,,a0Y5E000004RbBJUA0
+a0c5E0000020LYaQAM,,,EUR,Lower__c,Field Value,greater or equals,SearchSLPMarginQuantity__c,Quote Line,true,,,a0Y5E000004RbBKUA0
+a0c5E0000020LYVQA2,,,EUR,IsValid__c,Static Value,equals,,,true,,,a0Y5E000004RbBLUA0
+a0c5E0000020LYWQA2,,,EUR,CurrencyIsoCode,Field Value,equals,CurrencyIsoCode,Quote Line,true,,,a0Y5E000004RbBMUA0
+a0c5E0000020LYUQA2,,,EUR,IsValid__c,Static Value,equals,,Quote Line,True,,,a0Y5E000004RbBNUA0
+a0c5E0000020LYBQA2,,,EUR,Account__c,Field Value,equals,SBQQ__Account__c,Quote,True,,,a0Y5E000004RbBOUA0
+a0c5E0000020LYBQA2,,,EUR,Role__c,Static Value,equals,,Quote,Customer Service,,,a0Y5E000004RbBPUA0

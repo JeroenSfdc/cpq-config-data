@@ -1,68 +1,68 @@
-CurrencyIsoCode,SBQQ__Rule__c,SBQQ__Field__c,SBQQ__FilterFormula__c,SBQQ__FilterType__c,SBQQ__Index__c,SBQQ__Object__c,SBQQ__Operator__c,SBQQ__TestedFormula__c,SBQQ__Value__c,SBQQ__FilterVariable__c,SBQQ__TestedVariable__c,Errors
-EUR,,ImcdCompany__c,,Value,3,Quote,equals,,79100,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,ImcdCompany__c,,Value,4,Quote,equals,,71300,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,ImcdCompany__c,,Value,5,Quote,equals,,74300,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,60,Quote Line,not equals,,"List,Presented",,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,,Value,,Quote,equals,,false,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,ImcdCompany__c,,Value,2,Quote,equals,,71100,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,,Quote Line,equals,,"List,Parent",,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,,Quote Line,equals,,"List,Parent",,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,false,Formula,,Quote,equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,QuoteType__c,,Value,,Quote,not equals,,Renewal,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,QuoteType__c,,Value,,Quote,not equals,,Renewal,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,QuoteType__c,,Value,,Quote,equals,,Renewal,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,,Value,,Quote,equals,,false,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,,Quote Line,equals,,List,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,,Quote Line,equals,,"List,Parent",,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,,Quote Line,equals,,"List,Parent",,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,,Value,,Quote,equals,,false,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,QuoteType__c,,Value,,Quote,equals,,Opportunity,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,Opportunity__c,null,Formula,,Quote Line,not equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,QuoteType__c,,Value,,Quote,equals,,Opportunity,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,,Quote Line,equals,,List,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,,Quote Line,equals,,Parent,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,false,Formula,,Quote,equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,,Quote Line,equals,,"List,Parent",,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,Parent__c,,Value,,Quote,not equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,Parent__c,,Value,,Quote,not equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,,Value,,Quote,equals,,false,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PrevContractedPrice__c,null,Formula,,Quote Line,not equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,false,Formula,,Quote,equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,QuoteType__c,,Value,,Quote,not equals,,Opportunity,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,,Quote Line,equals,,"List,Parent",,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,TF_DirectSellingRelationshipKey__c,null,Formula,,Quote Line,not equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,false,Formula,,Quote,equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,Parent__c,,Value,,Quote,not equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,,Quote Line,not equals,,"List,Parent",,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,Id,null,Formula,,Quote Line,equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,SalesListPrice__c,,Value,,Quote,not equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,ApprovalStatus__c,,Value,30,Quote,not equals,,"Rejected, Recalled",,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,TF_RecordChanged__c,,Value,40,Quote Line,equals,,true,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,TF_ApprovalCompanies__c,,Value,10,Quote,equals,,true,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,TF_ApprovalCompanies__c,,Value,50,Quote,equals,,true,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,QuoteType__c,,Value,1,Quote,not equals,,Opportunity,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,QuoteType__c,,Value,,Quote,equals,,Renewal,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,false,Formula,,Quote,equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,,Quote Line,equals,,List,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,,Value,,Quote,equals,,false,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,QuoteType__c,,Value,,Quote,not equals,,Opportunity,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,QuoteType__c,,Value,,Quote,not equals,,Renewal,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,QuoteType__c,,Value,,Quote,not equals,,Renewal,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,SalesListPriceLog__c,Null,Formula,,Quote Line,equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,QuoteType__c,,Value,,Quote,not equals,,Renewal,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,UOM__c,,Value,,Quote Line,equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,,Quote Line,not equals,,"List,Parent",,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,,Value,,Quote,equals,,false,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,SalesListPrice__c,null,Formula,,Quote Line,not equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,,Quote Line,equals,,"List,Parent",,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,Opportunity__c,null,Formula,,Quote Line,equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLockedBypass__c,,Value,,Quote,equals,,true,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,,Value,,Quote,equals,,false,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,PricingSystem__c,,Value,,Quote Line,not equals,,"List,Parent",,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,false,Formula,,Quote,equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,false,Formula,,Quote,equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,OppLocked__c,false,Formula,,Quote,equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,TF_ChangeApproved__c,,Value,20,Quote,equals,,true,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,Id,,Value,30,Quote Line,equals,,,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,,,Value,10,Quote Line,not equals,TF_MarkUp1__c - MarkUp1__c,0,,,Required fields are missing: [SBQQ__Rule__c]
-EUR,,TF_PricePerUOM__c,PricePerUOM__c,Formula,20,Quote Line,not equals,,,,,Required fields are missing: [SBQQ__Rule__c]
+CurrencyIsoCode,SBQQ__Rule__c,SBQQ__Field__c,SBQQ__FilterFormula__c,SBQQ__FilterType__c,SBQQ__Index__c,SBQQ__Object__c,SBQQ__Operator__c,SBQQ__TestedFormula__c,SBQQ__Value__c,SBQQ__FilterVariable__c,SBQQ__TestedVariable__c,Errors,Id
+EUR,a0c5E0000020LYBQA2,ImcdCompany__c,,Value,3,Quote,equals,,79100,,,,a0b5E000004obeCQAQ
+EUR,a0c5E0000020LYBQA2,ImcdCompany__c,,Value,4,Quote,equals,,71300,,,,a0b5E000004obeDQAQ
+EUR,a0c5E0000020LYBQA2,ImcdCompany__c,,Value,5,Quote,equals,,74300,,,,a0b5E000004obeEQAQ
+EUR,a0c5E0000020LYhQAM,PricingSystem__c,,Value,60,Quote Line,not equals,,"List,Presented",,,,a0b5E000004obeFQAQ
+EUR,a0c5E0000020LYbQAM,OppLocked__c,,Value,,Quote,equals,,false,,,,a0b5E000004obeGQAQ
+EUR,a0c5E0000020LYBQA2,ImcdCompany__c,,Value,2,Quote,equals,,71100,,,,a0b5E000004obeHQAQ
+EUR,a0c5E0000020LYcQAM,PricingSystem__c,,Value,,Quote Line,equals,,"List,Parent",,,,a0b5E000004obeIQAQ
+EUR,a0c5E0000020LYdQAM,PricingSystem__c,,Value,,Quote Line,equals,,"List,Parent",,,,a0b5E000004obeJQAQ
+EUR,a0c5E0000020LYdQAM,OppLocked__c,false,Formula,,Quote,equals,,,,,,a0b5E000004obeKQAQ
+EUR,a0c5E0000020LYeQAM,QuoteType__c,,Value,,Quote,not equals,,Renewal,,,,a0b5E000004obeLQAQ
+EUR,a0c5E0000020LYfQAM,QuoteType__c,,Value,,Quote,not equals,,Renewal,,,,a0b5E000004obeMQAQ
+EUR,a0c5E0000020LYiQAM,QuoteType__c,,Value,,Quote,equals,,Renewal,,,,a0b5E000004obeNQAQ
+EUR,a0c5E0000020LYJQA2,OppLocked__c,,Value,,Quote,equals,,false,,,,a0b5E000004obeOQAQ
+EUR,a0c5E0000020LYTQA2,PricingSystem__c,,Value,,Quote Line,equals,,List,,,,a0b5E000004obePQAQ
+EUR,a0c5E0000020LYaQAM,PricingSystem__c,,Value,,Quote Line,equals,,"List,Parent",,,,a0b5E000004obeQQAQ
+EUR,a0c5E0000020LYZQA2,PricingSystem__c,,Value,,Quote Line,equals,,"List,Parent",,,,a0b5E000004obeRQAQ
+EUR,a0c5E0000020LYMQA2,OppLocked__c,,Value,,Quote,equals,,false,,,,a0b5E000004obeSQAQ
+EUR,a0c5E0000020LYOQA2,QuoteType__c,,Value,,Quote,equals,,Opportunity,,,,a0b5E000004obeTQAQ
+EUR,a0c5E0000020LYOQA2,Opportunity__c,null,Formula,,Quote Line,not equals,,,,,,a0b5E000004obeUQAQ
+EUR,a0c5E0000020LYPQA2,QuoteType__c,,Value,,Quote,equals,,Opportunity,,,,a0b5E000004obeVQAQ
+EUR,a0c5E0000020LYSQA2,PricingSystem__c,,Value,,Quote Line,equals,,List,,,,a0b5E000004obeWQAQ
+EUR,a0c5E0000020LYVQA2,PricingSystem__c,,Value,,Quote Line,equals,,Parent,,,,a0b5E000004obeXQAQ
+EUR,a0c5E0000020LYWQA2,OppLocked__c,false,Formula,,Quote,equals,,,,,,a0b5E000004obeYQAQ
+EUR,a0c5E0000020LYWQA2,PricingSystem__c,,Value,,Quote Line,equals,,"List,Parent",,,,a0b5E000004obeZQAQ
+EUR,a0c5E0000020LYWQA2,Parent__c,,Value,,Quote,not equals,,,,,,a0b5E000004obeaQAA
+EUR,a0c5E0000020LYVQA2,Parent__c,,Value,,Quote,not equals,,,,,,a0b5E000004obebQAA
+EUR,a0c5E0000020LYGQA2,OppLocked__c,,Value,,Quote,equals,,false,,,,a0b5E000004obecQAA
+EUR,a0c5E0000020LYFQA2,PrevContractedPrice__c,null,Formula,,Quote Line,not equals,,,,,,a0b5E000004obedQAA
+EUR,a0c5E0000020LYUQA2,OppLocked__c,false,Formula,,Quote,equals,,,,,,a0b5E000004obeeQAA
+EUR,a0c5E0000020LYGQA2,QuoteType__c,,Value,,Quote,not equals,,Opportunity,,,,a0b5E000004obefQAA
+EUR,a0c5E0000020LYUQA2,PricingSystem__c,,Value,,Quote Line,equals,,"List,Parent",,,,a0b5E000004obegQAA
+EUR,a0c5E0000020LYJQA2,TF_DirectSellingRelationshipKey__c,null,Formula,,Quote Line,not equals,,,,,,a0b5E000004obehQAA
+EUR,a0c5E0000020LYVQA2,OppLocked__c,false,Formula,,Quote,equals,,,,,,a0b5E000004obeiQAA
+EUR,a0c5E0000020LYUQA2,Parent__c,,Value,,Quote,not equals,,,,,,a0b5E000004obejQAA
+EUR,a0c5E0000020LYGQA2,PricingSystem__c,,Value,,Quote Line,not equals,,"List,Parent",,,,a0b5E000004obekQAA
+EUR,a0c5E0000020LYKQA2,Id,null,Formula,,Quote Line,equals,,,,,,a0b5E000004obelQAA
+EUR,a0c5E0000020LYXQA2,SalesListPrice__c,,Value,,Quote,not equals,,,,,,a0b5E000004obemQAA
+EUR,a0c5E0000020LYhQAM,ApprovalStatus__c,,Value,30,Quote,not equals,,"Rejected, Recalled",,,,a0b5E000004obenQAA
+EUR,a0c5E0000020LYhQAM,TF_RecordChanged__c,,Value,40,Quote Line,equals,,true,,,,a0b5E000004obeoQAA
+EUR,a0c5E0000020LYgQAM,TF_ApprovalCompanies__c,,Value,10,Quote,equals,,true,,,,a0b5E000004obepQAA
+EUR,a0c5E0000020LYhQAM,TF_ApprovalCompanies__c,,Value,50,Quote,equals,,true,,,,a0b5E000004obeqQAA
+EUR,a0c5E0000020LYBQA2,QuoteType__c,,Value,1,Quote,not equals,,Opportunity,,,,a0b5E000004oberQAA
+EUR,a0c5E0000020LYKQA2,QuoteType__c,,Value,,Quote,equals,,Renewal,,,,a0b5E000004obesQAA
+EUR,a0c5E0000020LYXQA2,OppLocked__c,false,Formula,,Quote,equals,,,,,,a0b5E000004obetQAA
+EUR,a0c5E0000020LYXQA2,PricingSystem__c,,Value,,Quote Line,equals,,List,,,,a0b5E000004obeuQAA
+EUR,a0c5E0000020LYIQA2,OppLocked__c,,Value,,Quote,equals,,false,,,,a0b5E000004obevQAA
+EUR,a0c5E0000020LYIQA2,QuoteType__c,,Value,,Quote,not equals,,Opportunity,,,,a0b5E000004obewQAA
+EUR,a0c5E0000020LY9QAM,QuoteType__c,,Value,,Quote,not equals,,Renewal,,,,a0b5E000004obexQAA
+EUR,a0c5E0000020LYGQA2,QuoteType__c,,Value,,Quote,not equals,,Renewal,,,,a0b5E000004obeyQAA
+EUR,a0c5E0000020LY9QAM,SalesListPriceLog__c,Null,Formula,,Quote Line,equals,,,,,,a0b5E000004obezQAA
+EUR,a0c5E0000020LYCQA2,QuoteType__c,,Value,,Quote,not equals,,Renewal,,,,a0b5E000004obf0QAA
+EUR,a0c5E0000020LYCQA2,UOM__c,,Value,,Quote Line,equals,,,,,,a0b5E000004obf1QAA
+EUR,a0c5E0000020LYIQA2,PricingSystem__c,,Value,,Quote Line,not equals,,"List,Parent",,,,a0b5E000004obf2QAA
+EUR,a0c5E0000020LYNQA2,OppLocked__c,,Value,,Quote,equals,,false,,,,a0b5E000004obf3QAA
+EUR,a0c5E0000020LYaQAM,SalesListPrice__c,null,Formula,,Quote Line,not equals,,,,,,a0b5E000004obf4QAA
+EUR,a0c5E0000020LYbQAM,PricingSystem__c,,Value,,Quote Line,equals,,"List,Parent",,,,a0b5E000004obf5QAA
+EUR,a0c5E0000020LYPQA2,Opportunity__c,null,Formula,,Quote Line,equals,,,,,,a0b5E000004obf6QAA
+EUR,a0c5E0000020LYQQA2,OppLockedBypass__c,,Value,,Quote,equals,,true,,,,a0b5E000004obf7QAA
+EUR,a0c5E0000020LYQQA2,OppLocked__c,,Value,,Quote,equals,,false,,,,a0b5E000004obf8QAA
+EUR,a0c5E0000020LYQQA2,PricingSystem__c,,Value,,Quote Line,not equals,,"List,Parent",,,,a0b5E000004obf9QAA
+EUR,a0c5E0000020LYRQA2,OppLocked__c,false,Formula,,Quote,equals,,,,,,a0b5E000004obfAQAQ
+EUR,a0c5E0000020LYSQA2,OppLocked__c,false,Formula,,Quote,equals,,,,,,a0b5E000004obfBQAQ
+EUR,a0c5E0000020LYTQA2,OppLocked__c,false,Formula,,Quote,equals,,,,,,a0b5E000004obfCQAQ
+EUR,a0c5E0000020LYgQAM,TF_ChangeApproved__c,,Value,20,Quote,equals,,true,,,,a0b5E000004obfDQAQ
+EUR,a0c5E0000020LYgQAM,Id,,Value,30,Quote Line,equals,,,,,,a0b5E000004obfEQAQ
+EUR,a0c5E0000020LYhQAM,,,Value,10,Quote Line,not equals,TF_MarkUp1__c - MarkUp1__c,0,,,,a0b5E000004obfFQAQ
+EUR,a0c5E0000020LYhQAM,TF_PricePerUOM__c,PricePerUOM__c,Formula,20,Quote Line,not equals,,,,,,a0b5E000004obfGQAQ

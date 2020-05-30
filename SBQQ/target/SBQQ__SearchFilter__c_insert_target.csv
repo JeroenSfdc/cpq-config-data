@@ -1,14 +1,14 @@
 SBQQ__Action__c,CurrencyIsoCode,Name,SBQQ__DisplayOrder__c,SBQQ__FilterSourceField__c,SBQQ__FilterSourceObject__c,SBQQ__FilterValue__c,SBQQ__HiddenSourceField__c,SBQQ__HiddenSourceObject__c,SBQQ__Hidden__c,SBQQ__Operator__c,SBQQ__TargetField__c,SBQQ__TargetObject__c,Errors,Id
-,EUR,Trade Name,10,,,,,,false,equals,TradeName__c,Product,,a0z5E000001reTAQAY
-,EUR,Trade Grade,20,,,,,,false,equals,Name,Product,,a0z5E000001reTBQAY
-,EUR,Full Segment nr,25,,,,,,false,equals,FullSegmentsNumber__c,Product,,a0z5E000001reTCQAY
-,EUR,Supplier Item Number,26,,,,,,false,equals,SupplierItemNumber__c,Product,,a0z5E000001reTDQAY
-,EUR,Product Type (segment 3),27,,,,,,false,equals,ExcludeCommission__c,Product,,a0z5E000001reTEQAY
-,EUR,Segment 4,28,,,,,,false,equals,TF_ExcludeSegment4__c,Product,,a0z5E000001reTFQAY
-,EUR,Product Status,30,,,,,,false,equals,ItemStatus__c,Product,,a0z5E000001reTGQAY
-,EUR,SLP Only,35,,,,,,false,equals,SLPOnly__c,Product,,a0z5E000001reTHQAY
-,EUR,Package Description,40,,,,,,false,equals,PackageDescription__c,Product,,a0z5E000001reTIQAY
-,EUR,Principal Name,50,,,,,,false,equals,Principal__c,Product,,a0z5E000001reTJQAY
-,EUR,Principal Reporting Line,60,,,,,,false,equals,ReportingLine__c,Product,,a0z5E000001reTKQAY
-,EUR,BG Classification,70,,,,,,false,equals,BGClassification__c,Product,,a0z5E000001reTLQAY
-,EUR,CAS Number,80,,,,,,false,equals,CASNumber__c,Product,,a0z5E000001reTMQAY
+,EUR,Trade Name,10,,,,,,false,equals,TradeName__c,Product,,a0z5E000001rrAbQAI
+,EUR,Trade Grade,20,,,,,,false,equals,Name,Product,,a0z5E000001rrAcQAI
+,EUR,Full Segment nr,25,,,,,,false,equals,FullSegmentsNumber__c,Product,,a0z5E000001rrAdQAI
+,EUR,Supplier Item Number,26,,,,,,false,equals,SupplierItemNumber__c,Product,,a0z5E000001rrAeQAI
+,EUR,Product Type (segment 3),27,,,,,,false,equals,ExcludeCommission__c,Product,,a0z5E000001rrAfQAI
+,EUR,Segment 4,28,,,,,,false,equals,TF_ExcludeSegment4__c,Product,,a0z5E000001rrAgQAI
+,EUR,Product Status,30,,,,,,false,equals,ItemStatus__c,Product,,a0z5E000001rrAhQAI
+,EUR,SLP Only,35,,,,,,false,equals,SLPOnly__c,Product,,a0z5E000001rrAiQAI
+,EUR,Package Description,40,,,,,,false,equals,PackageDescription__c,Product,,a0z5E000001rrAjQAI
+,EUR,Principal Name,50,,,,,,false,equals,Principal__c,Product,,a0z5E000001rrAkQAI
+,EUR,Principal Reporting Line,60,,,,,,false,equals,ReportingLine__c,Product,,a0z5E000001rrAlQAI
+,EUR,BG Classification,70,,,,,,false,equals,BGClassification__c,Product,,a0z5E000001rrAmQAI
+,EUR,CAS Number,80,,,,,,false,equals,CASNumber__c,Product,,a0z5E000001rrAnQAI

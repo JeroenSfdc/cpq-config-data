@@ -1,42 +1,42 @@
-CurrencyIsoCode,SBQQ__Rule__c,SBQQ__Field__c,SBQQ__Formula__c,SBQQ__Order__c,SBQQ__SourceLookupField__c,SBQQ__TargetObject__c,SBQQ__ValueField__c,SBQQ__Value__c,Description__c,SBQQ__SourceVariable__c,Errors
-EUR,,CustomerServiceName__c,AdditionalTeamMember.UserName__c,,UserName__c,Quote,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,CustomerServicePhone__c,AdditionalTeamMember__c.Phone__c,,Phone__c,Quote,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,CustomerServiceEmail__c,,,Email__c,Quote,,AdditionalTeamMember__c.Email__c,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,OpenPriceRenewalCampaignCreator__c,,,CreatedByName__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,PrevContractedPrice__c,,,Id,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,OpenPriceRenewalCampaignName__c,,,Name,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,PricePerUOM__c,"BLANKVALUE(SBQQ__NetPrice__c, 0)   / BLANKVALUE(UOMconversion__c, 1)",,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,PriceRenewalCampaignItem__c,,,Id,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,PriceRenewalCampaignItem__c,null,,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,Discount (%),,,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,TF_PurchasePrice__c,,,,Quote Line,,null,,,Price Action Target Object does not match Evaluation Scope
-EUR,,PrevContractedPrice__c,null,,,Quote Line,,null,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "": Margin"" + Quant__c +SBQQ__Quantity__c",,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,IsAdditionalQuantityBreakClonedRenewal__c,true,0,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceUOMread__c,,5,BaseUOM__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceUOMread__c,,5,BaseUOM__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceUOMread__c,,5,BaseUOM__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceUOMread__c,,5,BaseUOM__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceUOMread__c,,5,BaseUOM__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,Quant__c,"if (BLANKVALUE(Quant__c, 0) = 0, 
+CurrencyIsoCode,SBQQ__Rule__c,SBQQ__Field__c,SBQQ__Formula__c,SBQQ__Order__c,SBQQ__SourceLookupField__c,SBQQ__TargetObject__c,SBQQ__ValueField__c,SBQQ__Value__c,Description__c,SBQQ__SourceVariable__c,Errors,Id
+EUR,a0c5E0000020LYBQA2,CustomerServiceName__c,AdditionalTeamMember.UserName__c,,UserName__c,Quote,,,,,,a0a5E000004m1YOQAY
+EUR,a0c5E0000020LYBQA2,CustomerServicePhone__c,AdditionalTeamMember__c.Phone__c,,Phone__c,Quote,,,,,,a0a5E000004m1YPQAY
+EUR,a0c5E0000020LYBQA2,CustomerServiceEmail__c,,,Email__c,Quote,,AdditionalTeamMember__c.Email__c,,,,a0a5E000004m1YQQAY
+EUR,a0c5E0000020LYIQA2,OpenPriceRenewalCampaignCreator__c,,,CreatedByName__c,Quote Line,,,,,,a0a5E000004m1YRQAY
+EUR,a0c5E0000020LYGQA2,PrevContractedPrice__c,,,Id,Quote Line,,,,,,a0a5E000004m1YSQAY
+EUR,a0c5E0000020LYIQA2,OpenPriceRenewalCampaignName__c,,,Name,Quote Line,,,,,,a0a5E000004m1YTQAY
+EUR,a0c5E0000020LYfQAM,PricePerUOM__c,"BLANKVALUE(SBQQ__NetPrice__c, 0)   / BLANKVALUE(UOMconversion__c, 1)",,,Quote Line,,,,,,a0a5E000004m1YUQAY
+EUR,a0c5E0000020LYIQA2,PriceRenewalCampaignItem__c,,,Id,Quote Line,,,,,,a0a5E000004m1YVQAY
+EUR,a0c5E0000020LYHQA2,PriceRenewalCampaignItem__c,null,,,Quote Line,,,,,,a0a5E000004m1YWQAY
+EUR,a0c5E0000020LYeQAM,Discount (%),,,,Quote Line,,0,,,,a0a5E000004m1YXQAY
+EUR,a0c5E0000020LYMQA2,TF_PurchasePrice__c,,,,Quote Line,,null,,,,a0a5E000004m1YYQAY
+EUR,a0c5E0000020LYFQA2,PrevContractedPrice__c,null,,,Quote Line,,null,,,,a0a5E000004m1YZQAY
+EUR,a0c5E0000020LYaQAM,SalesListPriceLog__c,"SalesListPriceLog__c + "": Margin"" + Quant__c +SBQQ__Quantity__c",,,Quote Line,,0,,,,a0a5E000004m1YaQAI
+EUR,a0c5E0000020LYKQA2,IsAdditionalQuantityBreakClonedRenewal__c,true,0,,Quote Line,,0,,,,a0a5E000004m1YbQAI
+EUR,a0c5E0000020LYVQA2,SalesListPriceUOMread__c,,5,BaseUOM__c,Quote Line,,0,,,,a0a5E000004m1YcQAI
+EUR,a0c5E0000020LYTQA2,SalesListPriceUOMread__c,,5,BaseUOM__c,Quote Line,,0,,,,a0a5E000004m1YdQAI
+EUR,a0c5E0000020LYUQA2,SalesListPriceUOMread__c,,5,BaseUOM__c,Quote Line,,0,,,,a0a5E000004m1YeQAI
+EUR,a0c5E0000020LYWQA2,SalesListPriceUOMread__c,,5,BaseUOM__c,Quote Line,,0,,,,a0a5E000004m1YfQAI
+EUR,a0c5E0000020LYXQA2,SalesListPriceUOMread__c,,5,BaseUOM__c,Quote Line,,0,,,,a0a5E000004m1YgQAI
+EUR,a0c5E0000020LYDQA2,Quant__c,"if (BLANKVALUE(Quant__c, 0) = 0, 
 
 BLANKVALUE(SBQQ__Quantity__c,1), 
 
-BLANKVALUE(Quant__c, 0))",5,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,UOM__c,"IF (BLANKVALUE(TEXT(UOM__c), '') = '', 
-BLANKVALUE(BaseUOM__c, ""Kg""),TEXT(UOM__c))",5,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "": Appr3"" +  TF_RecordChanged__c + (TF_MarkUp1__c -MarkUp1__c) + TF_PricePerUOM__c + PricePerUOM__c",5,,Quote Line,,AdditionalTeamMember__c.Email__c,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "": Appr"" + PricingSystem__c + TEXT(PricePerUOM__c) + TEXT(MarkUp1__c) + TF_PricingSystem__c + TEXT(TF_PricePerUOM__c) + TEXT(TF_MarkUp1__c)",5,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SBQQ__ListPrice__c,"BLANKVALUE(SBQQ__ListPrice__c, 0)",10,,Quote Line,,Custom,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SBQQ__SpecialPriceType__c,,10,,Quote Line,,Custom,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPrice__c,,10,Id,Quote Line,,Custom,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,PricingSystem__c,"IF (ISBLANK(Id) , (BLANKVALUE(PricingSystem__c, (IF (SBQQ__Quote__r.QuoteType__c = ""Opportunity"" || SBQQ__Quote__r.QuoteType__c = ""Renewal"", 'Manual','List'))))
+BLANKVALUE(Quant__c, 0))",5,,Quote Line,,0,,,,a0a5E000004m1YhQAI
+EUR,a0c5E0000020LYQQA2,UOM__c,"IF (BLANKVALUE(TEXT(UOM__c), '') = '', 
+BLANKVALUE(BaseUOM__c, ""Kg""),TEXT(UOM__c))",5,,Quote Line,,0,,,,a0a5E000004m1YiQAI
+EUR,a0c5E0000020LYhQAM,SalesListPriceLog__c,"SalesListPriceLog__c + "": Appr3"" +  TF_RecordChanged__c + (TF_MarkUp1__c -MarkUp1__c) + TF_PricePerUOM__c + PricePerUOM__c",5,,Quote Line,,AdditionalTeamMember__c.Email__c,,,,a0a5E000004m1YjQAI
+EUR,a0c5E0000020LYgQAM,SalesListPriceLog__c,"SalesListPriceLog__c + "": Appr"" + PricingSystem__c + TEXT(PricePerUOM__c) + TEXT(MarkUp1__c) + TF_PricingSystem__c + TEXT(TF_PricePerUOM__c) + TEXT(TF_MarkUp1__c)",5,,Quote Line,,,,,,a0a5E000004m1YkQAI
+EUR,a0c5E0000020LYQQA2,SBQQ__ListPrice__c,"BLANKVALUE(SBQQ__ListPrice__c, 0)",10,,Quote Line,,Custom,,,,a0a5E000004m1YlQAI
+EUR,a0c5E0000020LYDQA2,SBQQ__SpecialPriceType__c,,10,,Quote Line,,Custom,,,,a0a5E000004m1YmQAI
+EUR,a0c5E0000020LYSQA2,SalesListPrice__c,,10,Id,Quote Line,,Custom,,,,a0a5E000004m1YnQAI
+EUR,a0c5E0000020LYEQA2,PricingSystem__c,"IF (ISBLANK(Id) , (BLANKVALUE(PricingSystem__c, (IF (SBQQ__Quote__r.QuoteType__c = ""Opportunity"" || SBQQ__Quote__r.QuoteType__c = ""Renewal"", 'Manual','List'))))
 ,
-BLANKVALUE(PricingSystem__c, ''))",10,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,UOM__c,,10,DefaultPricingUoM__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,DirectSellingRelationship__c,,10,Id,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPrice__c,,10,Id,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SBQQ__SpecialPrice__c,"IF (PricingSystem__c = 'List' || PricingSystem__c =  'Parent' , 
+BLANKVALUE(PricingSystem__c, ''))",10,,Quote Line,,,,,,a0a5E000004m1YoQAI
+EUR,a0c5E0000020LY9QAM,UOM__c,,10,DefaultPricingUoM__c,Quote Line,,,,,,a0a5E000004m1YpQAI
+EUR,a0c5E0000020LYJQA2,DirectSellingRelationship__c,,10,Id,Quote Line,,,,,,a0a5E000004m1YqQAI
+EUR,a0c5E0000020LYWQA2,SalesListPrice__c,,10,Id,Quote Line,,,,,,a0a5E000004m1YrQAI
+EUR,a0c5E0000020LYdQAM,SBQQ__SpecialPrice__c,"IF (PricingSystem__c = 'List' || PricingSystem__c =  'Parent' , 
 
 ROUND( 
 ( 
@@ -49,12 +49,12 @@ BLANKVALUE(SalesListPriceVal__c ,0 )
 ) 
 * BLANKVALUE(SBQQ__Quote__r.ExchangeEUR__c ,0 ) 
 , BLANKVALUE(SalesListPriceRounding__c, 2)) 
-, SBQQ__SpecialPrice__c)",10,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPrice__c,,10,Id,Quote Line,,Custom,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceCostVal2__c,,10,PriceEUR__c,Quote Line,,Custom,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,PrevPricePerUAM__c,null,10,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPrice__c,,10,Id,Quote Line,,Custom,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,UOMconversion__c,"CASE (
+, SBQQ__SpecialPrice__c)",10,,Quote Line,,,,,,a0a5E000004m1YsQAI
+EUR,a0c5E0000020LYUQA2,SalesListPrice__c,,10,Id,Quote Line,,Custom,,,,a0a5E000004m1YtQAI
+EUR,a0c5E0000020LYcQAM,SalesListPriceCostVal2__c,,10,PriceEUR__c,Quote Line,,Custom,,,,a0a5E000004m1YuQAI
+EUR,a0c5E0000020LYKQA2,PrevPricePerUAM__c,null,10,,Quote Line,,,,,,a0a5E000004m1YvQAI
+EUR,a0c5E0000020LYTQA2,SalesListPrice__c,,10,Id,Quote Line,,Custom,,,,a0a5E000004m1YwQAI
+EUR,a0c5E0000020LYYQA2,UOMconversion__c,"CASE (
 
 IF (BLANKVALUE(PricingSystem__c, 'xx') = 'List' || BLANKVALUE(PricingSystem__c, 'xx') = 'Parent' && !ISBLANK(SalesListPrice__c) , 
 
@@ -81,85 +81,85 @@ BLANKVALUE(UnitOfMeasurePrimary__c, 'XX')  + BLANKVALUE(UOM__c, 'XX')
 ""LBGM"",   453.6,
 ""GMLB"" , 2204.5855 ,
 
-1)",10,,Quote Line,,Custom,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPrice__c,,10,Id,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,TF_BaseUOM__c,,10,UnitOfMeasure__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,TF_PurchasePrice__c,,10,PriceEUR__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "":MinQty"" + SearchSLPMarginQuantity__c + SalesListPriceLower__c",10,,Quote Line,,Custom,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPrice__c,,10,Id,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceMargin__c,,10,Margin__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceValid__c,,10,IsValid__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,ApprovalStatus__c,,10,,Quote,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,TF_PricePerUOMChange__c,"IF(PricingSystem__c <> 'Manual', 0, IF(PricePerUOM__c <> 0, ((PricePerUOM__c / TF_PricePerUOM__c) * 100 - 100), 0))",10,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"""Init1:"" + UOM__c",14,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,UOM__c,"BLANKVALUE(UOM__c,
-BLANKVALUE(SBQQ__Quote__r.TF_AccountUOM__c, BLANKVALUE(TF_BaseUOM__c, BLANKVALUE(StartUOM__c, 'KG'))))",15,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceValid__c,,15,IsValid__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceValid__c,,15,IsValid__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,UOM__c,"IF (BLANKVALUE(SearchSLPMarginQuantity__c, 0) < BLANKVALUE(SalesListPriceLower__c, 0), SLPUOM__c, UOM__c)",15,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceValid__c,,15,IsValid__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceValid__c,,15,IsValid__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPrice__c,null,15,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLower__c,,15,TF_Marginlower__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,UOMconversion__c,"IF (BLANKVALUE(SearchSLPMarginQuantity__c, 0) < BLANKVALUE(SalesListPriceLower__c, 0),  1, UOMconversion__c)",18,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,MarkUp1__c,"IF (PricingSystem__c = 'List' || 'Parent' , 
+1)",10,,Quote Line,,Custom,,,,a0a5E000004m1YxQAI
+EUR,a0c5E0000020LYXQA2,SalesListPrice__c,,10,Id,Quote Line,,0,,,,a0a5E000004m1YyQAI
+EUR,a0c5E0000020LYCQA2,TF_BaseUOM__c,,10,UnitOfMeasure__c,Quote Line,,,,,,a0a5E000004m1YzQAI
+EUR,a0c5E0000020LYNQA2,TF_PurchasePrice__c,,10,PriceEUR__c,Quote Line,,,,,,a0a5E000004m1Z0QAI
+EUR,a0c5E0000020LYZQA2,SalesListPriceLog__c,"SalesListPriceLog__c + "":MinQty"" + SearchSLPMarginQuantity__c + SalesListPriceLower__c",10,,Quote Line,,Custom,,,,a0a5E000004m1Z1QAI
+EUR,a0c5E0000020LYVQA2,SalesListPrice__c,,10,Id,Quote Line,,0,,,,a0a5E000004m1Z2QAI
+EUR,a0c5E0000020LYaQAM,SalesListPriceMargin__c,,10,Margin__c,Quote Line,,0,,,,a0a5E000004m1Z3QAI
+EUR,a0c5E0000020LYTQA2,SalesListPriceValid__c,,10,IsValid__c,Quote Line,,0,,,,a0a5E000004m1Z4QAI
+EUR,a0c5E0000020LYhQAM,ApprovalStatus__c,,10,,Quote,,,,,,a0a5E000004m1Z5QAI
+EUR,a0c5E0000020LYgQAM,TF_PricePerUOMChange__c,"IF(PricingSystem__c <> 'Manual', 0, IF(PricePerUOM__c <> 0, ((PricePerUOM__c / TF_PricePerUOM__c) * 100 - 100), 0))",10,,Quote Line,,,,,,a0a5E000004m1Z6QAI
+EUR,a0c5E0000020LYDQA2,SalesListPriceLog__c,"""Init1:"" + UOM__c",14,,Quote Line,,,,,,a0a5E000004m1Z7QAI
+EUR,a0c5E0000020LYDQA2,UOM__c,"BLANKVALUE(UOM__c,
+BLANKVALUE(SBQQ__Quote__r.TF_AccountUOM__c, BLANKVALUE(TF_BaseUOM__c, BLANKVALUE(StartUOM__c, 'KG'))))",15,,Quote Line,,,,,,a0a5E000004m1Z8QAI
+EUR,a0c5E0000020LYVQA2,SalesListPriceValid__c,,15,IsValid__c,Quote Line,,,,,,a0a5E000004m1Z9QAI
+EUR,a0c5E0000020LYXQA2,SalesListPriceValid__c,,15,IsValid__c,Quote Line,,0,,,,a0a5E000004m1ZAQAY
+EUR,a0c5E0000020LYZQA2,UOM__c,"IF (BLANKVALUE(SearchSLPMarginQuantity__c, 0) < BLANKVALUE(SalesListPriceLower__c, 0), SLPUOM__c, UOM__c)",15,,Quote Line,,,,,,a0a5E000004m1ZBQAY
+EUR,a0c5E0000020LYWQA2,SalesListPriceValid__c,,15,IsValid__c,Quote Line,,0,,,,a0a5E000004m1ZCQAY
+EUR,a0c5E0000020LYUQA2,SalesListPriceValid__c,,15,IsValid__c,Quote Line,,0,,,,a0a5E000004m1ZDQAY
+EUR,a0c5E0000020LYRQA2,SalesListPrice__c,null,15,,Quote Line,,0,,,,a0a5E000004m1ZEQAY
+EUR,a0c5E0000020LYTQA2,SalesListPriceLower__c,,15,TF_Marginlower__c,Quote Line,,,,,,a0a5E000004m1ZFQAY
+EUR,a0c5E0000020LYZQA2,UOMconversion__c,"IF (BLANKVALUE(SearchSLPMarginQuantity__c, 0) < BLANKVALUE(SalesListPriceLower__c, 0),  1, UOMconversion__c)",18,,Quote Line,,,,,,a0a5E000004m1ZGQAY
+EUR,a0c5E0000020LYdQAM,MarkUp1__c,"IF (PricingSystem__c = 'List' || 'Parent' , 
 
 BLANKVALUE(SalesListPriceMargin__c , 0) , 
-MarkUp1__c)",20,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceVal__c,,20,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceVal__c,,20,PriceEUR__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceCostVal2__c,,20,PriceEUR__c,Quote Line,,Custom,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SearchSLPMarginQuantity__c,"IF (BLANKVALUE(SearchSLPMarginQuantity__c, 0) < BLANKVALUE(SalesListPriceLower__c, 0), BLANKVALUE(SalesListPriceLower__c, 1), BLANKVALUE(SearchSLPMarginQuantity__c, 1))",20,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLower__c,,20,TF_Marginlower__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceLower__c,,20,TF_Marginlower__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceLower__c,,20,TF_Marginlower__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,ProposedUOMprice__c,null,20,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLower__c,,20,TF_Marginlower__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,PricePerUOM__c,"if (BLANKVALUE( Increase__c, 0) = 0, 
+MarkUp1__c)",20,,Quote Line,,0,,,,a0a5E000004m1ZHQAY
+EUR,a0c5E0000020LYRQA2,SalesListPriceVal__c,,20,,Quote Line,,0,,,,a0a5E000004m1ZIQAY
+EUR,a0c5E0000020LYSQA2,SalesListPriceVal__c,,20,PriceEUR__c,Quote Line,,0,,,,a0a5E000004m1ZJQAY
+EUR,a0c5E0000020LYbQAM,SalesListPriceCostVal2__c,,20,PriceEUR__c,Quote Line,,Custom,,,,a0a5E000004m1ZKQAY
+EUR,a0c5E0000020LYZQA2,SearchSLPMarginQuantity__c,"IF (BLANKVALUE(SearchSLPMarginQuantity__c, 0) < BLANKVALUE(SalesListPriceLower__c, 0), BLANKVALUE(SalesListPriceLower__c, 1), BLANKVALUE(SearchSLPMarginQuantity__c, 1))",20,,Quote Line,,,,,,a0a5E000004m1ZLQAY
+EUR,a0c5E0000020LYWQA2,SalesListPriceLower__c,,20,TF_Marginlower__c,Quote Line,,,,,,a0a5E000004m1ZMQAY
+EUR,a0c5E0000020LYUQA2,SalesListPriceLower__c,,20,TF_Marginlower__c,Quote Line,,0,,,,a0a5E000004m1ZNQAY
+EUR,a0c5E0000020LYVQA2,SalesListPriceLower__c,,20,TF_Marginlower__c,Quote Line,,0,,,,a0a5E000004m1ZOQAY
+EUR,a0c5E0000020LYKQA2,ProposedUOMprice__c,null,20,,Quote Line,,,,,,a0a5E000004m1ZPQAY
+EUR,a0c5E0000020LYXQA2,SalesListPriceLower__c,,20,TF_Marginlower__c,Quote Line,,,,,,a0a5E000004m1ZQQAY
+EUR,a0c5E0000020LYiQAM,PricePerUOM__c,"if (BLANKVALUE( Increase__c, 0) = 0, 
 
 BLANKVALUE( PricePerUOM__c  , 0),
 
 ((Increase__c   + 1 ) *  BLANKVALUE( PrevUOMprice__c, 0) ) 
-)",20,,Quote Line,,Custom,,,Price Action Target Object does not match Evaluation Scope
-EUR,,TotalCost__c,"BLANKVALUE( InboundCosts__c, 0)  +  
+)",20,,Quote Line,,Custom,,,,a0a5E000004m1ZRQAY
+EUR,a0c5E0000020LYQQA2,TotalCost__c,"BLANKVALUE( InboundCosts__c, 0)  +  
 BLANKVALUE(WarehousingCosts__c, 0) +   
 BLANKVALUE(OutboundCosts__c, 0) + 
 BLANKVALUE(Surcharge__c,0) +
 BLANKVALUE(Duties__c,0) +
-BLANKVALUE(PrincipalRebate__c,0)",20,,Quote Line,,Custom,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceVal__c,,20,PriceEUR__c,Quote Line,,Custom,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SBQQ__Quantity__c,"if (BLANKVALUE(Quant__c, 0) = 0,  BLANKVALUE( SBQQ__Quantity__c, 1),
+BLANKVALUE(PrincipalRebate__c,0)",20,,Quote Line,,Custom,,,,a0a5E000004m1ZSQAY
+EUR,a0c5E0000020LYTQA2,SalesListPriceVal__c,,20,PriceEUR__c,Quote Line,,Custom,,,,a0a5E000004m1ZTQAY
+EUR,a0c5E0000020LYYQA2,SBQQ__Quantity__c,"if (BLANKVALUE(Quant__c, 0) = 0,  BLANKVALUE( SBQQ__Quantity__c, 1),
 ROUND(BLANKVALUE(Quant__c, 0) / BLANKVALUE(UOMconversion__c, 1),4)
- )",20,,Quote Line,,Custom,,,Price Action Target Object does not match Evaluation Scope
-EUR,,TF_PriceBookEntry__c,,20,Id,Quote Line,,Custom,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,TF_PurchasePrice__c,"if (BLANKVALUE(TF_PurchasePrice__c, 0)= 0, null, TF_PurchasePrice__c * SBQQ__Quote__r.ExchangeEUR__c )",20,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,TF_ApprovalNeeded__c,"IF (PricingSystem__c = ""Manual"", true, IF(PricingSystem__c = ""List"" || PricingSystem__c = ""Parent"", false, IF (TF_PricePerUOMChange__c <> 0, true, false)))",20,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,TF_ChangeApproved__c,,20,,Quote,,false,,,Price Action Target Object does not match Evaluation Scope
-EUR,,Increase__c,,22,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceVal__c,,25,PriceEUR__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,TF_MarkedupAmount__c,"(BLANKVALUE(TF_NetListPrice__c, 0) + BLANKVALUE(TotalCost__c, 0) ) 
+ )",20,,Quote Line,,Custom,,,,a0a5E000004m1ZUQAY
+EUR,a0c5E0000020LYLQA2,TF_PriceBookEntry__c,,20,Id,Quote Line,,Custom,,,,a0a5E000004m1ZVQAY
+EUR,a0c5E0000020LYNQA2,TF_PurchasePrice__c,"if (BLANKVALUE(TF_PurchasePrice__c, 0)= 0, null, TF_PurchasePrice__c * SBQQ__Quote__r.ExchangeEUR__c )",20,,Quote Line,,,,,,a0a5E000004m1ZWQAY
+EUR,a0c5E0000020LYgQAM,TF_ApprovalNeeded__c,"IF (PricingSystem__c = ""Manual"", true, IF(PricingSystem__c = ""List"" || PricingSystem__c = ""Parent"", false, IF (TF_PricePerUOMChange__c <> 0, true, false)))",20,,Quote Line,,,,,,a0a5E000004m1ZXQAY
+EUR,a0c5E0000020LYhQAM,TF_ChangeApproved__c,,20,,Quote,,false,,,,a0a5E000004m1ZYQAY
+EUR,a0c5E0000020LYiQAM,Increase__c,,22,,Quote Line,,,,,,a0a5E000004m1ZZQAY
+EUR,a0c5E0000020LYWQA2,SalesListPriceVal__c,,25,PriceEUR__c,Quote Line,,,,,,a0a5E000004m1ZaQAI
+EUR,a0c5E0000020LYQQA2,TF_MarkedupAmount__c,"(BLANKVALUE(TF_NetListPrice__c, 0) + BLANKVALUE(TotalCost__c, 0) ) 
 /
 if (  BLANKVALUE(MarkUp1__c,0) >= 1 , 1, (1- BLANKVALUE(MarkUp1__c,0)))
 
-- (BLANKVALUE(TF_NetListPrice__c, 0) + BLANKVALUE(TotalCost__c, 0))",45,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,TF_MarkedupAmount__c,"BLANKVALUE(SBQQ__SpecialPrice__c, 0) 
+- (BLANKVALUE(TF_NetListPrice__c, 0) + BLANKVALUE(TotalCost__c, 0))",45,,Quote Line,,0,,,,a0a5E000004m1ZbQAI
+EUR,a0c5E0000020LYdQAM,TF_MarkedupAmount__c,"BLANKVALUE(SBQQ__SpecialPrice__c, 0) 
 *
 if (  BLANKVALUE(MarkUp1__c,0) >= 1 , 1, (  BLANKVALUE(MarkUp1__c,0) )
-)",45,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,PricingSystem__c,,45,,Quote Line,,List,,,Price Action Target Object does not match Evaluation Scope
-EUR,,PriceValidityEnd__c,"if (ISBLANK(PriceValidityEnd__c) = false , PriceValidityEnd__c,
-if (ISBLANK( SBQQ__Quote__r.PriceValidityTo__c) = true, null, SBQQ__Quote__r.PriceValidityTo__c))",50,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceMargin__c,,50,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SBQQ__SpecialPrice__c,"BLANKVALUE ( TF_NetListPrice__c,0 ) + ( BLANKVALUE ( TotalCost__c, 0 ) / ( ( 1 - BLANKVALUE (VolDiscountPerc__c, 0 ) ) * 100 ) ) * 100  
+)",45,,Quote Line,,,,,,a0a5E000004m1ZcQAI
+EUR,a0c5E0000020LYXQA2,PricingSystem__c,,45,,Quote Line,,List,,,,a0a5E000004m1ZdQAI
+EUR,a0c5E0000020LYDQA2,PriceValidityEnd__c,"if (ISBLANK(PriceValidityEnd__c) = false , PriceValidityEnd__c,
+if (ISBLANK( SBQQ__Quote__r.PriceValidityTo__c) = true, null, SBQQ__Quote__r.PriceValidityTo__c))",50,,Quote Line,,0,,,,a0a5E000004m1ZeQAI
+EUR,a0c5E0000020LYRQA2,SalesListPriceMargin__c,,50,,Quote Line,,0,,,,a0a5E000004m1ZfQAI
+EUR,a0c5E0000020LYQQA2,SBQQ__SpecialPrice__c,"BLANKVALUE ( TF_NetListPrice__c,0 ) + ( BLANKVALUE ( TotalCost__c, 0 ) / ( ( 1 - BLANKVALUE (VolDiscountPerc__c, 0 ) ) * 100 ) ) * 100  
 + 
-	BLANKVALUE(TF_MarkedupAmount__c,0)",50,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "":MinQtyf2"" + SearchSLPMarginQuantity__c + SalesListPriceLower__c",50,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceRounding__c,,50,Rounding__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceRounding__c,,50,Rounding__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,TF_KeyOpportunity__c,,50,Key_Opportunity__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SBQQ__Status__c,,50,,Quote,,Accepted,,,Price Action Target Object does not match Evaluation Scope
-EUR,,TF_PreviousDateTo__c,null,50,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,ProductDisplayPriceRule__c,"CASE(SBQQ__Quote__r.ImcdCompany__c, '55100', SBQQ__ProductName__c +"" ""+""(""+ SBQQ__Product__r.FullSegmentsNumber__c +"")"",
+	BLANKVALUE(TF_MarkedupAmount__c,0)",50,,Quote Line,,0,,,,a0a5E000004m1ZgQAI
+EUR,a0c5E0000020LYZQA2,SalesListPriceLog__c,"SalesListPriceLog__c + "":MinQtyf2"" + SearchSLPMarginQuantity__c + SalesListPriceLower__c",50,,Quote Line,,0,,,,a0a5E000004m1ZhQAI
+EUR,a0c5E0000020LYTQA2,SalesListPriceRounding__c,,50,Rounding__c,Quote Line,,0,,,,a0a5E000004m1ZiQAI
+EUR,a0c5E0000020LYSQA2,SalesListPriceRounding__c,,50,Rounding__c,Quote Line,,0,,,,a0a5E000004m1ZjQAI
+EUR,a0c5E0000020LYOQA2,TF_KeyOpportunity__c,,50,Key_Opportunity__c,Quote Line,,0,,,,a0a5E000004m1ZkQAI
+EUR,a0c5E0000020LYXQA2,SBQQ__Status__c,,50,,Quote,,Accepted,,,,a0a5E000004m1ZlQAI
+EUR,a0c5E0000020LYKQA2,TF_PreviousDateTo__c,null,50,,Quote Line,,,,,,a0a5E000004m1ZmQAI
+EUR,a0c5E0000020LYAQA2,ProductDisplayPriceRule__c,"CASE(SBQQ__Quote__r.ImcdCompany__c, '55100', SBQQ__ProductName__c +"" ""+""(""+ SBQQ__Product__r.FullSegmentsNumber__c +"")"",
 '55200', SBQQ__ProductName__c +"" ""+""(""+ SBQQ__Product__r.FullSegmentsNumber__c +"")"",
 '55400', SBQQ__ProductName__c +"" ""+""(""+ SBQQ__Product__r.FullSegmentsNumber__c +"")"",
 '55500', SBQQ__ProductName__c +"" ""+""(""+ SBQQ__Product__r.FullSegmentsNumber__c +"")"",
@@ -168,44 +168,44 @@ EUR,,ProductDisplayPriceRule__c,"CASE(SBQQ__Quote__r.ImcdCompany__c, '55100', SB
 '71200', SBQQ__ProductName__c +"" ""+""(""+ SBQQ__Product__r.FullSegmentsNumber__c +"")""+"" ""+ TEXT(SBQQ__Product__r.CountryofOrigin__c),
 '71300', SBQQ__ProductName__c +"" ""+""(""+ SBQQ__Product__r.FullSegmentsNumber__c+"")""+"" ""+ TEXT(SBQQ__Product__r.CountryofOrigin__c),
 '74300', SBQQ__ProductName__c +"" ""+""(""+SBQQ__Product__r.FullSegmentsNumber__c +"")""+"" ""+ TEXT(SBQQ__Product__r.CountryofOrigin__c),
-SBQQ__ProductName__c +"" ""+""(""+SBQQ__Product__r.Item__c+"")"" )",50,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,PriceValidityStart__c,"if (ISBLANK(PriceValidityStart__c) = false , PriceValidityStart__c,
-if (ISBLANK( SBQQ__Quote__r.PriceValidityFrom__c) = true, null, SBQQ__Quote__r.PriceValidityFrom__c))",55,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceUOMread__c,null,55,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,KeyOpportunity__c,"if (ISBLANK(TF_Stage__c) = true,  	
-TF_KeyOpportunity__c, KeyOpportunity__c)",55,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceUOMread__c,,60,BaseUOM__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceMargin__c,null,60,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,Opportunity__c,,60,Id,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,MarkUp1__c,"IF (BLANKVALUE(PricingSystem__c, '')  = BLANKVALUE(SalesListPricePriceSystem__c, ''), MarkUp1__c, null)",60,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPricePriceSystem__c,PricingSystem__c,65,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,MarkUp1__c,"IF (BLANKVALUE(TEXT(PricingSystem__c), '' ) = 'List' , 0, BLANKVALUE(MarkUp1__c,0))",66,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceVal__c,,25,PriceEUR__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceVal__c,,25,PriceEUR__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceVal__c,,25,PriceEUR__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceCostVal1__c,,30,TotCost__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,TF_NetListPrice__c,"IF (BLANKVALUE(SBQQ__ListPrice__c, 0) = 0,  BLANKVALUE(ManualPurchasePrice__c, 0) , BLANKVALUE( SBQQ__ListPrice__c, 0))",30,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,Quant__c,"IF (BLANKVALUE(SearchSLPMarginQuantity__c, 0) = BLANKVALUE(SalesListPriceLower__c, 0), BLANKVALUE(SalesListPriceLower__c, 1), BLANKVALUE(Quant__c, 0))",30,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SearchSLPMarginQuantity__c,"IF (BLANKVALUE(SBQQ__Quantity__c, 0) = BLANKVALUE(Quant__c, 0) , BLANKVALUE(Quant__c, 1), BLANKVALUE(SBQQ__Quantity__c,1))",30,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceCostVal1__c,,30,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SetContracted__c,SetContracted__c,30,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceCostVal1__c,,30,TotCost__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,TF_NetListPrice__c,,30,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceCostVal1__c,,30,TotCost__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,TF_PreviousPrice__c,null,30,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceCostVal1__c,,30,TotCost__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceCostVal1__c,,30,TotCost__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceCostVal1__c,,30,TotCost__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,TF_RecordChanged__c,"IF(TF_ApprovalNeeded__c = false, false, IF((PricingSystem__c <> TF_PricingSystem__c && PricePerUOM__c <> 0) || (TF_PricePerUOMChange__c <> 0 && PricePerUOM__c <> 0) || (TF_MarkUp1Change__c <> 0 && PricePerUOM__c <> 0), true, false))",30,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceRounding__c,,35,Rounding__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceRounding__c,,35,Rounding__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceRounding__c,,35,Rounding__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SBQQ__Quantity__c,"IF (BLANKVALUE(SearchSLPMarginQuantity__c, 0) = BLANKVALUE(SalesListPriceLower__c, 0), BLANKVALUE(SalesListPriceLower__c, 1), BLANKVALUE(SBQQ__Quantity__c, 0))",35,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceRounding__c,,35,Rounding__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,TF_PreviousDateFrom__c,null,40,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SLPUOM__c,,40,BaseUOM__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SLPUOM__c,,40,BaseUOM__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,MarkUp1__c,"if (BLANKVALUE(TargetPrice__c,0) = 0 
+SBQQ__ProductName__c +"" ""+""(""+SBQQ__Product__r.Item__c+"")"" )",50,,Quote Line,,,,,,a0a5E000004m1ZnQAI
+EUR,a0c5E0000020LYDQA2,PriceValidityStart__c,"if (ISBLANK(PriceValidityStart__c) = false , PriceValidityStart__c,
+if (ISBLANK( SBQQ__Quote__r.PriceValidityFrom__c) = true, null, SBQQ__Quote__r.PriceValidityFrom__c))",55,,Quote Line,,0,,,,a0a5E000004m1ZoQAI
+EUR,a0c5E0000020LYRQA2,SalesListPriceUOMread__c,null,55,,Quote Line,,0,,,,a0a5E000004m1ZpQAI
+EUR,a0c5E0000020LYOQA2,KeyOpportunity__c,"if (ISBLANK(TF_Stage__c) = true,  	
+TF_KeyOpportunity__c, KeyOpportunity__c)",55,,Quote Line,,,,,,a0a5E000004m1ZqQAI
+EUR,a0c5E0000020LYSQA2,SalesListPriceUOMread__c,,60,BaseUOM__c,Quote Line,,,,,,a0a5E000004m1ZrQAI
+EUR,a0c5E0000020LYRQA2,SalesListPriceMargin__c,null,60,,Quote Line,,,,,,a0a5E000004m1ZsQAI
+EUR,a0c5E0000020LYPQA2,Opportunity__c,,60,Id,Quote Line,,,,,,a0a5E000004m1ZtQAI
+EUR,a0c5E0000020LYDQA2,MarkUp1__c,"IF (BLANKVALUE(PricingSystem__c, '')  = BLANKVALUE(SalesListPricePriceSystem__c, ''), MarkUp1__c, null)",60,,Quote Line,,,,,,a0a5E000004m1ZuQAI
+EUR,a0c5E0000020LYDQA2,SalesListPricePriceSystem__c,PricingSystem__c,65,,Quote Line,,,,,,a0a5E000004m1ZvQAI
+EUR,a0c5E0000020LYRQA2,MarkUp1__c,"IF (BLANKVALUE(TEXT(PricingSystem__c), '' ) = 'List' , 0, BLANKVALUE(MarkUp1__c,0))",66,,Quote Line,,,,,,a0a5E000004m1ZwQAI
+EUR,a0c5E0000020LYXQA2,SalesListPriceVal__c,,25,PriceEUR__c,Quote Line,,,,,,a0a5E000004m1ZxQAI
+EUR,a0c5E0000020LYVQA2,SalesListPriceVal__c,,25,PriceEUR__c,Quote Line,,,,,,a0a5E000004m1ZyQAI
+EUR,a0c5E0000020LYUQA2,SalesListPriceVal__c,,25,PriceEUR__c,Quote Line,,,,,,a0a5E000004m1ZzQAI
+EUR,a0c5E0000020LYTQA2,SalesListPriceCostVal1__c,,30,TotCost__c,Quote Line,,0,,,,a0a5E000004m1a0QAA
+EUR,a0c5E0000020LYQQA2,TF_NetListPrice__c,"IF (BLANKVALUE(SBQQ__ListPrice__c, 0) = 0,  BLANKVALUE(ManualPurchasePrice__c, 0) , BLANKVALUE( SBQQ__ListPrice__c, 0))",30,,Quote Line,,0,,,,a0a5E000004m1a1QAA
+EUR,a0c5E0000020LYZQA2,Quant__c,"IF (BLANKVALUE(SearchSLPMarginQuantity__c, 0) = BLANKVALUE(SalesListPriceLower__c, 0), BLANKVALUE(SalesListPriceLower__c, 1), BLANKVALUE(Quant__c, 0))",30,,Quote Line,,0,,,,a0a5E000004m1a2QAA
+EUR,a0c5E0000020LYYQA2,SearchSLPMarginQuantity__c,"IF (BLANKVALUE(SBQQ__Quantity__c, 0) = BLANKVALUE(Quant__c, 0) , BLANKVALUE(Quant__c, 1), BLANKVALUE(SBQQ__Quantity__c,1))",30,,Quote Line,,0,,,,a0a5E000004m1a3QAA
+EUR,a0c5E0000020LYRQA2,SalesListPriceCostVal1__c,,30,,Quote Line,,0,,,,a0a5E000004m1a4QAA
+EUR,a0c5E0000020LYiQAM,SetContracted__c,SetContracted__c,30,,Quote Line,,0,,,,a0a5E000004m1a5QAA
+EUR,a0c5E0000020LYSQA2,SalesListPriceCostVal1__c,,30,TotCost__c,Quote Line,,0,,,,a0a5E000004m1a6QAA
+EUR,a0c5E0000020LYDQA2,TF_NetListPrice__c,,30,,Quote Line,,0,,,,a0a5E000004m1a7QAA
+EUR,a0c5E0000020LYUQA2,SalesListPriceCostVal1__c,,30,TotCost__c,Quote Line,,0,,,,a0a5E000004m1a8QAA
+EUR,a0c5E0000020LYKQA2,TF_PreviousPrice__c,null,30,,Quote Line,,,,,,a0a5E000004m1a9QAA
+EUR,a0c5E0000020LYXQA2,SalesListPriceCostVal1__c,,30,TotCost__c,Quote Line,,,,,,a0a5E000004m1aAQAQ
+EUR,a0c5E0000020LYWQA2,SalesListPriceCostVal1__c,,30,TotCost__c,Quote Line,,,,,,a0a5E000004m1aBQAQ
+EUR,a0c5E0000020LYVQA2,SalesListPriceCostVal1__c,,30,TotCost__c,Quote Line,,,,,,a0a5E000004m1aCQAQ
+EUR,a0c5E0000020LYgQAM,TF_RecordChanged__c,"IF(TF_ApprovalNeeded__c = false, false, IF((PricingSystem__c <> TF_PricingSystem__c && PricePerUOM__c <> 0) || (TF_PricePerUOMChange__c <> 0 && PricePerUOM__c <> 0) || (TF_MarkUp1Change__c <> 0 && PricePerUOM__c <> 0), true, false))",30,,Quote Line,,,,,,a0a5E000004m1aDQAQ
+EUR,a0c5E0000020LYUQA2,SalesListPriceRounding__c,,35,Rounding__c,Quote Line,,,,,,a0a5E000004m1aEQAQ
+EUR,a0c5E0000020LYVQA2,SalesListPriceRounding__c,,35,Rounding__c,Quote Line,,0,,,,a0a5E000004m1aFQAQ
+EUR,a0c5E0000020LYWQA2,SalesListPriceRounding__c,,35,Rounding__c,Quote Line,,0,,,,a0a5E000004m1aGQAQ
+EUR,a0c5E0000020LYZQA2,SBQQ__Quantity__c,"IF (BLANKVALUE(SearchSLPMarginQuantity__c, 0) = BLANKVALUE(SalesListPriceLower__c, 0), BLANKVALUE(SalesListPriceLower__c, 1), BLANKVALUE(SBQQ__Quantity__c, 0))",35,,Quote Line,,0,,,,a0a5E000004m1aHQAQ
+EUR,a0c5E0000020LYXQA2,SalesListPriceRounding__c,,35,Rounding__c,Quote Line,,0,,,,a0a5E000004m1aIQAQ
+EUR,a0c5E0000020LYKQA2,TF_PreviousDateFrom__c,null,40,,Quote Line,,,,,,a0a5E000004m1aJQAQ
+EUR,a0c5E0000020LYWQA2,SLPUOM__c,,40,BaseUOM__c,Quote Line,,0,,,,a0a5E000004m1aKQAQ
+EUR,a0c5E0000020LYVQA2,SLPUOM__c,,40,BaseUOM__c,Quote Line,,0,,,,a0a5E000004m1aLQAQ
+EUR,a0c5E0000020LYQQA2,MarkUp1__c,"if (BLANKVALUE(TargetPrice__c,0) = 0 
 ,
 
 if (BLANKVALUE(MarkUp1__c, 0) = 0, null, if(BLANKVALUE(TF_NetListPrice__c,0) = 0, null, MarkUp1__c), MarkUp1__c) 
@@ -218,51 +218,51 @@ BLANKVALUE(UOMconversion__c,1))
 
 / TargetPrice__c) - 1 ) * 1)
 
-)",40,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLower__c,,40,TF_Marginlower__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SalesListPriceCostVal2__c,,40,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "": Default""",40,,Quote Line,,0,,,Price Action Target Object does not match Evaluation Scope
-EUR,,BOType__c,,40,Type,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SLPUOM__c,,40,BaseUOM__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SLPUOM__c,,40,BaseUOM__c,Quote Line,,0,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,PricingSystem__c,,42,,Quote Line,,Parent,,,Price Action Target Object does not match Evaluation Scope
-EUR,,PricingSystem__c,,45,,Quote Line,,Parent,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "": ParentDefault""",45,,Quote Line,,Parent,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "": ParentNoUOM"" + Quant__c + SBQQ__Quantity__c + SalesListPrice__c",45,,Quote Line,,Parent,,,Price Action Target Object does not match Evaluation Scope
-EUR,,ManualPurchasePrice__c,"IF(BLANKVALUE(PricingSystem__c, 'Manual') != 'Manual', NULL, ManualPurchasePrice__c)",70,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SLPUOM__c,,70,BaseUOM__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,SLPUOM__c,,70,BaseUOM__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,Application__c,,70,Application__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,TargetPrice__c,"if (BLANKVALUE ( TF_NetListPrice__c,0 ) != 0 ||
+)",40,,Quote Line,,,,,,a0a5E000004m1aMQAQ
+EUR,a0c5E0000020LYSQA2,SalesListPriceLower__c,,40,TF_Marginlower__c,Quote Line,,,,,,a0a5E000004m1aNQAQ
+EUR,a0c5E0000020LYRQA2,SalesListPriceCostVal2__c,,40,,Quote Line,,0,,,,a0a5E000004m1aOQAQ
+EUR,a0c5E0000020LYSQA2,SalesListPriceLog__c,"SalesListPriceLog__c + "": Default""",40,,Quote Line,,0,,,,a0a5E000004m1aPQAQ
+EUR,a0c5E0000020LYPQA2,BOType__c,,40,Type,Quote Line,,0,,,,a0a5E000004m1aQQAQ
+EUR,a0c5E0000020LYUQA2,SLPUOM__c,,40,BaseUOM__c,Quote Line,,0,,,,a0a5E000004m1aRQAQ
+EUR,a0c5E0000020LYXQA2,SLPUOM__c,,40,BaseUOM__c,Quote Line,,0,,,,a0a5E000004m1aSQAQ
+EUR,a0c5E0000020LYUQA2,PricingSystem__c,,42,,Quote Line,,Parent,,,,a0a5E000004m1aTQAQ
+EUR,a0c5E0000020LYWQA2,PricingSystem__c,,45,,Quote Line,,Parent,,,,a0a5E000004m1aUQAQ
+EUR,a0c5E0000020LYUQA2,SalesListPriceLog__c,"SalesListPriceLog__c + "": ParentDefault""",45,,Quote Line,,Parent,,,,a0a5E000004m1aVQAQ
+EUR,a0c5E0000020LYVQA2,SalesListPriceLog__c,"SalesListPriceLog__c + "": ParentNoUOM"" + Quant__c + SBQQ__Quantity__c + SalesListPrice__c",45,,Quote Line,,Parent,,,,a0a5E000004m1aWQAQ
+EUR,a0c5E0000020LYRQA2,ManualPurchasePrice__c,"IF(BLANKVALUE(PricingSystem__c, 'Manual') != 'Manual', NULL, ManualPurchasePrice__c)",70,,Quote Line,,,,,,a0a5E000004m1aXQAQ
+EUR,a0c5E0000020LYSQA2,SLPUOM__c,,70,BaseUOM__c,Quote Line,,,,,,a0a5E000004m1aYQAQ
+EUR,a0c5E0000020LYTQA2,SLPUOM__c,,70,BaseUOM__c,Quote Line,,,,,,a0a5E000004m1aZQAQ
+EUR,a0c5E0000020LYPQA2,Application__c,,70,Application__c,Quote Line,,,,,,a0a5E000004m1aaQAA
+EUR,a0c5E0000020LYQQA2,TargetPrice__c,"if (BLANKVALUE ( TF_NetListPrice__c,0 ) != 0 ||
 BLANKVALUE ( TotalCost__c,0 ) != 0
-, TargetPrice__c, 0)",35,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,WarehousingCosts__c,"IF(BLANKVALUE(PricingSystem__c, 'Manual') != 'Manual', NULL, WarehousingCosts__c)",71,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,OutboundCosts__c,"IF(BLANKVALUE(PricingSystem__c, 'Manual') != 'Manual', NULL, OutboundCosts__c)",72,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,Surcharge__c,"IF(BLANKVALUE(PricingSystem__c, 'Manual') != 'Manual', NULL, Surcharge__c)",73,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,Duties__c,"IF(BLANKVALUE(PricingSystem__c, 'Manual') != 'Manual', NULL, Duties__c)",74,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,KeyOpportunity__c,,80,Key_Opportunity__c,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,TF_Stage__c,,80,StageName,Quote Line,,,,, Populate Source Object before populating Source Lookup Field on your price rule.
-EUR,,GrossMargin__c,"BLANKVALUE(SBQQ__Quantity__c, 0) *
-BLANKVALUE(TF_MarkedupAmount__c, 0)",80,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,GrossMargin__c,"BLANKVALUE(SBQQ__Quantity__c, 0) *
-BLANKVALUE(TF_MarkedupAmount__c, 0)",80,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SLPUOM__c,,80,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,FuelSurcharge__c,"BLANKVALUE(FuelSurcharge__c, 'No')",80,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,CurrencySurcharge__c,"BLANKVALUE(CurrencySurcharge__c, 'No')",85,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,Stage__c,"if (Stage__c = 'Lost', Stage__c, TF_Stage__c)",85,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,TF_PreviousUOM__c,SalesListPriceUom__c,90,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SetContracted__c,SetContracted__c,90,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,PricingSystem__c,"IF (ISNULL(Id) && ISNULL(SalesListPrice__c) , 'Manual', BLANKVALUE(PricingSystem__c, ''))",95,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "": Parent"" + Quant__c + SBQQ__Quantity__c + SalesListPrice__c",99,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "":PPrice""",99,,Quote Line,,null,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "":Conv"" + TEXT(UOM__c) + TEXT(SLPUOM__c) + SBQQ__Quantity__c + Quant__c + UOMconversion__c",99,,Quote Line,,null,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "": Exact"" + Quant__c + SBQQ__Quantity__c",99,,Quote Line,,null,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,SalesListPriceLog__c + ': Reset',99,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "": Post"" + SBQQ__Quantity__c + SalesListPrice__c",99,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "": CostDef""",99,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + ""Init2:""+ BLANKVALUE(PricingSystem__c, 'no' )",99,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "": CostExact""",99,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + ""Init1a:"" + UOM__c + StartUOM__c",99,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "": SLPC2""",99,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,SalesListPriceLog__c,"SalesListPriceLog__c + "": Appr2"" + TF_PricePerUOMChange__c + TF_MarkUp1Change__c + TF_ApprovalNeeded__c + TF_RecordChanged__c",99,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
-EUR,,TF_MarkUp1Change__c,"IF(PricingSystem__c <> 'Manual', 0, IF(MarkUp1__c <> 0, ((MarkUp1__c / TF_MarkUp1__c) * 100 - 100), 0))",15,,Quote Line,,,,,Price Action Target Object does not match Evaluation Scope
+, TargetPrice__c, 0)",35,,Quote Line,,,,,,a0a5E000004m1abQAA
+EUR,a0c5E0000020LYRQA2,WarehousingCosts__c,"IF(BLANKVALUE(PricingSystem__c, 'Manual') != 'Manual', NULL, WarehousingCosts__c)",71,,Quote Line,,,,,,a0a5E000004m1acQAA
+EUR,a0c5E0000020LYRQA2,OutboundCosts__c,"IF(BLANKVALUE(PricingSystem__c, 'Manual') != 'Manual', NULL, OutboundCosts__c)",72,,Quote Line,,,,,,a0a5E000004m1adQAA
+EUR,a0c5E0000020LYRQA2,Surcharge__c,"IF(BLANKVALUE(PricingSystem__c, 'Manual') != 'Manual', NULL, Surcharge__c)",73,,Quote Line,,,,,,a0a5E000004m1aeQAA
+EUR,a0c5E0000020LYRQA2,Duties__c,"IF(BLANKVALUE(PricingSystem__c, 'Manual') != 'Manual', NULL, Duties__c)",74,,Quote Line,,,,,,a0a5E000004m1afQAA
+EUR,a0c5E0000020LYPQA2,KeyOpportunity__c,,80,Key_Opportunity__c,Quote Line,,,,,,a0a5E000004m1agQAA
+EUR,a0c5E0000020LYOQA2,TF_Stage__c,,80,StageName,Quote Line,,,,,,a0a5E000004m1ahQAA
+EUR,a0c5E0000020LYdQAM,GrossMargin__c,"BLANKVALUE(SBQQ__Quantity__c, 0) *
+BLANKVALUE(TF_MarkedupAmount__c, 0)",80,,Quote Line,,,,,,a0a5E000004m1aiQAA
+EUR,a0c5E0000020LYQQA2,GrossMargin__c,"BLANKVALUE(SBQQ__Quantity__c, 0) *
+BLANKVALUE(TF_MarkedupAmount__c, 0)",80,,Quote Line,,,,,,a0a5E000004m1ajQAA
+EUR,a0c5E0000020LYRQA2,SLPUOM__c,,80,,Quote Line,,,,,,a0a5E000004m1akQAA
+EUR,a0c5E0000020LYDQA2,FuelSurcharge__c,"BLANKVALUE(FuelSurcharge__c, 'No')",80,,Quote Line,,,,,,a0a5E000004m1alQAA
+EUR,a0c5E0000020LYDQA2,CurrencySurcharge__c,"BLANKVALUE(CurrencySurcharge__c, 'No')",85,,Quote Line,,,,,,a0a5E000004m1amQAA
+EUR,a0c5E0000020LYOQA2,Stage__c,"if (Stage__c = 'Lost', Stage__c, TF_Stage__c)",85,,Quote Line,,,,,,a0a5E000004m1anQAA
+EUR,a0c5E0000020LYDQA2,TF_PreviousUOM__c,SalesListPriceUom__c,90,,Quote Line,,,,,,a0a5E000004m1aoQAA
+EUR,a0c5E0000020LYQQA2,SetContracted__c,SetContracted__c,90,,Quote Line,,,,,,a0a5E000004m1apQAA
+EUR,a0c5E0000020LYdQAM,PricingSystem__c,"IF (ISNULL(Id) && ISNULL(SalesListPrice__c) , 'Manual', BLANKVALUE(PricingSystem__c, ''))",95,,Quote Line,,,,,,a0a5E000004m1aqQAA
+EUR,a0c5E0000020LYWQA2,SalesListPriceLog__c,"SalesListPriceLog__c + "": Parent"" + Quant__c + SBQQ__Quantity__c + SalesListPrice__c",99,,Quote Line,,,,,,a0a5E000004m1arQAA
+EUR,a0c5E0000020LYNQA2,SalesListPriceLog__c,"SalesListPriceLog__c + "":PPrice""",99,,Quote Line,,null,,,,a0a5E000004m1asQAA
+EUR,a0c5E0000020LYYQA2,SalesListPriceLog__c,"SalesListPriceLog__c + "":Conv"" + TEXT(UOM__c) + TEXT(SLPUOM__c) + SBQQ__Quantity__c + Quant__c + UOMconversion__c",99,,Quote Line,,null,,,,a0a5E000004m1atQAA
+EUR,a0c5E0000020LYTQA2,SalesListPriceLog__c,"SalesListPriceLog__c + "": Exact"" + Quant__c + SBQQ__Quantity__c",99,,Quote Line,,null,,,,a0a5E000004m1auQAA
+EUR,a0c5E0000020LYRQA2,SalesListPriceLog__c,SalesListPriceLog__c + ': Reset',99,,Quote Line,,,,,,a0a5E000004m1avQAA
+EUR,a0c5E0000020LYdQAM,SalesListPriceLog__c,"SalesListPriceLog__c + "": Post"" + SBQQ__Quantity__c + SalesListPrice__c",99,,Quote Line,,,,,,a0a5E000004m1awQAA
+EUR,a0c5E0000020LYbQAM,SalesListPriceLog__c,"SalesListPriceLog__c + "": CostDef""",99,,Quote Line,,,,,,a0a5E000004m1axQAA
+EUR,a0c5E0000020LYEQA2,SalesListPriceLog__c,"SalesListPriceLog__c + ""Init2:""+ BLANKVALUE(PricingSystem__c, 'no' )",99,,Quote Line,,,,,,a0a5E000004m1ayQAA
+EUR,a0c5E0000020LYcQAM,SalesListPriceLog__c,"SalesListPriceLog__c + "": CostExact""",99,,Quote Line,,,,,,a0a5E000004m1azQAA
+EUR,a0c5E0000020LYDQA2,SalesListPriceLog__c,"SalesListPriceLog__c + ""Init1a:"" + UOM__c + StartUOM__c",99,,Quote Line,,,,,,a0a5E000004m1b0QAA
+EUR,a0c5E0000020LYXQA2,SalesListPriceLog__c,"SalesListPriceLog__c + "": SLPC2""",99,,Quote Line,,,,,,a0a5E000004m1b1QAA
+EUR,a0c5E0000020LYgQAM,SalesListPriceLog__c,"SalesListPriceLog__c + "": Appr2"" + TF_PricePerUOMChange__c + TF_MarkUp1Change__c + TF_ApprovalNeeded__c + TF_RecordChanged__c",99,,Quote Line,,,,,,a0a5E000004m1b2QAA
+EUR,a0c5E0000020LYgQAM,TF_MarkUp1Change__c,"IF(PricingSystem__c <> 'Manual', 0, IF(MarkUp1__c <> 0, ((MarkUp1__c / TF_MarkUp1__c) * 100 - 100), 0))",15,,Quote Line,,,,,,a0a5E000004m1b3QAA

@@ -25,7 +25,7 @@ EUR,Salesrep Details,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspac
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0014,,a175E000001tqmjQAA
+</table>",Standard,,HTML,CT-0014,,a175E000001tuybQAA
 EUR,Terms and Validity,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 30px;"">
 	<tbody>
 		<tr>
@@ -45,7 +45,7 @@ EUR,Terms and Validity,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellsp
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0012,,a175E000001tqmkQAA
+</table>",Standard,,HTML,CT-0012,,a175E000001tuycQAA
 EUR,Quote Header Content,,Roboto,12,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px;"">
 	<tbody>
 		<tr>
@@ -55,8 +55,8 @@ EUR,Quote Header Content,,Roboto,12,,"<table border=""1"" cellpadding=""1"" cell
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0007,,a175E000001tqmlQAA
-EUR,Goods,,Roboto,8,,,Standard,,Line Items,CT-0009,,a175E000001tqmmQAA
+</table>",Standard,,HTML,CT-0007,,a175E000001tuydQAA
+EUR,Goods,,Roboto,8,,,Standard,,Line Items,CT-0009,,a175E000001tuyeQAA
 EUR,From Warehouse,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 60px;"">
 	<tbody>
 		<tr>
@@ -86,7 +86,7 @@ EUR,From Warehouse,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacin
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0000,,a175E000001tqmnQAA
+</table>",Standard,,HTML,CT-0000,,a175E000001tuyfQAA
 EUR,Footer Content,,Roboto,,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px; height: 40px;"">
 	<tbody>
 		<tr>
@@ -113,7 +113,7 @@ EUR,Footer Content,,Roboto,,,"<table border=""1"" cellpadding=""1"" cellspacing=
 	</tbody>
 </table>
 
-<p>&#160;</p>",Standard,,HTML,CT-0008,,a175E000001tqmoQAA
+<p>&#160;</p>",Standard,,HTML,CT-0008,,a175E000001tuygQAA
 EUR,To Delivered,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 60px;"">
 	<tbody>
 		<tr>
@@ -143,7 +143,7 @@ EUR,To Delivered,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0011,,a175E000001tqmpQAA
+</table>",Standard,,HTML,CT-0011,,a175E000001tuyhQAA
 EUR,IMCD details,,Roboto,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
 	<tbody>
 		<tr>
@@ -168,7 +168,7 @@ EUR,IMCD details,,Roboto,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing
 			<td colspan=""2"" style=""border-color: rgb(0, 0, 0); width: 240px; height: 10px;"">&#160;</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0010,,a175E000001tqmqQAA
+</table>",Standard,,HTML,CT-0010,,a175E000001tuyiQAA
 EUR,Japan Footer Content,,,,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px; height: 40px;"">
 	<tbody>
 		<tr>
@@ -187,7 +187,7 @@ EUR,Japan Footer Content,,,,,"<table border=""1"" cellpadding=""1"" cellspacing=
 	</tbody>
 </table>
 
-<p>&#160;</p>",Standard,,HTML,CT-0059,,a175E000001tqmrQAA
+<p>&#160;</p>",Standard,,HTML,CT-0059,,a175E000001tuyjQAA
 EUR,Japan to Delivered,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 60px;"">
 	<tbody>
 		<tr>
@@ -209,7 +209,7 @@ EUR,Japan to Delivered,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0049,,a175E000001tqmsQAA
+</table>",Standard,,HTML,CT-0049,,a175E000001tuykQAA
 EUR,Japan IMCD details,,,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
 	<tbody>
 		<tr>
@@ -238,7 +238,7 @@ EUR,Japan IMCD details,,,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing
 			<td colspan=""2"" style=""border-color: rgb(0, 0, 0); width: 240px; height: 10px;"">&#160;</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0048,,a175E000001tqmtQAA
+</table>",Standard,,HTML,CT-0048,,a175E000001tuylQAA
 EUR,Japan Salesrep Details,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 30px;"">
 	<tbody>
 		<tr>
@@ -273,11 +273,11 @@ EUR,Japan Salesrep Details,,,,,"<table border=""0.5"" cellpadding=""0"" cellspac
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0055,,a175E000001tqmuQAA
-EUR,Japan Small Letters,,,5.5,,,Standard,000000,Quote Terms,CT-0057,,a175E000001tqmvQAA
-EUR,China Goods,,,8,,,Standard,,Line Items,CT-0062,,a175E000001tqmwQAA
-EUR,China Standard Terms,,,10,,,Standard,000000,Quote Terms,CT-0066,,a175E000001tqmxQAA
-EUR,Japan Contracted Qty,,,8,,,Standard,,Line Items,CT-0053,,a175E000001tqmyQAA
+</table>",Standard,,HTML,CT-0055,,a175E000001tuymQAA
+EUR,Japan Small Letters,,,5.5,,,Standard,000000,Quote Terms,CT-0057,,a175E000001tuynQAA
+EUR,China Goods,,,8,,,Standard,,Line Items,CT-0062,,a175E000001tuyoQAA
+EUR,China Standard Terms,,,10,,,Standard,000000,Quote Terms,CT-0066,,a175E000001tuypQAA
+EUR,Japan Contracted Qty,,,8,,,Standard,,Line Items,CT-0053,,a175E000001tuyqQAA
 EUR,China IMCD details,,,6,,"<p>&#160;</p>
 
 <table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
@@ -330,8 +330,8 @@ EUR,China IMCD details,,,6,,"<p>&#160;</p>
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0060,,a175E000001tqmzQAA
-EUR,China Goods REN,,,8,,,Standard,,Line Items,CT-0063,,a175E000001tqn0QAA
+</table>",Standard,,HTML,CT-0060,,a175E000001tuyrQAA
+EUR,China Goods REN,,,8,,,Standard,,Line Items,CT-0063,,a175E000001tuysQAA
 EUR,Renewal Header Content,,Roboto,,,"<table align=""center"" border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 550px; height: 20px;"">
 	<thead>
 		<tr>
@@ -342,8 +342,8 @@ EUR,Renewal Header Content,,Roboto,,,"<table align=""center"" border=""1"" cellp
 	</thead>
 	<tbody>
 	</tbody>
-</table>",Standard,,HTML,CT-0003,,a175E000001tqn1QAA
-EUR,asia Goods REN,,,8,,,Standard,,Line Items,CT-0016,,a175E000001tqn2QAA
+</table>",Standard,,HTML,CT-0003,,a175E000001tuytQAA
+EUR,asia Goods REN,,,8,,,Standard,,Line Items,CT-0016,,a175E000001tuyuQAA
 EUR,asia LOMAS details,,,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
 	<tbody>
 		<tr>
@@ -368,7 +368,7 @@ EUR,asia LOMAS details,,,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing
 			<td colspan=""2"" style=""border-color: rgb(0, 0, 0); width: 240px; height: 10px;"">&#160;</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0025,,a175E000001tqn3QAA
+</table>",Standard,,HTML,CT-0025,,a175E000001tuyvQAA
 EUR,asia Terms and Validity,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 30px;"">
 	<tbody>
 		<tr>
@@ -388,7 +388,7 @@ EUR,asia Terms and Validity,,,,,"<table border=""0.5"" cellpadding=""0"" cellspa
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0030,,a175E000001tqn4QAA
+</table>",Standard,,HTML,CT-0030,,a175E000001tuywQAA
 EUR,asia Salesrep Details,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 30px;"">
 	<tbody>
 		<tr>
@@ -415,7 +415,7 @@ EUR,asia Salesrep Details,,,,,"<table border=""0.5"" cellpadding=""0"" cellspaci
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0019,,a175E000001tqn5QAA
+</table>",Standard,,HTML,CT-0019,,a175E000001tuyxQAA
 EUR,asia Quote Comments,,,,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
 	<tbody>
 		<tr>
@@ -429,7 +429,7 @@ EUR,asia Quote Comments,,,,,"<table border=""0.5"" cellpadding=""1"" cellspacing
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0020,,a175E000001tqn6QAA
+</table>",Standard,,HTML,CT-0020,,a175E000001tuyyQAA
 EUR,asia Footer Content,,,,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px; height: 40px;"">
 	<tbody>
 		<tr>
@@ -458,8 +458,8 @@ EUR,asia Footer Content,,,,,"<table border=""1"" cellpadding=""1"" cellspacing="
 	</tbody>
 </table>
 
-<p>&#160;</p>",Standard,,HTML,CT-0028,,a175E000001tqn7QAA
-EUR,asia Goods,,,8,,,Standard,,Line Items,CT-0021,,a175E000001tqn8QAA
+<p>&#160;</p>",Standard,,HTML,CT-0028,,a175E000001tuyzQAA
+EUR,asia Goods,,,8,,,Standard,,Line Items,CT-0021,,a175E000001tuz0QAA
 EUR,asia To Delivered,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 60px;"">
 	<tbody>
 		<tr>
@@ -487,7 +487,7 @@ EUR,asia To Delivered,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing="
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0023,,a175E000001tqn9QAA
+</table>",Standard,,HTML,CT-0023,,a175E000001tuz1QAA
 EUR,asia IMCD details,,,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
 	<tbody>
 		<tr>
@@ -512,13 +512,13 @@ EUR,asia IMCD details,,,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing=
 			<td colspan=""2"" style=""border-color: rgb(0, 0, 0); width: 240px; height: 10px;"">&#160;</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0026,,a175E000001tqnAQAQ
-EUR,asia Small Letters,,,5.5,,,Standard,000000,Quote Terms,CT-0017,,a175E000001tqnBQAQ
-EUR,Customer Clearance,,Roboto,10,,,Standard,,Quote Terms,CT-0035,,a175E000001tqnCQAQ
-EUR,GlobalFullDetails,,Roboto,8,,,Standard,,Line Items,CT-0037,,a175E000001tqnDQAQ
-EUR,Brazil Custom VAT,,Roboto,,,Content Key CT-0041 Brazil Custom VAT,Standard,,HTML,CT--0041,,a175E000001tqnEQAQ
-EUR,Fuel Surcharge,,Roboto,10,,,Standard,,Quote Terms,CT-0040,,a175E000001tqnFQAQ
-EUR,Currency Surcharge,,Roboto,10,,,Standard,,Quote Terms,CT-0039,,a175E000001tqnGQAQ
+</table>",Standard,,HTML,CT-0026,,a175E000001tuz2QAA
+EUR,asia Small Letters,,,5.5,,,Standard,000000,Quote Terms,CT-0017,,a175E000001tuz3QAA
+EUR,Customer Clearance,,Roboto,10,,,Standard,,Quote Terms,CT-0035,,a175E000001tuz4QAA
+EUR,GlobalFullDetails,,Roboto,8,,,Standard,,Line Items,CT-0037,,a175E000001tuz5QAA
+EUR,Brazil Custom VAT,,Roboto,,,Content Key CT-0041 Brazil Custom VAT,Standard,,HTML,CT--0041,,a175E000001tuz6QAA
+EUR,Fuel Surcharge,,Roboto,10,,,Standard,,Quote Terms,CT-0040,,a175E000001tuz7QAA
+EUR,Currency Surcharge,,Roboto,10,,,Standard,,Quote Terms,CT-0039,,a175E000001tuz8QAA
 EUR,USCA IMCD details,,Roboto,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
 	<tbody>
 		<tr>
@@ -543,7 +543,7 @@ EUR,USCA IMCD details,,Roboto,6,,"<table border=""0.5"" cellpadding=""1"" cellsp
 			<td colspan=""2"" style=""border-color: rgb(0, 0, 0); width: 240px; height: 10px;"">&#160;</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0044,,a175E000001tqnHQAQ
+</table>",Standard,,HTML,CT-0044,,a175E000001tuz9QAA
 EUR,USCA To Delivered,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 60px;"">
 	<tbody>
 		<tr>
@@ -573,7 +573,7 @@ EUR,USCA To Delivered,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspa
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0045,,a175E000001tqnIQAQ
+</table>",Standard,,HTML,CT-0045,,a175E000001tuzAQAQ
 EUR,USCA From Warehouse,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 60px;"">
 	<tbody>
 		<tr>
@@ -603,7 +603,7 @@ EUR,USCA From Warehouse,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cells
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0046,,a175E000001tqnJQAQ
+</table>",Standard,,HTML,CT-0046,,a175E000001tuzBQAQ
 EUR,USCA Salesrep Details,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 30px;"">
 	<tbody>
 		<tr>
@@ -624,9 +624,9 @@ EUR,USCA Salesrep Details,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cel
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0047,,a175E000001tqnKQAQ
-EUR,Transport Method,,,10,,{!Text.TransportMethod}: {!quote.TransportMethod__c},Standard,,HTML,CT-0042,,a175E000001tqnLQAQ
-EUR,asia Transport Method,,,10,,{!Text.TransportMethod}: {!quote.TransportMethod__c},Standard,,HTML,CT-0043,,a175E000001tqnMQAQ
+</table>",Standard,,HTML,CT-0047,,a175E000001tuzCQAQ
+EUR,Transport Method,,,10,,{!Text.TransportMethod}: {!quote.TransportMethod__c},Standard,,HTML,CT-0042,,a175E000001tuzDQAQ
+EUR,asia Transport Method,,,10,,{!Text.TransportMethod}: {!quote.TransportMethod__c},Standard,,HTML,CT-0043,,a175E000001tuzEQAQ
 EUR,China Sold To,,,10,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
 	<tbody>
 		<tr>
@@ -671,7 +671,7 @@ EUR,China Sold To,,,10,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0061,,a175E000001tqnNQAQ
+</table>",Standard,,HTML,CT-0061,,a175E000001tuzFQAQ
 EUR,Japan Terms and Validity,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 30px;"">
 	<tbody>
 		<tr>
@@ -693,7 +693,7 @@ EUR,Japan Terms and Validity,,,,,"<table border=""0.5"" cellpadding=""0"" cellsp
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0050,,a175E000001tqnOQAQ
+</table>",Standard,,HTML,CT-0050,,a175E000001tuzGQAQ
 EUR,Japan Quote Comments,,,,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
 	<tbody>
 		<tr>
@@ -713,7 +713,7 @@ EUR,Japan Quote Comments,,,,,"<table border=""0.5"" cellpadding=""1"" cellspacin
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0054,,a175E000001tqnPQAQ
+</table>",Standard,,HTML,CT-0054,,a175E000001tuzHQAQ
 EUR,Destination Details,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 30px;"">
 	<tbody>
 		<tr>
@@ -734,8 +734,8 @@ EUR,Destination Details,,Roboto,,,"<table border=""0.5"" cellpadding=""0"" cells
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0013,,a175E000001tqnQQAQ
-EUR,Small Letters,,Roboto,5.5,,,Standard,000000,Quote Terms,CT-0005,,a175E000001tqnRQAQ
+</table>",Standard,,HTML,CT-0013,,a175E000001tuzIQAQ
+EUR,Small Letters,,Roboto,5.5,,,Standard,000000,Quote Terms,CT-0005,,a175E000001tuzJQAQ
 EUR,Quote Comments,,Roboto,,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
 	<tbody>
 		<tr>
@@ -749,7 +749,7 @@ EUR,Quote Comments,,Roboto,,,"<table border=""0.5"" cellpadding=""1"" cellspacin
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0001,,a175E000001tqnSQAQ
+</table>",Standard,,HTML,CT-0001,,a175E000001tuzKQAQ
 EUR,NEUVENDIS details,,Roboto,6,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
 	<tbody>
 		<tr>
@@ -774,10 +774,10 @@ EUR,NEUVENDIS details,,Roboto,6,,"<table border=""0.5"" cellpadding=""1"" cellsp
 			<td colspan=""2"" style=""border-color: rgb(0, 0, 0); width: 240px; height: 10px;"">&#160;</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0006,,a175E000001tqnTQAQ
-EUR,Standard Terms,,Roboto,10,,,Standard,000000,Quote Terms,CT-0004,,a175E000001tqnUQAQ
-EUR,Goods REN,,Roboto,8,,,Standard,,Line Items,CT-0002,,a175E000001tqnVQAQ
-EUR,asia Standard Terms,,,10,,,Standard,000000,Quote Terms,CT-0018,,a175E000001tqnWQAQ
+</table>",Standard,,HTML,CT-0006,,a175E000001tuzLQAQ
+EUR,Standard Terms,,Roboto,10,,,Standard,000000,Quote Terms,CT-0004,,a175E000001tuzMQAQ
+EUR,Goods REN,,Roboto,8,,,Standard,,Line Items,CT-0002,,a175E000001tuzNQAQ
+EUR,asia Standard Terms,,,10,,,Standard,000000,Quote Terms,CT-0018,,a175E000001tuzOQAQ
 EUR,asia Destination Details,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 30px;"">
 	<tbody>
 		<tr>
@@ -798,7 +798,7 @@ EUR,asia Destination Details,,,,,"<table border=""0.5"" cellpadding=""0"" cellsp
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0022,,a175E000001tqnXQAQ
+</table>",Standard,,HTML,CT-0022,,a175E000001tuzPQAQ
 EUR,asia From Warehouse,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border: 0.5px; border-image: none; width: 540px; height: 60px;"">
 	<tbody>
 		<tr>
@@ -826,7 +826,7 @@ EUR,asia From Warehouse,,,,,"<table border=""0.5"" cellpadding=""0"" cellspacing
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0024,,a175E000001tqnYQAQ
+</table>",Standard,,HTML,CT-0024,,a175E000001tuzQQAQ
 EUR,asia Quote Header Content,,,12,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px;"">
 	<tbody>
 		<tr>
@@ -836,7 +836,7 @@ EUR,asia Quote Header Content,,,12,,"<table border=""1"" cellpadding=""1"" cells
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0031,,a175E000001tqnZQAQ
+</table>",Standard,,HTML,CT-0031,,a175E000001tuzRQAQ
 EUR,asia Renewal Header Content,,,,,"<table align=""center"" border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 550px; height: 20px;"">
 	<thead>
 		<tr>
@@ -847,7 +847,7 @@ EUR,asia Renewal Header Content,,,,,"<table align=""center"" border=""1"" cellpa
 	</thead>
 	<tbody>
 	</tbody>
-</table>",Standard,,HTML,CT-0027,,a175E000001tqnaQAA
+</table>",Standard,,HTML,CT-0027,,a175E000001tuzSQAQ
 EUR,font test,,Noto Sans SC,,,"<div>diacritix</div>
 
 <div>finnish &#196;&#214;&#228;&#246;<br />
@@ -875,13 +875,13 @@ korean &#50948;&#53412;&#48177;&#44284;&#50640;</div>
 arabic &#1575; &#1576; &#1578; &#1579; &#1580; &#1581; &#1582; &#1583; &#1584; &#1585; &#1586; &#1587; &#1588; &#1589; &#1590; &#1591; &#1592; &#1593; &#1594; &#1601; &#1602; &#1603; &#1604; &#1605; &#1606; &#1607; &#1608; &#1610;<br />
 greek &#913;&#914;&#915;&#916;&#917;&#918;&#919;&#920;&#921;&#922;&#923;&#924;&#925;&#926;&#927;&#928;&#929;&#931;&#932;&#933;&#934;&#935;&#936;&#937; &#945;&#946;&#947;&#948;&#949;&#950;&#951;&#952;&#953;&#954;&#955;&#956;&#957;&#958;&#959;&#960;&#961;&#963;&#962;&#964;&#965;&#966;&#967;&#968;&#969;<br />
 thailand &#3629;&#3633;&#3591;&#3588;&#3633;&#3656;&#3609;&#3623;&#3636;&#3626;&#3619;&#3619;&#3594;&#3609;&#3637;&#3618;&#3660;&#3650;&#3588;&#3617;&#3641;&#3605;&#3619;<br />
-vietnam T&#244;ith&#237;chc&#225;ing&#7921;a&#273;en&#273;&#243;</div>",Standard,,HTML,CT-0015,,a175E000001tqnbQAA
-EUR,GlobalBasis,,Roboto,8,,,Standard,,Line Items,CT-0032,,a175E000001tqncQAA
-EUR,asia Contracted Qty,,,8,,,Standard,,Line Items,CT-0033,,a175E000001tqndQAA
-EUR,Exchange Rate Base,,Roboto,10,,{!Text.Exchange}: {!quote.ExchangeRateBase__c},Standard,,HTML,CT-0038,,a175E000001tqneQAA
-EUR,Customer Unpacking,,Roboto,10,,,Standard,,Quote Terms,CT-0036,,a175E000001tqnfQAA
-EUR,GlobalAvailability,,Roboto,8,,,Standard,,Line Items,CT-0029,,a175E000001tqngQAA
-EUR,GlobalSurcharge,,Roboto,8,,,Standard,,Line Items,CT-0034,,a175E000001tqnhQAA
+vietnam T&#244;ith&#237;chc&#225;ing&#7921;a&#273;en&#273;&#243;</div>",Standard,,HTML,CT-0015,,a175E000001tuzTQAQ
+EUR,GlobalBasis,,Roboto,8,,,Standard,,Line Items,CT-0032,,a175E000001tuzUQAQ
+EUR,asia Contracted Qty,,,8,,,Standard,,Line Items,CT-0033,,a175E000001tuzVQAQ
+EUR,Exchange Rate Base,,Roboto,10,,{!Text.Exchange}: {!quote.ExchangeRateBase__c},Standard,,HTML,CT-0038,,a175E000001tuzWQAQ
+EUR,Customer Unpacking,,Roboto,10,,,Standard,,Quote Terms,CT-0036,,a175E000001tuzXQAQ
+EUR,GlobalAvailability,,Roboto,8,,,Standard,,Line Items,CT-0029,,a175E000001tuzYQAQ
+EUR,GlobalSurcharge,,Roboto,8,,,Standard,,Line Items,CT-0034,,a175E000001tuzZQAQ
 EUR,China Quote Header Content,,,12,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px;"">
 	<tbody>
 		<tr>
@@ -891,8 +891,8 @@ EUR,China Quote Header Content,,,12,,"<table border=""1"" cellpadding=""1"" cell
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0068,,a175E000001tqniQAA
-EUR,China Small Letters,,,5.5,,,Standard,000000,Quote Terms,CT-0067,,a175E000001tqnjQAA
+</table>",Standard,,HTML,CT-0068,,a175E000001tuzaQAA
+EUR,China Small Letters,,,5.5,,,Standard,000000,Quote Terms,CT-0067,,a175E000001tuzbQAA
 EUR,China Quote Comments,,,,,"<table border=""0.5"" cellpadding=""1"" cellspacing=""1"" style=""border: 0.5px solid black; border-image: none; width: 540px; height: 100px;"">
 	<tbody>
 		<tr>
@@ -905,8 +905,8 @@ EUR,China Quote Comments,,,,,"<table border=""0.5"" cellpadding=""1"" cellspacin
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0064,,a175E000001tqnkQAA
-EUR,Japan Goods,,,8,,,Standard,,Line Items,CT-0051,,a175E000001tqnlQAA
+</table>",Standard,,HTML,CT-0064,,a175E000001tuzcQAA
+EUR,Japan Goods,,,8,,,Standard,,Line Items,CT-0051,,a175E000001tuzdQAA
 EUR,China Date and Stamp,,Noto Sans SC,,,"<table border=""0.5"" cellpadding=""0"" cellspacing=""0"" style=""border:0.5px solid black;height:80px;width:540px;"">
 	<tbody>
 		<tr>
@@ -921,8 +921,8 @@ EUR,China Date and Stamp,,Noto Sans SC,,,"<table border=""0.5"" cellpadding=""0"
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0065,,a175E000001tqnmQAA
-EUR,Japan Standard Terms,,,10,,,Standard,000000,Quote Terms,CT-0056,,a175E000001tqnnQAA
+</table>",Standard,,HTML,CT-0065,,a175E000001tuzeQAA
+EUR,Japan Standard Terms,,,10,,,Standard,000000,Quote Terms,CT-0056,,a175E000001tuzfQAA
 EUR,Japan Quote Header Content,,,12,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px;"">
 	<tbody>
 		<tr>
@@ -932,8 +932,8 @@ EUR,Japan Quote Header Content,,,12,,"<table border=""1"" cellpadding=""1"" cell
 			</td>
 		</tr>
 	</tbody>
-</table>",Standard,,HTML,CT-0058,,a175E000001tqnoQAA
-EUR,Japan Goods REN,,,8,,,Standard,,Line Items,CT-0052,,a175E000001tqnpQAA
+</table>",Standard,,HTML,CT-0058,,a175E000001tuzgQAA
+EUR,Japan Goods REN,,,8,,,Standard,,Line Items,CT-0052,,a175E000001tuzhQAA
 EUR,China Footer Content,,,,,"<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 540px; height: 60px;"">
 	<tbody>
 		<tr>
@@ -962,4 +962,4 @@ EUR,China Footer Content,,,,,"<table border=""1"" cellpadding=""1"" cellspacing=
 	</tbody>
 </table>
 
-<p>&#160;</p>",Standard,,HTML,CT-0069,,a175E000001tqnqQAA
+<p>&#160;</p>",Standard,,HTML,CT-0069,,a175E000001tuziQAA

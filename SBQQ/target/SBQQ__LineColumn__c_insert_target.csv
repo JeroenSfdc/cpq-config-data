@@ -1,108 +1,108 @@
 CurrencyIsoCode,Name,SBQQ__Template__c,SBQQ__Alignment__c,SBQQ__BottomMargin__c,SBQQ__ColumnHeadingField__c,SBQQ__ConditionalPrintField__c,SBQQ__DisplayOrder__c,SBQQ__DynamicNumberScale__c,SBQQ__FieldName__c,SBQQ__FontFamily__c,SBQQ__FontSize__c,SBQQ__FontWeight__c,SBQQ__HeadingTextColor__c,SBQQ__HideOnComponents__c,SBQQ__LeftMargin__c,SBQQ__RightMargin__c,SBQQ__RollUp__c,SBQQ__SeparateLine__c,SBQQ__SubGroupSummaryLabel__c,SBQQ__SummaryFontWeight__c,SBQQ__SummaryFunction__c,SBQQ__SummaryLabel__c,SBQQ__SummaryLevel__c,SBQQ__SummaryShadingColor__c,SBQQ__SummaryTextColor__c,SBQQ__TextColor__c,SBQQ__TopMargin__c,SBQQ__WidthDiscardedWhenHidden__c,SBQQ__Width__c,Key__c,SBQQ__Section__c,Errors,Id
-EUR,New price validity,a0s5E000003GcTYQA0,Left,,,,20,false,PriceValidity__c,,,Normal,,false,3,3,false,false,,,,,All,,,,,false,17,LC-0026,a185E000000r99HQAQ,,a0V5E000002AqksUAC
-EUR,Description of goods,a0s5E000003GcTYQA0,Left,3,,,10,false,SBQQ__ProductName__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,5,LC-0025,,,a0V5E000002AqktUAC
-EUR,Packaging,a0s5E000003GcTYQA0,Left,3,,,30,false,PackageDescription__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,20,LC-0027,,,a0V5E000002AqkuUAC
-EUR,Quantity,a0s5E000003GcTYQA0,Right,3,,,40,false,QuantitywithUOM__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,8,LC-0028,,,a0V5E000002AqkvUAC
-EUR,New total,a0s5E000003GcTYQA0,Right,,,,60,false,TotalQuotedPrice__c,,,Normal,,false,3,3,false,false,,,,,All,,,,,false,7.5,LC-0030,a185E000000r99HQAQ,,a0V5E000002AqkwUAC
-EUR,QTY,a0s5E000003GcTZQA0,Left,3,,,10,false,SBQQ__Quantity__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,5,LC-0031,,,a0V5E000002AqkxUAC
-EUR,PART #,a0s5E000003GcTZQA0,Left,3,,,20,false,SBQQ__ProductCode__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,10,LC-0032,,,a0V5E000002AqkyUAC
-EUR,DESCRIPTION,a0s5E000003GcTZQA0,Left,3,,,30,false,SBQQ__Description__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,50,LC-0033,,,a0V5E000002AqkzUAC
-EUR,UNIT PRICE,a0s5E000003GcTZQA0,Right,3,,,40,false,SBQQ__ListPrice__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,10,LC-0034,,,a0V5E000002Aql0UAC
-EUR,DISC (%),a0s5E000003GcTZQA0,Right,3,,,50,false,SBQQ__Discount__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,10,LC-0035,,,a0V5E000002Aql1UAC
-EUR,EXTENDED,a0s5E000003GcTZQA0,Right,3,,,60,false,SBQQ__NetTotal__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,15,LC-0036,,,a0V5E000002Aql2UAC
-EUR,Quantity,a0s5E000003GcTXQA0,Center,,,,30,false,QuantitywithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,8,LC-0050,a185E000000r995QAA,,a0V5E000002Aql3UAC
-EUR,a Unit price,a0s5E000003GcTaQAK,Center,3,,,50,false,PricePerUOMwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18,LC-0022,a185E000000r99MQAQ,,a0V5E000002Aql4UAC
-EUR,a Total,a0s5E000003GcTaQAK,Center,3,,DontPrintLineColumn__c,60,false,TF_CustomerTotal__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,13,LC-0024,a185E000000r99MQAQ,,a0V5E000002Aql5UAC
-EUR,a Line Nr.,a0s5E000003GcTaQAK,Center,3,,,5,false,SBQQ__Number__c,,,Normal,,false,3,0,false,false,,,,,All,,,,3,false,4,LC-0013,,,a0V5E000002Aql6UAC
-EUR,a Description of goods,a0s5E000003GcTaQAK,Center,3,,,10,false,ProductDisplay__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,25.6,LC-0014,,,a0V5E000002Aql7UAC
-USD,Total,a0s5E000003GcTbQAK,Center,,,DontPrintLineColumn__c,60,false,TF_CustomerTotal__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,13,LC-0094,a185E000000r9A6QAI,,a0V5E000002Aql8UAC
-USD,Unit price,a0s5E000003GcTbQAK,Center,,,,50,false,PricePerUOMwithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,17,LC-0095,a185E000000r9A6QAI,,a0V5E000002Aql9UAC
-USD,Unit price,a0s5E000003GcTbQAK,Center,,,,50,false,PricePerUOMwithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,18,LC-0096,a185E000000r9A7QAI,,a0V5E000002AqlAUAS
-EUR,荷姿 (Packaging),a0s5E000003GcTdQAK,Center,3,,,30,false,PackageDescription__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,11,LC-0101,a185E000000r99xQAA,,a0V5E000002AqlBUAS
-EUR,荷姿 (Packaging),a0s5E000003GcTdQAK,Center,3,,,30,false,PackageDescription__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,11,LC-0102,a185E000000r99kQAA,,a0V5E000002AqlCUAS
-EUR,お見積り価格 （Unit Price）,a0s5E000003GcTdQAK,Center,3,,,40,false,PricePerUOMwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,17.6,LC-0105,a185E000000r99xQAA,,a0V5E000002AqlDUAS
-EUR,納品予定日 （Lead Time）,a0s5E000003GcTdQAK,Center,3,,,55,false,LeadTime__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,12.8,LC-0108,a185E000000r99kQAA,,a0V5E000002AqlEUAS
-EUR,御見積数量条件 (Contracted Quantity),a0s5E000003GcTdQAK,Center,3,,,15,false,ContractQuantityWithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,26,LC-0109,a185E000000r99nQAA,,a0V5E000002AqlFUAS
-EUR,適用期間 (Contracted term),a0s5E000003GcTdQAK,Center,3,,,17,false,ContractFromTo__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,44.4,LC-0110,a185E000000r99nQAA,,a0V5E000002AqlGUAS
-EUR,Lead time 交货期,a0s5E000003GcTcQAK,Center,3,,,40,false,LeadTime__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.4,LC-0118,a185E000000r9A0QAI,,a0V5E000002AqlHUAS
-EUR,製品名 (Product),a0s5E000003GcTdQAK,Center,3,,,10,false,ProductDisplay__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,24,LC-0098,,,a0V5E000002AqlIUAS
-EUR,お見積り価格 （Unit Price）,a0s5E000003GcTdQAK,Center,3,,,40,false,PricePerUOMwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,17.6,LC-0106,a185E000000r99kQAA,,a0V5E000002AqlJUAS
-EUR,見積適応期間 （Price Validity）,a0s5E000003GcTdQAK,Center,3,,,20,false,PriceValidity__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,15,LC-0100,a185E000000r99kQAA,,a0V5E000002AqlKUAS
-EUR,ご発注数量条件 （MOQ）,a0s5E000003GcTdQAK,Center,3,,,50,false,QuantitywithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,14,LC-0103,a185E000000r99xQAA,,a0V5E000002AqlLUAS
-EUR,Unit Price w/o VAT 不含税单价,a0s5E000003GcTcQAK,Center,3,,,50,false,PricePerUOMwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18,LC-0120,a185E000000r9A0QAI,,a0V5E000002AqlMUAS
-EUR,Package 包装,a0s5E000003GcTcQAK,Center,3,,,30,false,PackageDescription__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,15,LC-0116,a185E000000r9A0QAI,,a0V5E000002AqlNUAS
-EUR,Unit Price incl. VAT 含税单价,a0s5E000003GcTcQAK,Center,3,,PrintLineColumnVAT__c,60,false,PriceIncludingVATwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,true,19,LC-0122,a185E000000r9A0QAI,,a0V5E000002AqlOUAS
-EUR,行番 (No),a0s5E000003GcTdQAK,Center,3,,,5,false,SBQQ__Number__c,,,Normal,,false,3,0,false,false,,,,,All,,,,3,false,5.6,LC-0097,,,a0V5E000002AqlPUAS
-EUR,Line Nr. 序号,a0s5E000003GcTcQAK,Center,3,,,5,false,SBQQ__Number__c,,,Normal,,false,3,0,false,false,,,,,All,,,,3,false,4,LC-0111,,,a0V5E000002AqlQUAS
-EUR,Package 包装,a0s5E000003GcTcQAK,Center,3,,,30,false,PackageDescription__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,15,LC-0115,a185E000000r99wQAA,,a0V5E000002AqlRUAS
-EUR,納品予定日 （Lead Time）,a0s5E000003GcTdQAK,Center,3,,,55,false,LeadTime__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,12.8,LC-0107,a185E000000r99xQAA,,a0V5E000002AqlSUAS
-EUR,Unit Price w/o VAT 不含税单价,a0s5E000003GcTcQAK,Center,3,,,50,false,PricePerUOMwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18,LC-0119,a185E000000r99wQAA,,a0V5E000002AqlTUAS
-EUR,Quantity 数量,a0s5E000003GcTcQAK,Center,3,,,10,false,QuantitywithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,8,LC-0113,a185E000000r99wQAA,,a0V5E000002AqlUUAS
-EUR,Unit Price incl. VAT 含税单价,a0s5E000003GcTcQAK,Center,3,,PrintLineColumnVAT__c,60,false,PriceIncludingVATwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,19,LC-0121,a185E000000r99wQAA,,a0V5E000002AqlVUAS
-EUR,見積適応期間 （Price Validity）,a0s5E000003GcTdQAK,Center,3,,,20,false,PriceValidity__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,15,LC-0099,a185E000000r99xQAA,,a0V5E000002AqlWUAS
-EUR,Quantity 数量,a0s5E000003GcTcQAK,Center,3,,,10,false,QuantitywithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,8,LC-0114,a185E000000r9A0QAI,,a0V5E000002AqlXUAS
-EUR,Lead time 交货期,a0s5E000003GcTcQAK,Center,3,,,40,false,LeadTime__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.4,LC-0117,a185E000000r99wQAA,,a0V5E000002AqlYUAS
-EUR,ご発注数量条件 （MOQ）,a0s5E000003GcTdQAK,Center,3,,,50,false,QuantitywithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,14,LC-0104,a185E000000r99kQAA,,a0V5E000002AqlZUAS
-EUR,Product Description  产品描述,a0s5E000003GcTcQAK,Center,3,,,20,false,ProductDisplay__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,25.6,LC-0112,,,a0V5E000002AqlaUAC
-EUR,a Price validity,a0s5E000003GcTaQAK,Center,3,,,20,false,PriceValidity__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,11,LC-0017,a185E000000r99MQAQ,,a0V5E000002AqlbUAC
-EUR,a Price validity,a0s5E000003GcTaQAK,Center,3,,,20,false,PriceValidity__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,24,LC-0018,a185E000000r99LQAQ,,a0V5E000002AqlcUAC
-EUR,a Packaging,a0s5E000003GcTaQAK,Center,3,,,30,false,PackageDescription__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10,LC-0019,a185E000000r99MQAQ,,a0V5E000002AqldUAC
-EUR,a Quantity,a0s5E000003GcTaQAK,Center,3,,,40,false,QuantitywithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,8,LC-0020,a185E000000r99MQAQ,,a0V5E000002AqleUAC
-EUR,a Unit price,a0s5E000003GcTaQAK,Center,3,,,50,false,PricePerUOMwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18,LC-0023,a185E000000r99LQAQ,,a0V5E000002AqlfUAC
-EUR,Contracted from - to,a0s5E000003GcTXQA0,Center,3,,,17,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,31,LC-0004,a185E000000r99YQAQ,,a0V5E000002AqlgUAC
-EUR,Contracted quantity,a0s5E000003GcTXQA0,Center,3,,,15,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,39.4,LC-0003,a185E000000r99YQAQ,,a0V5E000002AqlhUAC
-EUR,a Contracted quantity,a0s5E000003GcTaQAK,Center,3,,,15,false,ContractQuantityWithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,39.4,LC-0015,a185E000000r99ZQAQ,,a0V5E000002AqliUAC
-EUR,a Contracted from - to,a0s5E000003GcTaQAK,Center,3,,,17,false,ContractFromTo__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,31,LC-0016,a185E000000r99ZQAQ,,a0V5E000002AqljUAC
-EUR,a Quantity,a0s5E000003GcTaQAK,Center,3,,,30,false,QuantitywithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,8,LC-0051,a185E000000r99LQAQ,,a0V5E000002AqlkUAC
-EUR,Packaging,a0s5E000003GcTXQA0,Center,,,,30,false,PackageDescription__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10,LC-0052,a185E000000r995QAA,,a0V5E000002AqllUAC
-EUR,Item Description,a0s5E000003GcTXQA0,Center,3,,,10,false,ProductDisplay__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,25.6,LC-0002,,,a0V5E000002AqlmUAC
-EUR,Currency surcharge,a0s5E000003GcTXQA0,Center,3,,,25,false,CurrencySurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,9,LC-0061,a185E000000r99dQAA,,a0V5E000002AqlnUAC
-EUR,Availability,a0s5E000003GcTXQA0,Center,3,,IsAvailability__c,25,false,Availability__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,20.4,LC-0054,a185E000000r99eQAA,,a0V5E000002AqloUAC
-EUR,Lead Time,a0s5E000003GcTXQA0,Center,,,,55,false,LeadTime__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10.4,LC-0066,a185E000000r992QAA,,a0V5E000002AqlpUAC
-EUR,Lead Time,a0s5E000003GcTXQA0,Center,,,,55,false,LeadTime__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10.4,LC-0067,a185E000000r995QAA,,a0V5E000002AqlqUAC
-EUR,a Lead Time,a0s5E000003GcTaQAK,Center,3,,,55,false,LeadTime__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.4,LC-0068,a185E000000r99MQAQ,,a0V5E000002AqlrUAC
-EUR,a Lead Time,a0s5E000003GcTaQAK,Center,3,,,55,false,LeadTime__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.4,LC-0069,a185E000000r99LQAQ,,a0V5E000002AqlsUAC
-USD,Availability,a0s5E000003GcTbQAK,Center,3,,,35,false,Availability__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,13,LC-0070,a185E000000r9A9QAI,,a0V5E000002AqltUAC
-USD,Availability,a0s5E000003GcTbQAK,Center,3,,IsAvailability__c,25,false,Availability__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,20.4,LC-0071,a185E000000r9AAQAY,,a0V5E000002AqluUAC
-USD,Contracted from - to,a0s5E000003GcTbQAK,Center,3,,,17,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,31,LC-0072,a185E000000r9A8QAI,,a0V5E000002AqlvUAC
-USD,Contracted from - to,a0s5E000003GcTbQAK,Center,3,,IsContractFromTo__c,15,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,31.4,LC-0073,a185E000000r9ABQAY,,a0V5E000002AqlwUAC
-USD,Contracted from - to,a0s5E000003GcTbQAK,Center,3,,IsContractFromTo__c,15,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,31.4,LC-0074,a185E000000r9AAQAY,,a0V5E000002AqlxUAC
-USD,Contracted from - to,a0s5E000003GcTbQAK,Center,3,,IsContractFromTo__c,15,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,20.8,LC-0075,a185E000000r9A9QAI,,a0V5E000002AqlyUAC
-USD,Contracted quantity,a0s5E000003GcTbQAK,Center,3,,,15,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,39.4,LC-0076,a185E000000r9A8QAI,,a0V5E000002AqlzUAC
-USD,Contracted quantity,a0s5E000003GcTbQAK,Center,3,,IsContractQuantity__c,20,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18.6,LC-0077,a185E000000r9A9QAI,,a0V5E000002Aqm0UAC
-USD,Currency surcharge,a0s5E000003GcTbQAK,Center,3,,,25,false,CurrencySurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.2,LC-0080,a185E000000r9ABQAY,,a0V5E000002Aqm1UAC
-USD,Contracted quantity,a0s5E000003GcTbQAK,Center,3,,IsContractQuantity__c,20,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18.6,LC-0078,a185E000000r9AAQAY,,a0V5E000002Aqm2UAC
-USD,Contracted quantity,a0s5E000003GcTbQAK,Center,3,,IsContractQuantity__c,20,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18.6,LC-0079,a185E000000r9ABQAY,,a0V5E000002Aqm3UAC
-USD,Currency surcharge,a0s5E000003GcTbQAK,Center,3,,,25,false,CurrencySurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,9,LC-0081,a185E000000r9A9QAI,,a0V5E000002Aqm4UAC
-USD,Fuel surcharge,a0s5E000003GcTbQAK,Center,3,,,30,false,FuelSurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.2,LC-0082,a185E000000r9ABQAY,,a0V5E000002Aqm5UAC
-USD,Fuel surcharge,a0s5E000003GcTbQAK,Center,3,,,30,false,FuelSurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,9,LC-0083,a185E000000r9A9QAI,,a0V5E000002Aqm6UAC
-USD,Item Description,a0s5E000003GcTbQAK,Center,3,,,10,false,ProductDisplay__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,25.6,LC-0084,,,a0V5E000002Aqm7UAC
-USD,Lead Time,a0s5E000003GcTbQAK,Center,,,,55,false,LeadTime__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10.4,LC-0085,a185E000000r9A6QAI,,a0V5E000002Aqm8UAC
-USD,Lead Time,a0s5E000003GcTbQAK,Center,,,,55,false,LeadTime__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10.4,LC-0086,a185E000000r9A7QAI,,a0V5E000002Aqm9UAC
-USD,Line Nr.,a0s5E000003GcTbQAK,Center,3,,,5,false,SBQQ__Number__c,Roboto,,Normal,,false,10,0,false,false,,,,,All,,,,3,false,4,LC-0087,,,a0V5E000002AqmAUAS
-USD,Packaging,a0s5E000003GcTbQAK,Center,,,,30,false,PackageDescription__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10,LC-0089,a185E000000r9A7QAI,,a0V5E000002AqmBUAS
-USD,Packaging,a0s5E000003GcTbQAK,Center,,,,30,false,PackageDescription__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10,LC-0088,a185E000000r9A6QAI,,a0V5E000002AqmCUAS
-USD,Price validity,a0s5E000003GcTbQAK,Center,,,,20,false,PriceValidityStart__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,11,LC-0090,a185E000000r9A6QAI,,a0V5E000002AqmDUAS
-USD,Price validity,a0s5E000003GcTbQAK,Center,,,,20,false,PriceValidityStart__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,24,LC-0091,a185E000000r9A7QAI,,a0V5E000002AqmEUAS
-USD,Quantity,a0s5E000003GcTbQAK,Center,,,,40,false,QuantitywithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,9,LC-0092,a185E000000r9A6QAI,,a0V5E000002AqmFUAS
-USD,Quantity,a0s5E000003GcTbQAK,Center,,,,30,false,QuantitywithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,8,LC-0093,a185E000000r9A7QAI,,a0V5E000002AqmGUAS
-EUR,a Packaging,a0s5E000003GcTaQAK,Center,3,,,30,false,PackageDescription__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10,LC-0053,a185E000000r99LQAQ,,a0V5E000002AqmHUAS
-EUR,Availability,a0s5E000003GcTXQA0,Center,3,,,35,false,Availability__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,13,LC-0065,a185E000000r99dQAA,,a0V5E000002AqmIUAS
-EUR,Contracted quantity,a0s5E000003GcTXQA0,Center,3,,IsContractQuantity__c,20,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18.6,LC-0064,a185E000000r99dQAA,,a0V5E000002AqmJUAS
-EUR,Contracted quantity,a0s5E000003GcTXQA0,Center,3,,IsContractQuantity__c,20,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18.6,LC-0058,a185E000000r99eQAA,,a0V5E000002AqmKUAS
-EUR,Contracted from - to,a0s5E000003GcTXQA0,Center,3,,IsContractFromTo__c,15,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,31.4,LC-0059,a185E000000r99fQAA,,a0V5E000002AqmLUAS
-EUR,Packaging,a0s5E000003GcTXQA0,Center,,,,30,false,PackageDescription__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10,LC-0007,a185E000000r992QAA,,a0V5E000002AqmMUAS
-EUR,Quantity,a0s5E000003GcTXQA0,Center,,,,40,false,QuantitywithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,9,LC-0008,a185E000000r992QAA,,a0V5E000002AqmNUAS
-EUR,Unit price,a0s5E000003GcTXQA0,Center,,,,50,false,PricePerUOMwithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,17,LC-0010,a185E000000r992QAA,,a0V5E000002AqmOUAS
-EUR,Total,a0s5E000003GcTXQA0,Center,,,DontPrintLineColumn__c,60,false,TF_CustomerTotal__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,13,LC-0012,a185E000000r992QAA,,a0V5E000002AqmPUAS
-EUR,Contracted from - to,a0s5E000003GcTXQA0,Center,3,,IsContractFromTo__c,15,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,31.4,LC-0057,a185E000000r99eQAA,,a0V5E000002AqmQUAS
-EUR,Fuel surcharge,a0s5E000003GcTXQA0,Center,3,,,30,false,FuelSurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.2,LC-0056,a185E000000r99fQAA,,a0V5E000002AqmRUAS
-EUR,Price validity,a0s5E000003GcTXQA0,Center,,,,20,false,PriceValidity__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,11,LC-0005,a185E000000r992QAA,,a0V5E000002AqmSUAS
-EUR,Price validity,a0s5E000003GcTXQA0,Center,,,,20,false,PriceValidity__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,24,LC-0006,a185E000000r995QAA,,a0V5E000002AqmTUAS
-EUR,New unit price,a0s5E000003GcTYQA0,Center,,,,50,false,NewPrice__c,,,Normal,,false,3,3,false,false,,,,,All,,,,,false,18,LC-0029,a185E000000r99HQAQ,,a0V5E000002AqmUUAS
-EUR,Unit price,a0s5E000003GcTXQA0,Center,,,,50,false,PricePerUOMwithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,18,LC-0011,a185E000000r995QAA,,a0V5E000002AqmVUAS
-EUR,Line Nr.,a0s5E000003GcTXQA0,Center,3,,,5,false,SBQQ__Number__c,Roboto,,Normal,,false,10,0,false,false,,,,,All,,,,3,false,4,LC-0001,,,a0V5E000002AqmWUAS
-EUR,Currency surcharge,a0s5E000003GcTXQA0,Center,3,,,25,false,CurrencySurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.2,LC-0055,a185E000000r99fQAA,,a0V5E000002AqmXUAS
-EUR,Contracted from - to,a0s5E000003GcTXQA0,Center,3,,IsContractFromTo__c,15,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,20.8,LC-0063,a185E000000r99dQAA,,a0V5E000002AqmYUAS
-EUR,Fuel surcharge,a0s5E000003GcTXQA0,Center,3,,,30,false,FuelSurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,9,LC-0062,a185E000000r99dQAA,,a0V5E000002AqmZUAS
-EUR,Contracted quantity,a0s5E000003GcTXQA0,Center,3,,IsContractQuantity__c,20,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18.6,LC-0060,a185E000000r99fQAA,,a0V5E000002AqmaUAC
+EUR,New price validity,a0s5E000003H4dZQAS,Left,,,,20,false,PriceValidity__c,,,Normal,,false,3,3,false,false,,,,,All,,,,,false,17,LC-0026,a185E000000rBJFQA2,,a0V5E000002AtvmUAC
+EUR,Description of goods,a0s5E000003H4dZQAS,Left,3,,,10,false,SBQQ__ProductName__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,5,LC-0025,,,a0V5E000002AtvnUAC
+EUR,Packaging,a0s5E000003H4dZQAS,Left,3,,,30,false,PackageDescription__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,20,LC-0027,,,a0V5E000002AtvoUAC
+EUR,Quantity,a0s5E000003H4dZQAS,Right,3,,,40,false,QuantitywithUOM__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,8,LC-0028,,,a0V5E000002AtvpUAC
+EUR,New total,a0s5E000003H4dZQAS,Right,,,,60,false,TotalQuotedPrice__c,,,Normal,,false,3,3,false,false,,,,,All,,,,,false,7.5,LC-0030,a185E000000rBJFQA2,,a0V5E000002AtvqUAC
+EUR,QTY,a0s5E000003H4daQAC,Left,3,,,10,false,SBQQ__Quantity__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,5,LC-0031,,,a0V5E000002AtvrUAC
+EUR,PART #,a0s5E000003H4daQAC,Left,3,,,20,false,SBQQ__ProductCode__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,10,LC-0032,,,a0V5E000002AtvsUAC
+EUR,DESCRIPTION,a0s5E000003H4daQAC,Left,3,,,30,false,SBQQ__Description__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,50,LC-0033,,,a0V5E000002AtvtUAC
+EUR,UNIT PRICE,a0s5E000003H4daQAC,Right,3,,,40,false,SBQQ__ListPrice__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,10,LC-0034,,,a0V5E000002AtvuUAC
+EUR,DISC (%),a0s5E000003H4daQAC,Right,3,,,50,false,SBQQ__Discount__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,10,LC-0035,,,a0V5E000002AtvvUAC
+EUR,EXTENDED,a0s5E000003H4daQAC,Right,3,,,60,false,SBQQ__NetTotal__c,,,Normal,,false,3,3,false,false,,,,,All,,,,3,false,15,LC-0036,,,a0V5E000002AtvwUAC
+EUR,Quantity,a0s5E000003H4dYQAS,Center,,,,30,false,QuantitywithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,8,LC-0050,a185E000000rBJ3QAM,,a0V5E000002AtvxUAC
+EUR,a Unit price,a0s5E000003H4dbQAC,Center,3,,,50,false,PricePerUOMwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18,LC-0022,a185E000000rBJKQA2,,a0V5E000002AtvyUAC
+EUR,a Total,a0s5E000003H4dbQAC,Center,3,,DontPrintLineColumn__c,60,false,TF_CustomerTotal__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,13,LC-0024,a185E000000rBJKQA2,,a0V5E000002AtvzUAC
+EUR,a Line Nr.,a0s5E000003H4dbQAC,Center,3,,,5,false,SBQQ__Number__c,,,Normal,,false,3,0,false,false,,,,,All,,,,3,false,4,LC-0013,,,a0V5E000002Atw0UAC
+EUR,a Description of goods,a0s5E000003H4dbQAC,Center,3,,,10,false,ProductDisplay__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,25.6,LC-0014,,,a0V5E000002Atw1UAC
+USD,Total,a0s5E000003H4dcQAC,Center,,,DontPrintLineColumn__c,60,false,TF_CustomerTotal__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,13,LC-0094,a185E000000rBK4QAM,,a0V5E000002Atw2UAC
+USD,Unit price,a0s5E000003H4dcQAC,Center,,,,50,false,PricePerUOMwithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,17,LC-0095,a185E000000rBK4QAM,,a0V5E000002Atw3UAC
+USD,Unit price,a0s5E000003H4dcQAC,Center,,,,50,false,PricePerUOMwithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,18,LC-0096,a185E000000rBK5QAM,,a0V5E000002Atw4UAC
+EUR,荷姿 (Packaging),a0s5E000003H4deQAC,Center,3,,,30,false,PackageDescription__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,11,LC-0101,a185E000000rBJvQAM,,a0V5E000002Atw5UAC
+EUR,荷姿 (Packaging),a0s5E000003H4deQAC,Center,3,,,30,false,PackageDescription__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,11,LC-0102,a185E000000rBJiQAM,,a0V5E000002Atw6UAC
+EUR,お見積り価格 （Unit Price）,a0s5E000003H4deQAC,Center,3,,,40,false,PricePerUOMwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,17.6,LC-0105,a185E000000rBJvQAM,,a0V5E000002Atw7UAC
+EUR,納品予定日 （Lead Time）,a0s5E000003H4deQAC,Center,3,,,55,false,LeadTime__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,12.8,LC-0108,a185E000000rBJiQAM,,a0V5E000002Atw8UAC
+EUR,御見積数量条件 (Contracted Quantity),a0s5E000003H4deQAC,Center,3,,,15,false,ContractQuantityWithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,26,LC-0109,a185E000000rBJlQAM,,a0V5E000002Atw9UAC
+EUR,適用期間 (Contracted term),a0s5E000003H4deQAC,Center,3,,,17,false,ContractFromTo__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,44.4,LC-0110,a185E000000rBJlQAM,,a0V5E000002AtwAUAS
+EUR,Lead time 交货期,a0s5E000003H4ddQAC,Center,3,,,40,false,LeadTime__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.4,LC-0118,a185E000000rBJyQAM,,a0V5E000002AtwBUAS
+EUR,製品名 (Product),a0s5E000003H4deQAC,Center,3,,,10,false,ProductDisplay__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,24,LC-0098,,,a0V5E000002AtwCUAS
+EUR,お見積り価格 （Unit Price）,a0s5E000003H4deQAC,Center,3,,,40,false,PricePerUOMwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,17.6,LC-0106,a185E000000rBJiQAM,,a0V5E000002AtwDUAS
+EUR,見積適応期間 （Price Validity）,a0s5E000003H4deQAC,Center,3,,,20,false,PriceValidity__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,15,LC-0100,a185E000000rBJiQAM,,a0V5E000002AtwEUAS
+EUR,ご発注数量条件 （MOQ）,a0s5E000003H4deQAC,Center,3,,,50,false,QuantitywithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,14,LC-0103,a185E000000rBJvQAM,,a0V5E000002AtwFUAS
+EUR,Unit Price w/o VAT 不含税单价,a0s5E000003H4ddQAC,Center,3,,,50,false,PricePerUOMwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18,LC-0120,a185E000000rBJyQAM,,a0V5E000002AtwGUAS
+EUR,Package 包装,a0s5E000003H4ddQAC,Center,3,,,30,false,PackageDescription__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,15,LC-0116,a185E000000rBJyQAM,,a0V5E000002AtwHUAS
+EUR,Unit Price incl. VAT 含税单价,a0s5E000003H4ddQAC,Center,3,,PrintLineColumnVAT__c,60,false,PriceIncludingVATwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,true,19,LC-0122,a185E000000rBJyQAM,,a0V5E000002AtwIUAS
+EUR,行番 (No),a0s5E000003H4deQAC,Center,3,,,5,false,SBQQ__Number__c,,,Normal,,false,3,0,false,false,,,,,All,,,,3,false,5.6,LC-0097,,,a0V5E000002AtwJUAS
+EUR,Line Nr. 序号,a0s5E000003H4ddQAC,Center,3,,,5,false,SBQQ__Number__c,,,Normal,,false,3,0,false,false,,,,,All,,,,3,false,4,LC-0111,,,a0V5E000002AtwKUAS
+EUR,Package 包装,a0s5E000003H4ddQAC,Center,3,,,30,false,PackageDescription__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,15,LC-0115,a185E000000rBJuQAM,,a0V5E000002AtwLUAS
+EUR,納品予定日 （Lead Time）,a0s5E000003H4deQAC,Center,3,,,55,false,LeadTime__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,12.8,LC-0107,a185E000000rBJvQAM,,a0V5E000002AtwMUAS
+EUR,Unit Price w/o VAT 不含税单价,a0s5E000003H4ddQAC,Center,3,,,50,false,PricePerUOMwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18,LC-0119,a185E000000rBJuQAM,,a0V5E000002AtwNUAS
+EUR,Quantity 数量,a0s5E000003H4ddQAC,Center,3,,,10,false,QuantitywithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,8,LC-0113,a185E000000rBJuQAM,,a0V5E000002AtwOUAS
+EUR,Unit Price incl. VAT 含税单价,a0s5E000003H4ddQAC,Center,3,,PrintLineColumnVAT__c,60,false,PriceIncludingVATwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,19,LC-0121,a185E000000rBJuQAM,,a0V5E000002AtwPUAS
+EUR,見積適応期間 （Price Validity）,a0s5E000003H4deQAC,Center,3,,,20,false,PriceValidity__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,15,LC-0099,a185E000000rBJvQAM,,a0V5E000002AtwQUAS
+EUR,Quantity 数量,a0s5E000003H4ddQAC,Center,3,,,10,false,QuantitywithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,8,LC-0114,a185E000000rBJyQAM,,a0V5E000002AtwRUAS
+EUR,Lead time 交货期,a0s5E000003H4ddQAC,Center,3,,,40,false,LeadTime__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.4,LC-0117,a185E000000rBJuQAM,,a0V5E000002AtwSUAS
+EUR,ご発注数量条件 （MOQ）,a0s5E000003H4deQAC,Center,3,,,50,false,QuantitywithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,14,LC-0104,a185E000000rBJiQAM,,a0V5E000002AtwTUAS
+EUR,Product Description  产品描述,a0s5E000003H4ddQAC,Center,3,,,20,false,ProductDisplay__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,25.6,LC-0112,,,a0V5E000002AtwUUAS
+EUR,a Price validity,a0s5E000003H4dbQAC,Center,3,,,20,false,PriceValidity__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,11,LC-0017,a185E000000rBJKQA2,,a0V5E000002AtwVUAS
+EUR,a Price validity,a0s5E000003H4dbQAC,Center,3,,,20,false,PriceValidity__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,24,LC-0018,a185E000000rBJJQA2,,a0V5E000002AtwWUAS
+EUR,a Packaging,a0s5E000003H4dbQAC,Center,3,,,30,false,PackageDescription__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10,LC-0019,a185E000000rBJKQA2,,a0V5E000002AtwXUAS
+EUR,a Quantity,a0s5E000003H4dbQAC,Center,3,,,40,false,QuantitywithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,8,LC-0020,a185E000000rBJKQA2,,a0V5E000002AtwYUAS
+EUR,a Unit price,a0s5E000003H4dbQAC,Center,3,,,50,false,PricePerUOMwithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18,LC-0023,a185E000000rBJJQA2,,a0V5E000002AtwZUAS
+EUR,Contracted from - to,a0s5E000003H4dYQAS,Center,3,,,17,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,31,LC-0004,a185E000000rBJWQA2,,a0V5E000002AtwaUAC
+EUR,Contracted quantity,a0s5E000003H4dYQAS,Center,3,,,15,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,39.4,LC-0003,a185E000000rBJWQA2,,a0V5E000002AtwbUAC
+EUR,a Contracted quantity,a0s5E000003H4dbQAC,Center,3,,,15,false,ContractQuantityWithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,39.4,LC-0015,a185E000000rBJXQA2,,a0V5E000002AtwcUAC
+EUR,a Contracted from - to,a0s5E000003H4dbQAC,Center,3,,,17,false,ContractFromTo__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,31,LC-0016,a185E000000rBJXQA2,,a0V5E000002AtwdUAC
+EUR,a Quantity,a0s5E000003H4dbQAC,Center,3,,,30,false,QuantitywithUOM__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,8,LC-0051,a185E000000rBJJQA2,,a0V5E000002AtweUAC
+EUR,Packaging,a0s5E000003H4dYQAS,Center,,,,30,false,PackageDescription__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10,LC-0052,a185E000000rBJ3QAM,,a0V5E000002AtwfUAC
+EUR,Item Description,a0s5E000003H4dYQAS,Center,3,,,10,false,ProductDisplay__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,25.6,LC-0002,,,a0V5E000002AtwgUAC
+EUR,Currency surcharge,a0s5E000003H4dYQAS,Center,3,,,25,false,CurrencySurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,9,LC-0061,a185E000000rBJbQAM,,a0V5E000002AtwhUAC
+EUR,Availability,a0s5E000003H4dYQAS,Center,3,,IsAvailability__c,25,false,Availability__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,20.4,LC-0054,a185E000000rBJcQAM,,a0V5E000002AtwiUAC
+EUR,Lead Time,a0s5E000003H4dYQAS,Center,,,,55,false,LeadTime__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10.4,LC-0066,a185E000000rBJ0QAM,,a0V5E000002AtwjUAC
+EUR,Lead Time,a0s5E000003H4dYQAS,Center,,,,55,false,LeadTime__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10.4,LC-0067,a185E000000rBJ3QAM,,a0V5E000002AtwkUAC
+EUR,a Lead Time,a0s5E000003H4dbQAC,Center,3,,,55,false,LeadTime__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.4,LC-0068,a185E000000rBJKQA2,,a0V5E000002AtwlUAC
+EUR,a Lead Time,a0s5E000003H4dbQAC,Center,3,,,55,false,LeadTime__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.4,LC-0069,a185E000000rBJJQA2,,a0V5E000002AtwmUAC
+USD,Availability,a0s5E000003H4dcQAC,Center,3,,,35,false,Availability__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,13,LC-0070,a185E000000rBK7QAM,,a0V5E000002AtwnUAC
+USD,Availability,a0s5E000003H4dcQAC,Center,3,,IsAvailability__c,25,false,Availability__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,20.4,LC-0071,a185E000000rBK8QAM,,a0V5E000002AtwoUAC
+USD,Contracted from - to,a0s5E000003H4dcQAC,Center,3,,,17,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,31,LC-0072,a185E000000rBK6QAM,,a0V5E000002AtwpUAC
+USD,Contracted from - to,a0s5E000003H4dcQAC,Center,3,,IsContractFromTo__c,15,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,31.4,LC-0073,a185E000000rBK9QAM,,a0V5E000002AtwqUAC
+USD,Contracted from - to,a0s5E000003H4dcQAC,Center,3,,IsContractFromTo__c,15,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,31.4,LC-0074,a185E000000rBK8QAM,,a0V5E000002AtwrUAC
+USD,Contracted from - to,a0s5E000003H4dcQAC,Center,3,,IsContractFromTo__c,15,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,20.8,LC-0075,a185E000000rBK7QAM,,a0V5E000002AtwsUAC
+USD,Contracted quantity,a0s5E000003H4dcQAC,Center,3,,,15,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,39.4,LC-0076,a185E000000rBK6QAM,,a0V5E000002AtwtUAC
+USD,Contracted quantity,a0s5E000003H4dcQAC,Center,3,,IsContractQuantity__c,20,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18.6,LC-0077,a185E000000rBK7QAM,,a0V5E000002AtwuUAC
+USD,Currency surcharge,a0s5E000003H4dcQAC,Center,3,,,25,false,CurrencySurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.2,LC-0080,a185E000000rBK9QAM,,a0V5E000002AtwvUAC
+USD,Contracted quantity,a0s5E000003H4dcQAC,Center,3,,IsContractQuantity__c,20,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18.6,LC-0078,a185E000000rBK8QAM,,a0V5E000002AtwwUAC
+USD,Contracted quantity,a0s5E000003H4dcQAC,Center,3,,IsContractQuantity__c,20,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18.6,LC-0079,a185E000000rBK9QAM,,a0V5E000002AtwxUAC
+USD,Currency surcharge,a0s5E000003H4dcQAC,Center,3,,,25,false,CurrencySurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,9,LC-0081,a185E000000rBK7QAM,,a0V5E000002AtwyUAC
+USD,Fuel surcharge,a0s5E000003H4dcQAC,Center,3,,,30,false,FuelSurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.2,LC-0082,a185E000000rBK9QAM,,a0V5E000002AtwzUAC
+USD,Fuel surcharge,a0s5E000003H4dcQAC,Center,3,,,30,false,FuelSurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,9,LC-0083,a185E000000rBK7QAM,,a0V5E000002Atx0UAC
+USD,Item Description,a0s5E000003H4dcQAC,Center,3,,,10,false,ProductDisplay__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,25.6,LC-0084,,,a0V5E000002Atx1UAC
+USD,Lead Time,a0s5E000003H4dcQAC,Center,,,,55,false,LeadTime__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10.4,LC-0085,a185E000000rBK4QAM,,a0V5E000002Atx2UAC
+USD,Lead Time,a0s5E000003H4dcQAC,Center,,,,55,false,LeadTime__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10.4,LC-0086,a185E000000rBK5QAM,,a0V5E000002Atx3UAC
+USD,Line Nr.,a0s5E000003H4dcQAC,Center,3,,,5,false,SBQQ__Number__c,Roboto,,Normal,,false,10,0,false,false,,,,,All,,,,3,false,4,LC-0087,,,a0V5E000002Atx4UAC
+USD,Packaging,a0s5E000003H4dcQAC,Center,,,,30,false,PackageDescription__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10,LC-0089,a185E000000rBK5QAM,,a0V5E000002Atx5UAC
+USD,Packaging,a0s5E000003H4dcQAC,Center,,,,30,false,PackageDescription__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10,LC-0088,a185E000000rBK4QAM,,a0V5E000002Atx6UAC
+USD,Price validity,a0s5E000003H4dcQAC,Center,,,,20,false,PriceValidityStart__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,11,LC-0090,a185E000000rBK4QAM,,a0V5E000002Atx7UAC
+USD,Price validity,a0s5E000003H4dcQAC,Center,,,,20,false,PriceValidityStart__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,24,LC-0091,a185E000000rBK5QAM,,a0V5E000002Atx8UAC
+USD,Quantity,a0s5E000003H4dcQAC,Center,,,,40,false,QuantitywithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,9,LC-0092,a185E000000rBK4QAM,,a0V5E000002Atx9UAC
+USD,Quantity,a0s5E000003H4dcQAC,Center,,,,30,false,QuantitywithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,8,LC-0093,a185E000000rBK5QAM,,a0V5E000002AtxAUAS
+EUR,a Packaging,a0s5E000003H4dbQAC,Center,3,,,30,false,PackageDescription__c,,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10,LC-0053,a185E000000rBJJQA2,,a0V5E000002AtxBUAS
+EUR,Availability,a0s5E000003H4dYQAS,Center,3,,,35,false,Availability__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,13,LC-0065,a185E000000rBJbQAM,,a0V5E000002AtxCUAS
+EUR,Contracted quantity,a0s5E000003H4dYQAS,Center,3,,IsContractQuantity__c,20,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18.6,LC-0064,a185E000000rBJbQAM,,a0V5E000002AtxDUAS
+EUR,Contracted quantity,a0s5E000003H4dYQAS,Center,3,,IsContractQuantity__c,20,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18.6,LC-0058,a185E000000rBJcQAM,,a0V5E000002AtxEUAS
+EUR,Contracted from - to,a0s5E000003H4dYQAS,Center,3,,IsContractFromTo__c,15,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,31.4,LC-0059,a185E000000rBJdQAM,,a0V5E000002AtxFUAS
+EUR,Packaging,a0s5E000003H4dYQAS,Center,,,,30,false,PackageDescription__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,10,LC-0007,a185E000000rBJ0QAM,,a0V5E000002AtxGUAS
+EUR,Quantity,a0s5E000003H4dYQAS,Center,,,,40,false,QuantitywithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,9,LC-0008,a185E000000rBJ0QAM,,a0V5E000002AtxHUAS
+EUR,Unit price,a0s5E000003H4dYQAS,Center,,,,50,false,PricePerUOMwithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,17,LC-0010,a185E000000rBJ0QAM,,a0V5E000002AtxIUAS
+EUR,Total,a0s5E000003H4dYQAS,Center,,,DontPrintLineColumn__c,60,false,TF_CustomerTotal__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,13,LC-0012,a185E000000rBJ0QAM,,a0V5E000002AtxJUAS
+EUR,Contracted from - to,a0s5E000003H4dYQAS,Center,3,,IsContractFromTo__c,15,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,31.4,LC-0057,a185E000000rBJcQAM,,a0V5E000002AtxKUAS
+EUR,Fuel surcharge,a0s5E000003H4dYQAS,Center,3,,,30,false,FuelSurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.2,LC-0056,a185E000000rBJdQAM,,a0V5E000002AtxLUAS
+EUR,Price validity,a0s5E000003H4dYQAS,Center,,,,20,false,PriceValidity__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,11,LC-0005,a185E000000rBJ0QAM,,a0V5E000002AtxMUAS
+EUR,Price validity,a0s5E000003H4dYQAS,Center,,,,20,false,PriceValidity__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,24,LC-0006,a185E000000rBJ3QAM,,a0V5E000002AtxNUAS
+EUR,New unit price,a0s5E000003H4dZQAS,Center,,,,50,false,NewPrice__c,,,Normal,,false,3,3,false,false,,,,,All,,,,,false,18,LC-0029,a185E000000rBJFQA2,,a0V5E000002AtxOUAS
+EUR,Unit price,a0s5E000003H4dYQAS,Center,,,,50,false,PricePerUOMwithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,,false,18,LC-0011,a185E000000rBJ3QAM,,a0V5E000002AtxPUAS
+EUR,Line Nr.,a0s5E000003H4dYQAS,Center,3,,,5,false,SBQQ__Number__c,Roboto,,Normal,,false,10,0,false,false,,,,,All,,,,3,false,4,LC-0001,,,a0V5E000002AtxQUAS
+EUR,Currency surcharge,a0s5E000003H4dYQAS,Center,3,,,25,false,CurrencySurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,10.2,LC-0055,a185E000000rBJdQAM,,a0V5E000002AtxRUAS
+EUR,Contracted from - to,a0s5E000003H4dYQAS,Center,3,,IsContractFromTo__c,15,false,ContractFromTo__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,20.8,LC-0063,a185E000000rBJbQAM,,a0V5E000002AtxSUAS
+EUR,Fuel surcharge,a0s5E000003H4dYQAS,Center,3,,,30,false,FuelSurcharge__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,9,LC-0062,a185E000000rBJbQAM,,a0V5E000002AtxTUAS
+EUR,Contracted quantity,a0s5E000003H4dYQAS,Center,3,,IsContractQuantity__c,20,false,ContractQuantityWithUOM__c,Roboto,,Normal,,false,1,1,false,false,,,,,All,,,,3,false,18.6,LC-0060,a185E000000rBJdQAM,,a0V5E000002AtxUUAS

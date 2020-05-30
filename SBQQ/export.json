@@ -2,7 +2,7 @@
     "objects": [
         {
             "operation": "Insert",
-            "externalId": "Name",
+            "externalId": "Id",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
@@ -14,7 +14,7 @@
         },
         {
             "operation": "Insert",
-            "externalId": "Name",
+            "externalId": "Id",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
@@ -26,7 +26,7 @@
         },
         {
             "operation": "Insert",
-            "externalId": "Name",
+            "externalId": "Id",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
@@ -38,7 +38,7 @@
         },
         {
             "operation": "Insert",
-            "externalId": "Name",
+            "externalId": "Id",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
@@ -50,7 +50,7 @@
         },
         {
             "operation": "Insert",
-            "externalId": "Name",
+            "externalId": "Id",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
@@ -62,7 +62,7 @@
         },
         {
             "operation": "Insert",
-            "externalId": "Name",
+            "externalId": "Id",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
@@ -74,19 +74,19 @@
         },
         {
             "operation": "Insert",
-            "externalId": "Name",
+            "externalId": "Id",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
             "deleteOldData": true,
-            "allRecords": true,
+            "allRecords": false,
             "useCSVValuesMapping": false,
-            "query": "SELECT Id, SBQQ__Product__c, CurrencyIsoCode, Name, SBQQ__Active__c, SBQQ__AdvancedCondition__c, SBQQ__ConditionsMet__c, SBQQ__ConfiguratorEvaluationEvent__c, SBQQ__EvaluationEvent__c, SBQQ__EvaluationOrder__c, SBQQ__LookupObject__c, SBQQ__TargetObject__c, Key__c, Description__c FROM SBQQ__PriceRule__c",
+            "query": "SELECT Id, CurrencyIsoCode, Name, SBQQ__Active__c, SBQQ__AdvancedCondition__c, SBQQ__ConditionsMet__c, SBQQ__ConfiguratorEvaluationEvent__c, SBQQ__EvaluationEvent__c, SBQQ__EvaluationOrder__c, SBQQ__LookupObject__c, SBQQ__TargetObject__c, Key__c, Description__c FROM SBQQ__PriceRule__c",
             "deleteQuery": "SELECT Id FROM SBQQ__PriceRule__c"
         },
         {
             "operation": "Insert",
-            "externalId": "Name",
+            "externalId": "Id",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
@@ -98,7 +98,7 @@
         },
         {
             "operation": "Insert",
-            "externalId": "Name",
+            "externalId": "Id",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
@@ -110,7 +110,7 @@
         },
         {
             "operation": "Insert",
-            "externalId": "Name",
+            "externalId": "Id",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
@@ -122,7 +122,7 @@
         },
         {
             "operation": "Insert",
-            "externalId": "Name",
+            "externalId": "Id",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
@@ -133,64 +133,124 @@
             "deleteQuery": "SELECT Id FROM SBQQ__TemplateContent__c"
         },
         {
-            "operation": "Insert",
+            "operation": "Upsert",
             "externalId": "Name",
+            "mockFields": [],
+            "updateWithMockData": false,
+            "mockCSVData": false,
+            "deleteOldData": false,
+            "allRecords": true,
+            "useCSVValuesMapping": false,
+            "query": "SELECT Id, CurrencyIsoCode, Name, SBQQ__Template__c, SBQQ__BorderColor__c, SBQQ__BottomMargin__c, SBQQ__ColumnHeaderHidden__c, SBQQ__ConditionalPrintField__c, SBQQ__DisplayOrder__c, SBQQ__FilterField__c, SBQQ__FilterOperator__c, SBQQ__FilterValue__c, SBQQ__GroupField__c, SBQQ__KeepTogether__c, SBQQ__KeepWithNext__c, SBQQ__KeepWithPrevious__c, SBQQ__PageBreak__c, SBQQ__QuoteTotalsPrinted__c, SBQQ__RollUpField__c, SBQQ__SummaryDisplay__c, SBQQ__TopMargin__c, Key__c, SBQQ__Content__c FROM SBQQ__TemplateSection__c",
+            "deleteQuery": ""
+        },
+        {
+            "operation": "Insert",
+            "externalId": "Id",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
             "deleteOldData": true,
             "allRecords": true,
             "useCSVValuesMapping": false,
-            "query": "SELECT Id, CurrencyIsoCode, Name, SBQQ__Template__c, SBQQ__BorderColor__c, SBQQ__BottomMargin__c, SBQQ__ColumnHeaderHidden__c, SBQQ__ConditionalPrintField__c, SBQQ__DisplayOrder__c, SBQQ__FilterField__c, SBQQ__FilterOperator__c, SBQQ__FilterValue__c, SBQQ__GroupField__c, SBQQ__KeepTogether__c, SBQQ__KeepWithNext__c, SBQQ__KeepWithPrevious__c, SBQQ__PageBreak__c, SBQQ__QuoteTotalsPrinted__c, SBQQ__RollUpField__c, SBQQ__SummaryDisplay__c, SBQQ__TopMargin__c, Key__c, SBQQ__Content__c FROM SBQQ__TemplateSection__c",
-            "deleteQuery": "SELECT Id FROM SBQQ__TemplateSection__c"
-        },
-        {
-            "operation": "Readonly",
-            "externalId": "Name",
-            "mockFields": [],
-            "updateWithMockData": false,
-            "mockCSVData": false,
-            "deleteOldData": false,
-            "allRecords": true,
-            "useCSVValuesMapping": false,
             "query": "SELECT Id, RecordTypeId, SBQQ__Feature__c, SBQQ__Product__c, CurrencyIsoCode, Name, SBQQ__AppliedImmediately__c, SBQQ__ApplyToProductOptions__c, SBQQ__AutoSelect__c, SBQQ__ColumnOrder__c, SBQQ__DefaultField__c, SBQQ__DefaultObject__c, SBQQ__DisplayOrder__c, SBQQ__HiddenValues__c, SBQQ__Hidden__c, SBQQ__Position__c, SBQQ__Required__c, SBQQ__ShownValues__c, SBQQ__TargetField__c FROM SBQQ__ConfigurationAttribute__c",
-            "deleteQuery": ""
+            "deleteQuery": "SELECT Id FROM SBQQ__ConfigurationAttribute__c"
         },
         {
-            "operation": "Readonly",
-            "externalId": "Name",
+            "operation": "Insert",
+            "externalId": "Id",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
-            "deleteOldData": false,
+            "deleteOldData": true,
             "allRecords": true,
             "useCSVValuesMapping": false,
             "query": "SELECT Id, SBQQ__LineColumn__c, SBQQ__PriceDimension__c, SBQQ__ProductFeature__c, SBQQ__ProductOption__c, SBQQ__Product__c, SBQQ__QuoteTemplate__c, SBQQ__QuoteTerm__c, SBQQ__TemplateContent__c, CurrencyIsoCode, Name, SBQQ__APIName__c, SBQQ__Description__c, SBQQ__Label__c, SBQQ__Language__c, SBQQ__LongTextArea__c, SBQQ__RichTextArea__c, SBQQ__TextArea__c, SBQQ__Text__c, SBQQ__UserDefined__c FROM SBQQ__Localization__c",
-            "deleteQuery": ""
+            "deleteQuery": "SELECT Id FROM SBQQ__Localization__c"
         },
         {
-            "operation": "Readonly",
-            "externalId": "Name",
+            "operation": "Insert",
+            "externalId": "Id",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
-            "deleteOldData": false,
+            "deleteOldData": true,
             "allRecords": true,
             "useCSVValuesMapping": false,
             "query": "SELECT Id, CurrencyIsoCode, Name, SBQQ__Active__c, SBQQ__AdvancedCondition__c, SBQQ__ConditionsMet__c, SBQQ__ErrorMessage__c, SBQQ__EvaluationEvent__c, SBQQ__EvaluationOrder__c, SBQQ__LookupMessageField__c, SBQQ__LookupObject__c, SBQQ__LookupProductField__c, SBQQ__LookupRequiredField__c, SBQQ__LookupTypeField__c, SBQQ__Scope__c, SBQQ__Type__c FROM SBQQ__ProductRule__c",
-            "deleteQuery": ""
+            "deleteQuery": "SELECT Id FROM SBQQ__ProductRule__c"
+        },
+        {
+            "operation": "Insert",
+            "externalId": "Id",
+            "mockFields": [],
+            "updateWithMockData": false,
+            "mockCSVData": false,
+            "deleteOldData": true,
+            "allRecords": true,
+            "useCSVValuesMapping": false,
+            "query": "SELECT Id, SBQQ__CombineWith__c, CurrencyIsoCode, Name, SBQQ__AggregateField__c, SBQQ__AggregateFunction__c, SBQQ__CompositeOperator__c, SBQQ__ConstraintField__c, SBQQ__FilterField__c, SBQQ__FilterValue__c, SBQQ__Operator__c, SBQQ__Scope__c, SBQQ__TargetObject__c, SBQQ__ValueElement__c FROM SBQQ__SummaryVariable__c",
+            "deleteQuery": "SELECT Id FROM SBQQ__SummaryVariable__c"
         },
         {
             "operation": "Readonly",
-            "externalId": "Name",
+            "externalId": "DeveloperName",
             "mockFields": [],
             "updateWithMockData": false,
             "mockCSVData": false,
             "deleteOldData": false,
             "allRecords": true,
             "useCSVValuesMapping": false,
-            "query": "SELECT Id, SBQQ__CombineWith__c, CurrencyIsoCode, Name, SBQQ__AggregateField__c, SBQQ__AggregateFunction__c, SBQQ__CompositeOperator__c, SBQQ__ConstraintField__c, SBQQ__FilterField__c, SBQQ__FilterValue__c, SBQQ__Operator__c, SBQQ__Scope__c, SBQQ__TargetObject__c, SBQQ__ValueElement__c FROM SBQQ__SummaryVariable__c",
+            "query": "SELECT Id, DeveloperName, SobjectType FROM RecordType",
             "deleteQuery": ""
+        },
+        {
+            "operation": "Insert",
+            "externalId": "Id",
+            "mockFields": [],
+            "updateWithMockData": false,
+            "mockCSVData": false,
+            "deleteOldData": true,
+            "allRecords": true,
+            "useCSVValuesMapping": false,
+            "query": "SELECT Id, SBQQ__DiscountSchedule__c, SBQQ__PriceBook__c, SBQQ__Product__c, SBQQ__TermDiscountSchedule__c, CurrencyIsoCode, Name, SBQQ__CostEditable__c, SBQQ__DefaultQuantity__c, SBQQ__NonDiscountable__c, SBQQ__NonPartnerDiscountable__c, SBQQ__PriceEditable__c, SBQQ__QuantityEditable__c, SBQQ__QuantityScale__c, SBQQ__Taxable__c, SBQQ__Type__c, SBQQ__UnitPrice__c FROM SBQQ__Dimension__c",
+            "deleteQuery": "SELECT Id FROM SBQQ__Dimension__c"
+        },
+        {
+            "operation": "Insert",
+            "externalId": "Id",
+            "mockFields": [],
+            "updateWithMockData": false,
+            "mockCSVData": false,
+            "deleteOldData": true,
+            "allRecords": true,
+            "useCSVValuesMapping": false,
+            "query": "SELECT Id, Name FROM SBQQ__ProductFeature__c",
+            "deleteQuery": "SELECT Id FROM SBQQ__ProductFeature__c"
+        },
+        {
+            "operation": "Insert",
+            "externalId": "Id",
+            "mockFields": [],
+            "updateWithMockData": false,
+            "mockCSVData": false,
+            "deleteOldData": true,
+            "allRecords": true,
+            "useCSVValuesMapping": false,
+            "query": "SELECT Id, SBQQ__ConfiguredSKU__c, SBQQ__DiscountSchedule__c, SBQQ__Feature__c, SBQQ__OptionalSKU__c, SBQQ__RenewalProductOption__c, CurrencyIsoCode, Name, SBQQ__AppliedImmediatelyContext__c, SBQQ__AppliedImmediately__c, SBQQ__Bundled__c, SBQQ__ComponentCodePosition__c, SBQQ__ComponentCode__c, SBQQ__ComponentDescriptionPosition__c, SBQQ__ComponentDescription__c, SBQQ__DefaultPricingTable__c, SBQQ__DiscountAmount__c, SBQQ__Discount__c, SBQQ__DiscountedByPackage__c, SBQQ__ExistingQuantity__c, SBQQ__MaxQuantity__c, SBQQ__MinQuantity__c, SBQQ__Number__c, SBQQ__QuantityEditable__c, SBQQ__Quantity__c, SBQQ__QuoteLineVisibility__c, SBQQ__Required__c, SBQQ__Selected__c, SBQQ__SubscriptionScope__c, SBQQ__System__c, SBQQ__Type__c, SBQQ__UnitPrice__c, SBQQ__UpliftedByPackage__c FROM SBQQ__ProductOption__c",
+            "deleteQuery": "SELECT Id FROM SBQQ__ProductOption__c"
+        },
+        {
+            "operation": "Insert",
+            "externalId": "Id",
+            "mockFields": [],
+            "updateWithMockData": true,
+            "mockCSVData": false,
+            "deleteOldData": true,
+            "allRecords": true,
+            "useCSVValuesMapping": false,
+            "query": "SELECT Id, SBQQ__ParentTerm__c, SBQQ__Quote__c, SBQQ__StandardTerm__c, SBQQ__TemplateContent__c, CurrencyIsoCode, Name, SBQQ__Active__c, SBQQ__AdvancedCondition__c, SBQQ__Body__c, SBQQ__ConditionsMet__c, SBQQ__Locked__c, SBQQ__PrintOrder__c, SBQQ__Status__c, TermName__c FROM SBQQ__QuoteTerm__c",
+            "deleteQuery": "SELECT Id FROM SBQQ__QuoteTerm__c"
         }
     ],
     "promptOnMissingParentObjects": false,

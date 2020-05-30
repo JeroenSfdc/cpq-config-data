@@ -1,42 +1,42 @@
 CurrencyIsoCode,Name,SBQQ__Action__c,SBQQ__Active__c,SBQQ__BrandButton__c,SBQQ__Class__c,SBQQ__ConditionsMet__c,SBQQ__Default__c,SBQQ__Description__c,SBQQ__DisplayOrder__c,SBQQ__EventHandlerName__c,SBQQ__IconClass__c,SBQQ__Icon__c,SBQQ__Label__c,SBQQ__Location__c,SBQQ__PageHandlerName__c,SBQQ__Page__c,SBQQ__ReturnURL__c,SBQQ__TargetObject__c,SBQQ__Type__c,SBQQ__URLTarget__c,SBQQ__URL__c,Errors,Id
-EUR,Add Products,Add Products,true,false,addProductsBtn,All,false,,900,onAddProducts,,,Add Products,Quote/Group,,Quote Line Editor,,,Menu,,,,a0E5E0000038Ar3UAE
-EUR,Add Favorites,Add Favorites,true,false,addFavoritesBtn,All,false,,901,onAddFavorites,,,Add Favorites,Quote/Group,,Quote Line Editor,,,Button,,,,a0E5E0000038Ar4UAE
-EUR,Upgrade Assets,Upgrade Assets,true,false,upgradeAssetsBtn,All,false,,902,onUpgradeAssets,,,Upgrade Assets,Quote/Group,,Quote Line Editor,,,Button,,,,a0E5E0000038Ar5UAE
-EUR,Renew Subscriptions,Renew Subscriptions,true,false,renewSubscriptionsBtn,All,false,,903,onRenewSubscriptions,,,Renew Subscriptions,Quote/Group,,Quote Line Editor,,,Button,,,,a0E5E0000038Ar6UAE
-EUR,Separator,,true,false,,All,false,,904,,sbToolSeparator,,Add Products,Quote,,Quote Line Editor,,,Separator,,,,a0E5E0000038Ar7UAE
-EUR,Add Group,Add Group,false,false,addGroupBtn,All,false,,905,onAddGroup,,,Add Group,Quote,,Quote Line Editor,,,Menu,,,,a0E5E0000038Ar8UAE
-EUR,Ungroup,Ungroup,false,false,ungroupBtn,All,false,,906,onUngroup,,,Ungroup,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038Ar9UAE
-EUR,Delete Lines,Delete Lines,true,false,deleteLinesBtn,All,false,,907,onDeleteLines,,,Delete Lines,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038ArAUAU
-EUR,Reset Discounts - Quote,Reset Discounts,false,false,resetDiscBtn,All,false,,908,onResetDiscounts,sf-icon-undo,undo,Reset Discounts,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038ArBUAU
-EUR,Optional: All - Quote,Optional: All,true,false,optionalAllBtn,All,false,,909,updateLineOptional,sb-icon-circle-empty,circle-empty,Optional: All,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038ArCUAU
-EUR,Optional: None - Quote,Optional: None,true,false,optionalNoneBtn,All,false,,910,updateLineOptional,sb-icon-dot-circled,dot-circled,Optional: None,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038ArDUAU
-EUR,Separator,,true,false,,All,false,,911,,sbToolSeparator,,Add Products,Quote,,Quote Line Editor,,,Separator,,,,a0E5E0000038ArEUAU
-EUR,Quick Save,Quick Save,true,false,quickSaveBtn,All,false,,912,onQuickSave,,,Quick Save,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038ArFUAU
-EUR,Calculate,Calculate,true,false,calculateBtn,All,false,,913,onFlagCalculate,,,Calculate,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038ArGUAU
-EUR,Separator,,true,false,,All,false,,914,,sbToolSeparator,,Add Products,Quote,,Quote Line Editor,,,Separator,,,,a0E5E0000038ArHUAU
-EUR,Cancel,Cancel,true,false,cancelBtn,All,false,,915,onCancel,,,Cancel,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038ArIUAU
-EUR,Save,Save,true,true,saveBtn,All,false,,916,onSave,,,Save,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038ArJUAU
-EUR,Clone Group,Clone Group,true,false,cloneGroupBtn,All,false,,950,onCloneGroup,,,Clone Group,Group,,Quote Line Editor,,,Button,,,,a0E5E0000038ArKUAU
-EUR,Delete Group,Delete Group,true,false,deleteGroupBtn,All,false,,951,onDeleteGroup,,,Delete Group,Group,,Quote Line Editor,,,Button,,,,a0E5E0000038ArLUAU
-EUR,Optional: All - Group,Optional: All,true,false,optionalAllBtn,All,false,,952,updateLineOptional,,,Optional: All,Group,,Quote Line Editor,,,Button,,,,a0E5E0000038ArMUAU
-EUR,Optional: None - Group,Optional: None,true,false,optionalNoneBtn,All,false,,953,updateLineOptional,,,Optional: None,Group,,Quote Line Editor,,,Button,,,,a0E5E0000038ArNUAU
-EUR,Reset Discounts - Group,Reset Discounts,true,false,resetDiscBtn,All,false,,954,onResetDiscounts,,,Reset Discounts,Group,,Quote Line Editor,,,Button,,,,a0E5E0000038ArOUAU
-EUR,Add To Favorites,Add To Favorites,true,false,addToFavBtn,All,false,,990,onAddToFavorites,sb-icon-star-empty,star-empty,Add To Favorites,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038ArPUAU
-EUR,Remove From Favorites,Remove From Favorites,true,false,removeFromFavBtn,All,false,,991,onRemoveFromFavorites,sb-icon-star,star,Remove From Favorites,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038ArQUAU
-EUR,Reconfigure Line,Reconfigure Line,true,false,reconfigureBtn,All,false,,992,onReconfigureLine,sf-icon-custom_apps,custom_apps,Reconfigure Line,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038ArRUAU
-EUR,Clone Line,Clone Line,true,false,cloneBtn,All,false,,993,onCloneLine,sf-icon-copy,copy,Clone Line,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038ArSUAU
-EUR,Delete Line,Delete Line,true,false,deleteBtn,All,false,,994,onDeleteLine,sf-icon-delete,delete,Delete Line,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038ArTUAU
-EUR,Desegment Line,Desegment Line,true,false,desegmentBtn,All,false,,995,onDesegmentLine,sf-icon-magicwand,magicwand,Desegment Line,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038ArUUAU
-EUR,Resegment Line,Resegment Line,true,false,resegmentBtn,All,false,,996,onResegmentLine,sf-icon-magicwand,magicwand,Resegment Line,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038ArVUAU
-EUR,View Discount Schedule,View Discount Schedule,true,false,viewDSBtn,All,false,,997,showDSModal,sf-icon-discountscheduleicons-02,discountscheduleicons-02,View Discount Schedule,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038ArWUAU
-EUR,Launch External,,true,false,,All,false,,900,,,,Launch External,Configurator,,Product Configurator,,,Button,Popup,{!$Setup.GeneralSettings__c.ExternalConfigurationURL__c},,a0E5E0000038ArXUAU
-EUR,View Rate Card,View Rate Card,false,false,viewRateCardBtn,All,false,,998,onViewRateCard,sf-icon-trending,trending,View Rate Card,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038ArYUAU
-EUR,View Consumption Schedule,View Consumption Schedule,false,false,viewConsumptionScheduleBtn,All,false,,998,onViewConsumptionSchedule,sf-icon-paired-lines,paired-lines,View Consumption Schedule,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038ArZUAU
+EUR,Add Products,Add Products,true,false,addProductsBtn,All,false,,900,onAddProducts,,,Add Products,Quote/Group,,Quote Line Editor,,,Menu,,,,a0E5E0000038HqQUAU
+EUR,Add Favorites,Add Favorites,true,false,addFavoritesBtn,All,false,,901,onAddFavorites,,,Add Favorites,Quote/Group,,Quote Line Editor,,,Button,,,,a0E5E0000038HqRUAU
+EUR,Upgrade Assets,Upgrade Assets,true,false,upgradeAssetsBtn,All,false,,902,onUpgradeAssets,,,Upgrade Assets,Quote/Group,,Quote Line Editor,,,Button,,,,a0E5E0000038HqSUAU
+EUR,Renew Subscriptions,Renew Subscriptions,true,false,renewSubscriptionsBtn,All,false,,903,onRenewSubscriptions,,,Renew Subscriptions,Quote/Group,,Quote Line Editor,,,Button,,,,a0E5E0000038HqTUAU
+EUR,Separator,,true,false,,All,false,,904,,sbToolSeparator,,Add Products,Quote,,Quote Line Editor,,,Separator,,,,a0E5E0000038HqUUAU
+EUR,Add Group,Add Group,false,false,addGroupBtn,All,false,,905,onAddGroup,,,Add Group,Quote,,Quote Line Editor,,,Menu,,,,a0E5E0000038HqVUAU
+EUR,Ungroup,Ungroup,false,false,ungroupBtn,All,false,,906,onUngroup,,,Ungroup,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038HqWUAU
+EUR,Delete Lines,Delete Lines,true,false,deleteLinesBtn,All,false,,907,onDeleteLines,,,Delete Lines,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038HqXUAU
+EUR,Reset Discounts - Quote,Reset Discounts,false,false,resetDiscBtn,All,false,,908,onResetDiscounts,sf-icon-undo,undo,Reset Discounts,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038HqYUAU
+EUR,Optional: All - Quote,Optional: All,true,false,optionalAllBtn,All,false,,909,updateLineOptional,sb-icon-circle-empty,circle-empty,Optional: All,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038HqZUAU
+EUR,Optional: None - Quote,Optional: None,true,false,optionalNoneBtn,All,false,,910,updateLineOptional,sb-icon-dot-circled,dot-circled,Optional: None,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038HqaUAE
+EUR,Separator,,true,false,,All,false,,911,,sbToolSeparator,,Add Products,Quote,,Quote Line Editor,,,Separator,,,,a0E5E0000038HqbUAE
+EUR,Quick Save,Quick Save,true,false,quickSaveBtn,All,false,,912,onQuickSave,,,Quick Save,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038HqcUAE
+EUR,Calculate,Calculate,true,false,calculateBtn,All,false,,913,onFlagCalculate,,,Calculate,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038HqdUAE
+EUR,Separator,,true,false,,All,false,,914,,sbToolSeparator,,Add Products,Quote,,Quote Line Editor,,,Separator,,,,a0E5E0000038HqeUAE
+EUR,Cancel,Cancel,true,false,cancelBtn,All,false,,915,onCancel,,,Cancel,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038HqfUAE
+EUR,Save,Save,true,true,saveBtn,All,false,,916,onSave,,,Save,Quote,,Quote Line Editor,,,Button,,,,a0E5E0000038HqgUAE
+EUR,Clone Group,Clone Group,true,false,cloneGroupBtn,All,false,,950,onCloneGroup,,,Clone Group,Group,,Quote Line Editor,,,Button,,,,a0E5E0000038HqhUAE
+EUR,Delete Group,Delete Group,true,false,deleteGroupBtn,All,false,,951,onDeleteGroup,,,Delete Group,Group,,Quote Line Editor,,,Button,,,,a0E5E0000038HqiUAE
+EUR,Optional: All - Group,Optional: All,true,false,optionalAllBtn,All,false,,952,updateLineOptional,,,Optional: All,Group,,Quote Line Editor,,,Button,,,,a0E5E0000038HqjUAE
+EUR,Optional: None - Group,Optional: None,true,false,optionalNoneBtn,All,false,,953,updateLineOptional,,,Optional: None,Group,,Quote Line Editor,,,Button,,,,a0E5E0000038HqkUAE
+EUR,Reset Discounts - Group,Reset Discounts,true,false,resetDiscBtn,All,false,,954,onResetDiscounts,,,Reset Discounts,Group,,Quote Line Editor,,,Button,,,,a0E5E0000038HqlUAE
+EUR,Add To Favorites,Add To Favorites,true,false,addToFavBtn,All,false,,990,onAddToFavorites,sb-icon-star-empty,star-empty,Add To Favorites,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038HqmUAE
+EUR,Remove From Favorites,Remove From Favorites,true,false,removeFromFavBtn,All,false,,991,onRemoveFromFavorites,sb-icon-star,star,Remove From Favorites,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038HqnUAE
+EUR,Reconfigure Line,Reconfigure Line,true,false,reconfigureBtn,All,false,,992,onReconfigureLine,sf-icon-custom_apps,custom_apps,Reconfigure Line,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038HqoUAE
+EUR,Clone Line,Clone Line,true,false,cloneBtn,All,false,,993,onCloneLine,sf-icon-copy,copy,Clone Line,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038HqpUAE
+EUR,Delete Line,Delete Line,true,false,deleteBtn,All,false,,994,onDeleteLine,sf-icon-delete,delete,Delete Line,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038HqqUAE
+EUR,Desegment Line,Desegment Line,true,false,desegmentBtn,All,false,,995,onDesegmentLine,sf-icon-magicwand,magicwand,Desegment Line,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038HqrUAE
+EUR,Resegment Line,Resegment Line,true,false,resegmentBtn,All,false,,996,onResegmentLine,sf-icon-magicwand,magicwand,Resegment Line,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038HqsUAE
+EUR,View Discount Schedule,View Discount Schedule,true,false,viewDSBtn,All,false,,997,showDSModal,sf-icon-discountscheduleicons-02,discountscheduleicons-02,View Discount Schedule,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038HqtUAE
+EUR,Launch External,,true,false,,All,false,,900,,,,Launch External,Configurator,,Product Configurator,,,Button,Popup,{!$Setup.GeneralSettings__c.ExternalConfigurationURL__c},,a0E5E0000038HquUAE
+EUR,View Rate Card,View Rate Card,false,false,viewRateCardBtn,All,false,,998,onViewRateCard,sf-icon-trending,trending,View Rate Card,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038HqvUAE
+EUR,View Consumption Schedule,View Consumption Schedule,false,false,viewConsumptionScheduleBtn,All,false,,998,onViewConsumptionSchedule,sf-icon-paired-lines,paired-lines,View Consumption Schedule,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038HqwUAE
 EUR,Retrieve Cost Price Information,,true,false,,All,false,"SFDP-2768
 
 Original:
-https://imcd.lightning.force.com/apex/CostPriceWrapper?id={!Id}&productId={!SBQQ__Product__c}&quoteId={!SBQQ__Quote__c.Id}",100,,sf-icon-info,info,Retrieve Cost Price,Line,,Quote Line Editor,,,,Popup,https://imcd--c.visualforce.com/apex/CostPriceWrapper?id={!Id}&productId={!SBQQ__Product__c}&quoteId={!SBQQ__Quote__c.Id},,a0E5E0000038AraUAE
-EUR,Amend Subscriptions,Amend Subscriptions,true,false,amendSubscriptionsBtn,All,false,,901,onAmendSubscriptions,,,Amend Subscriptions,Quote/Group,,Quote Line Editor,,,Button,,,,a0E5E0000038ArbUAE
-EUR,View Pricing Guidance,View Pricing Guidance,true,false,viewPricingGuidanceBtn,All,false,,999,onViewPricingGuidance,sf-icon-target,target,View Pricing Guidance,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038ArcUAE
-EUR,Retrieve Sales List Price,,true,false,,All,false,,101,,sf-icon-list,list,Sales List prices,Line,,Quote Line Editor,,,Button,Popup,https://imcd.lightning.force.com/apex/SalesListPriceWrapper?qoutelineId={!Id}&productId={!SBQQ__Product__c}&quoteId={!SBQQ__Quote__c.Id}&UOM={!SLPUOM__c}&CurrencyIsoCode={!CurrencyIsoCode}&incoterm={!IncoTerms2__c}&lower={!SBQQ__Quantity__c}&ParentAccount={!SBQQ__Quote__r.Parent__c}&PricingSystem={!PricingSystem__c}&id={!SalesListPrice__c},,a0E5E0000038ArdUAE
-EUR,Apply Edit Rules,Apply Edit Rules,true,false,,All,false,,901,,,,Apply Rules,Configurator,,Product Configurator,,,Button,,,,a0E5E0000038AreUAE
+https://imcd.lightning.force.com/apex/CostPriceWrapper?id={!Id}&productId={!SBQQ__Product__c}&quoteId={!SBQQ__Quote__c.Id}",100,,sf-icon-info,info,Retrieve Cost Price,Line,,Quote Line Editor,,,,Popup,https://imcd--c.visualforce.com/apex/CostPriceWrapper?id={!Id}&productId={!SBQQ__Product__c}&quoteId={!SBQQ__Quote__c.Id},,a0E5E0000038HqxUAE
+EUR,Amend Subscriptions,Amend Subscriptions,true,false,amendSubscriptionsBtn,All,false,,901,onAmendSubscriptions,,,Amend Subscriptions,Quote/Group,,Quote Line Editor,,,Button,,,,a0E5E0000038HqyUAE
+EUR,View Pricing Guidance,View Pricing Guidance,true,false,viewPricingGuidanceBtn,All,false,,999,onViewPricingGuidance,sf-icon-target,target,View Pricing Guidance,Line,,Quote Line Editor,,,Button,,,,a0E5E0000038HqzUAE
+EUR,Retrieve Sales List Price,,true,false,,All,false,,101,,sf-icon-list,list,Sales List prices,Line,,Quote Line Editor,,,Button,Popup,https://imcd.lightning.force.com/apex/SalesListPriceWrapper?qoutelineId={!Id}&productId={!SBQQ__Product__c}&quoteId={!SBQQ__Quote__c.Id}&UOM={!SLPUOM__c}&CurrencyIsoCode={!CurrencyIsoCode}&incoterm={!IncoTerms2__c}&lower={!SBQQ__Quantity__c}&ParentAccount={!SBQQ__Quote__r.Parent__c}&PricingSystem={!PricingSystem__c}&id={!SalesListPrice__c},,a0E5E0000038Hr0UAE
+EUR,Apply Edit Rules,Apply Edit Rules,true,false,,All,false,,901,,,,Apply Rules,Configurator,,Product Configurator,,,Button,,,,a0E5E0000038Hr1UAE
