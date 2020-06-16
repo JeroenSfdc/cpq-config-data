@@ -1,0 +1,4 @@
+buttons:
+  - title: Get CPQ Metadata, Create feature branch & commit
+    action: "fetch_cpq_metadata_and_commit"
+    description: This actions will get CPQ Metadata from the source org, it will create a feature branch to which the CSV files will be committed.
